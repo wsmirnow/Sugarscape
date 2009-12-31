@@ -1,0 +1,18 @@
+Sugarscape: Sexuelle Reproduktion / Vererbung
+---------------------------------------------
+Bilde Sugarscape soweit nach, wie es noetig ist,
+um sexuelle Reproduktion und Vererbung zu untersuchen.
+
+Untersuche folgende Fragen:
+	Sexuelle Reproduktion
+		Tauchen die Oszillationen bei Veraenderung der Parameter
+		der sexuellen Reproduktion noch auf, wenn
+			1) das Anfangs-Alter gleich verteilt zu Beginn ist
+			   (diese Bedingung ist in Sugarscape vermutlich auch erfuellt)?
+			2) wenn Agenten aktiv nach einem Partner suchen, sobald sie fruchtbar sind
+			   (anstatt sich nur bei zufaelligen Begegnungen zu reproduzieren)?
+	Vererbung
+		Epstein und Axtell haben festgestellt, dass durch Vererbung die Ungleichheit waechst. 
+		Welchen Effekt (messbar z.B. Ÿber Gini-Koeffizient) hat es auf die Ungleichheit,
+		wenn die Eigenschaften des Nachwuchses (z.B. Metabolismus,Vision) vom 'Vermoegen'
+		der Eltern abhaengen (also nicht von der Genetik sondern z.B. vom Zugang zu Bildung)?
