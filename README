@@ -1,0 +1,28 @@
+Sugarscape-Reproduction
+-----------------------
+A Project in the Lecture "Regelbasierte Modelle" at the University of Osnabrueck (Germany)
+
+Authors
+------
+Denis M.
+Stefan H.
+Waldemar S.
+
+Current Version
+---------------
+1.0 beta
+
+Latest Update
+-------------
+31.12.2009
+
+Referenced Libraries
+--------------------
+Famoja - Framework for Agent-based MOdeling with JAva
+http://www.usf.uos.de/projects/famoja/
+
+License
+-------
+GNU General Public License
+-> File "License.txt"
+http://www.gnu.org/licenses/gpl.txt
