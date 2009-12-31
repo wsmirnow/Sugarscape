@@ -37,8 +37,6 @@ import eawag.grid.Depiction;
  */
 public class SCBug extends Bug {
 
-	private static final SCHelper helper = new SCHelper();
-
 	/************************************************/
 	// Private Variables
 	/************************************************/
@@ -129,8 +127,8 @@ public class SCBug extends Bug {
 		} else {
 			this.currAge++;
 			// Consume Sugar every metabolism Timesteps
-			if (this.currMB >= getHelper().metabolism) {
-				this.removeSugar(getHelper().sugarConsumingRatio);
+			if (this.currMB >= SCHelper.getMetabolism()) {
+				this.removeSugar(SCHelper.getSugarConsumingRatio());
 				if (this.currWealth < 0) {
 					this.currWealth = 0;
 				}
@@ -140,13 +138,13 @@ public class SCBug extends Bug {
 			}
 
 			// Get Sugar from the SCSugarBug every getSugarStep Timesteps
-			if (this.currGetSugarStep >= getHelper().getSugarStep) {
+			if (this.currGetSugarStep >= SCHelper.getGetSugarStep()) {
 				if (this.getGrid() instanceof SCGrid) {
 					SCGrid grid = (SCGrid) this.getGrid();
 					if (grid.getBug(this._x, this._y, 0) instanceof SCSugarBug) {
 						this.addSugar(((SCSugarBug) grid.getBug(this._x,
-								this._y, 0))
-								.getSugar(getHelper().sugarMiningRatio));
+								this._y, 0)).getSugar(SCHelper
+								.getSugarMiningRatio()));
 					}
 				}
 				this.currGetSugarStep = 0;
@@ -180,7 +178,7 @@ public class SCBug extends Bug {
 						.getCurrentAmountOfSugar() <= 0) {
 					boolean found = false;
 					// Search Active for a Partner
-					if (getHelper().searchActiveForPartner) {
+					if (SCHelper.isSearchActiveForPartner()) {
 						SCBug bug = null;
 						Vector<SCBug> neighbours = new Vector<SCBug>();
 						neighbours = this.getNeighbours();
@@ -201,7 +199,7 @@ public class SCBug extends Bug {
 											&& !freePlaces.isEmpty()) {
 										// Move to a random Position around
 										// the potential Partner
-										int rand = getHelper()
+										int rand = SCHelper
 												.getRandomIntWithinLimits(0,
 														freePlaces.size() - 1);
 										bug = freePlaces.get(rand);
@@ -221,9 +219,10 @@ public class SCBug extends Bug {
 						// Move Bug to the Field with the highest Amount o
 						// Sugar
 						Vector<SCSugarBug> vec = new Vector<SCSugarBug>();
-						vec = getHighestAmountOfSugar(getHelper().visionRadius);
-						int rand = getHelper().getRandomIntWithinLimits(0,
-								vec.size() - 1);
+						vec = getHighestAmountOfSugar(SCHelper
+								.getVisionRadius());
+						int rand = SCHelper.getRandomIntWithinLimits(0, vec
+								.size() - 1);
 						sugarBug = vec.get(rand);
 						if (sugarBug != null) {
 							this.moveBug(sugarBug._x, sugarBug._y, 1);
@@ -282,7 +281,7 @@ public class SCBug extends Bug {
 	 * @return if the SCBug has enough Money
 	 */
 	public boolean hasEnoughSugar() {
-		int divideFactor = getHelper().divideFactorHasEnoughSugar;
+		int divideFactor = SCHelper.getDivideFactorHasEnoughSugar();
 		if (divideFactor > 0) {
 			return (getCurrWealth() >= (getInitialSugar() / divideFactor));
 		}
@@ -409,8 +408,10 @@ public class SCBug extends Bug {
 		int currHighestValue = -1;
 		if (this.getGrid() instanceof SCGrid) {
 			SCGrid grid = (SCGrid) this.getGrid();
-			for (int i = (this._x - getHelper().visionRadius); i < (this._x + getHelper().visionRadius); i++) {
-				for (int j = (this._y - getHelper().visionRadius); j < (this._y + getHelper().visionRadius); j++) {
+			for (int i = (this._x - SCHelper.getVisionRadius()); i < (this._x + SCHelper
+					.getVisionRadius()); i++) {
+				for (int j = (this._y - SCHelper.getVisionRadius()); j < (this._y + SCHelper
+						.getVisionRadius()); j++) {
 					if ((i < grid.getXSize()) && (j < grid.getYSize())) {
 						if (grid.getBug(i, j, 0) instanceof SCSugarBug) {
 							SCSugarBug tmp = (SCSugarBug) grid.getBug(i, j, 0);
@@ -440,8 +441,10 @@ public class SCBug extends Bug {
 		Vector<SCBug> vec = new Vector<SCBug>();
 		if (this.getGrid() instanceof SCGrid) {
 			SCGrid grid = (SCGrid) this.getGrid();
-			for (int i = (this._x - getHelper().visionRadius); i < (this._x + getHelper().visionRadius); i++) {
-				for (int j = (this._y - getHelper().visionRadius); j < (this._y + getHelper().visionRadius); j++) {
+			for (int i = (this._x - SCHelper.getVisionRadius()); i < (this._x + SCHelper
+					.getVisionRadius()); i++) {
+				for (int j = (this._y - SCHelper.getVisionRadius()); j < (this._y + SCHelper
+						.getVisionRadius()); j++) {
 					if ((i < grid.getXSize()) && (j < grid.getYSize())) {
 						if (grid.getBug(i, j, 1) instanceof SCBug) {
 							vec.add((SCBug) grid.getBug(i, j, 1));
@@ -462,8 +465,10 @@ public class SCBug extends Bug {
 		Vector<SCBug> vec = new Vector<SCBug>();
 		if (this.getGrid() instanceof SCGrid) {
 			SCGrid grid = (SCGrid) this.getGrid();
-			for (int i = (this._x - getHelper().visionRadius); i < (this._x + getHelper().visionRadius); i++) {
-				for (int j = (this._y - getHelper().visionRadius); j < (this._y + getHelper().visionRadius); j++) {
+			for (int i = (this._x - SCHelper.getVisionRadius()); i < (this._x + SCHelper
+					.getVisionRadius()); i++) {
+				for (int j = (this._y - SCHelper.getVisionRadius()); j < (this._y + SCHelper
+						.getVisionRadius()); j++) {
 					if ((i < grid.getXSize()) && (j < grid.getYSize())) {
 						if (grid.getBug(i, j, 1) == null) {
 							SCBug newBug = new SCBug();
@@ -483,7 +488,7 @@ public class SCBug extends Bug {
 	 * @return a Sex
 	 */
 	private boolean getRandomSex() {
-		return (getHelper().getRandomInt(100) >= getHelper().sexLimit);
+		return (SCHelper.getRandomInt(100) >= SCHelper.getSexLimit());
 	}
 
 	/**
@@ -492,12 +497,12 @@ public class SCBug extends Bug {
 	 * @return a random max. Age
 	 */
 	private int getRandomMaxAge() {
-		int tmp = getHelper().getRandomIntWithinLimits(getHelper().maxAgeMin,
-				getHelper().maxAgeMax);
-		if (tmp != getHelper().ERROR) {
+		int tmp = SCHelper.getRandomIntWithinLimits(SCHelper.getMaxAgeMin(),
+				SCHelper.getMaxAgeMax());
+		if (tmp != SCHelper.getError()) {
 			return tmp;
 		}
-		return getHelper().maxAgeMax;
+		return SCHelper.getMaxAgeMax();
 	}
 
 	/**
@@ -506,12 +511,12 @@ public class SCBug extends Bug {
 	 * @return a random 1st Generation Wealth
 	 */
 	private int getRandom1stGenWealth() {
-		int tmp = getHelper().getRandomIntWithinLimits(
-				getHelper().minWealth1stGen, getHelper().maxWealth1stGen);
-		if (tmp != getHelper().ERROR) {
+		int tmp = SCHelper.getRandomIntWithinLimits(SCHelper
+				.getMinWealth1stGen(), SCHelper.getMaxWealth1stGen());
+		if (tmp != SCHelper.getError()) {
 			return tmp;
 		}
-		return getHelper().maxWealth1stGen;
+		return SCHelper.getMaxWealth1stGen();
 	}
 
 	/**
@@ -520,12 +525,12 @@ public class SCBug extends Bug {
 	 * @return a min. Fertility Age if successful, minFertilityAge else
 	 */
 	private int getRandomFertilityAgeMin() {
-		int tmp = getHelper().getRandomIntWithinLimits(
-				getHelper().minFertilityAgeMin, getHelper().minFertilityAgeMax);
-		if (tmp != getHelper().ERROR) {
+		int tmp = SCHelper.getRandomIntWithinLimits(SCHelper
+				.getMinFertilityAgeMin(), SCHelper.getMinFertilityAgeMax());
+		if (tmp != SCHelper.getError()) {
 			return tmp;
 		}
-		return getHelper().minFertilityAgeMax;
+		return SCHelper.getMinFertilityAgeMax();
 	}
 
 	/**
@@ -534,35 +539,26 @@ public class SCBug extends Bug {
 	 * @return a max. Fertility Age if successful, maxFertilityAge else
 	 */
 	private int getRandomFertilityAgeMax() {
-		int tmp = getHelper().ERROR;
+		int tmp = SCHelper.getError();
 		// If male
 		if (sex) {
-			tmp = getHelper().getRandomIntWithinLimits(
-					getHelper().minFertilityAgeMale,
-					getHelper().maxFertilityAgeMale);
+			tmp = SCHelper.getRandomIntWithinLimits(SCHelper
+					.getMinFertilityAgeMale(), SCHelper
+					.getMaxFertilityAgeMale());
 			// If female
 		} else {
-			tmp = getHelper().getRandomIntWithinLimits(
-					getHelper().minFertilityAgeFemale,
-					getHelper().maxFertilityAgeFemale);
+			tmp = SCHelper.getRandomIntWithinLimits(SCHelper
+					.getMinFertilityAgeFemale(), SCHelper
+					.getMaxFertilityAgeFemale());
 		}
 		// Normally
-		if (tmp != getHelper().ERROR) {
+		if (tmp != SCHelper.getError()) {
 			return tmp;
 		}
 		if (sex) {
-			return getHelper().maxFertilityAgeMale;
+			return SCHelper.getMaxFertilityAgeMale();
 		}
-		return getHelper().maxFertilityAgeFemale;
-	}
-
-	/**
-	 * Returns the Helper
-	 * 
-	 * @return the Helper
-	 */
-	private static SCHelper getHelper() {
-		return helper;
+		return SCHelper.getMaxFertilityAgeFemale();
 	}
 
 	/************************************************/
@@ -614,8 +610,10 @@ public class SCBug extends Bug {
 		SCBug b = null;
 		if (this.getGrid() instanceof SCGrid) {
 			SCGrid grid = (SCGrid) this.getGrid();
-			for (int i = (this._x - getHelper().visionRadius); i < (this._x + getHelper().visionRadius); i++) {
-				for (int j = (this._y - getHelper().visionRadius); j < (this._y + getHelper().visionRadius); j++) {
+			for (int i = (this._x - SCHelper.getVisionRadius()); i < (this._x + SCHelper
+					.getVisionRadius()); i++) {
+				for (int j = (this._y - SCHelper.getVisionRadius()); j < (this._y + SCHelper
+						.getVisionRadius()); j++) {
 					if ((i < grid.getXSize()) && (j < grid.getYSize())) {
 						if ((grid.getBug(i, j, 1) == null)
 						/* && !(grid.getBug(i, j, 1) instanceof SCBug) */) {
@@ -705,9 +703,11 @@ public class SCBug extends Bug {
 		if (this.getGrid() instanceof SCGrid) {
 			SCGrid grid = (SCGrid) this.getGrid();
 			boolean rdy = false;
-			for (int i = (this._x - getHelper().visionRadius); (i < (this._x + getHelper().visionRadius))
+			for (int i = (this._x - SCHelper.getVisionRadius()); (i < (this._x + SCHelper
+					.getVisionRadius()))
 					&& !rdy; i++) {
-				for (int j = (this._y - getHelper().visionRadius); (j < (this._y + getHelper().visionRadius))
+				for (int j = (this._y - SCHelper.getVisionRadius()); (j < (this._y + SCHelper
+						.getVisionRadius()))
 						&& !rdy; j++) {
 					if ((i < grid.getXSize()) && (j < grid.getYSize())) {
 						if (grid.getBug(i, j, 1) instanceof SCBug) {
