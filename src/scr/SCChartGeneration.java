@@ -104,7 +104,10 @@ public class SCChartGeneration extends Chart {
 		// set horizontal data and fill diagram
 		for (int i = minGeneration; i <= maxGeneration; i++) {
 			addHGuide((double) i, String.valueOf(i));
-			lineTo("Generation", Chart.TYPE_STEM, i, generationMap.get(i));
+			if ((generationMap != null) && !generationMap.isEmpty()
+					&& (generationMap.get(i) != null)) {
+				lineTo("Generation", Chart.TYPE_STEM, i, generationMap.get(i));
+			}
 		}
 	}
 }
