@@ -163,28 +163,70 @@ public class SCBug extends Bug {
 				}
 			}
 
-			// If no more Sugar at the current Place -> move to the Place with
-			// the highest Amount of Sugar. If >= 1 such Places: go randomly to
-			// one of them
-			if (this.getGrid() instanceof SCGrid) {
-				SCGrid grid = (SCGrid) this.getGrid();
-				if (grid.getBug(this._x, this._y, 0) instanceof SCSugarBug) {
-					if (((SCSugarBug) grid.getBug(this._x, this._y, 0))
-							.getCurrentAmountOfSugar() <= 0) {
-						SCSugarBug b = null;
-						int rand;
-						// If Mode != Search Active for Partner
-						if (!getHelper().searchActiveForPartner) {
-							Vector<SCSugarBug> vec = new Vector<SCSugarBug>();
-							vec = getHighestAmountOfSugar(getHelper().visionRadius);
-							rand = getHelper().getRandomIntWithinLimits(0,
-									vec.size() - 1);
-							b = vec.get(rand);
-						} else {
-							// TODO
+			// Move around
+			move();
+		}
+	}
+
+	/**
+	 * Moves the Agent: If no more Sugar at the current Place 1. Move to the
+	 * Place with the highest Amount of Sugar OR 2. Search active for a Partner
+	 */
+	private void move() {
+		if (this.getGrid() instanceof SCGrid) {
+			SCGrid grid = (SCGrid) this.getGrid();
+			if (grid.getBug(this._x, this._y, 0) instanceof SCSugarBug) {
+				if (((SCSugarBug) grid.getBug(this._x, this._y, 0))
+						.getCurrentAmountOfSugar() <= 0) {
+					boolean found = false;
+					// Search Active for a Partner
+					if (getHelper().searchActiveForPartner) {
+						SCBug bug = null;
+						Vector<SCBug> neighbours = new Vector<SCBug>();
+						neighbours = this.getNeighbours();
+						// If there are Neighbours
+						if ((neighbours != null) && !neighbours.isEmpty()) {
+							for (int i = 0; (i < neighbours.size()) && !found; i++) {
+								// If a Neighbour fits as a Partner
+								if ((neighbours.get(i).getSex() != this
+										.getSex())
+										&& neighbours.get(i).isFertile()
+										&& neighbours.get(i).hasEnoughSugar()) {
+									Vector<SCBug> freePlaces = new Vector<SCBug>();
+									freePlaces = neighbours.get(i)
+											.getFreePlacesAround();
+									// If free Places around the potential
+									// Partner found
+									if ((freePlaces != null)
+											&& !freePlaces.isEmpty()) {
+										// Move to a random Position around
+										// the potential Partner
+										int rand = getHelper()
+												.getRandomIntWithinLimits(0,
+														freePlaces.size() - 1);
+										bug = freePlaces.get(rand);
+										if (bug != null) {
+											this.moveBug(bug._x, bug._y, 1);
+										}
+										found = true;
+									}
+								}
+							}
 						}
-						if (b != null) {
-							this.moveBug(b._x, b._y, 1);
+					}
+					// If no Partner with free Space around found or
+					// "Search Active for a Partner" is not active
+					if (!found) {
+						SCSugarBug sugarBug = null;
+						// Move Bug to the Field with the highest Amount o
+						// Sugar
+						Vector<SCSugarBug> vec = new Vector<SCSugarBug>();
+						vec = getHighestAmountOfSugar(getHelper().visionRadius);
+						int rand = getHelper().getRandomIntWithinLimits(0,
+								vec.size() - 1);
+						sugarBug = vec.get(rand);
+						if (sugarBug != null) {
+							this.moveBug(sugarBug._x, sugarBug._y, 1);
 						}
 					}
 				}
@@ -403,6 +445,30 @@ public class SCBug extends Bug {
 					if ((i < grid.getXSize()) && (j < grid.getYSize())) {
 						if (grid.getBug(i, j, 1) instanceof SCBug) {
 							vec.add((SCBug) grid.getBug(i, j, 1));
+						}
+					}
+				}
+			}
+		}
+		return vec;
+	}
+
+	/**
+	 * Returns free Places around the Bug
+	 * 
+	 * @return free Places around the Bug
+	 */
+	public Vector<SCBug> getFreePlacesAround() {
+		Vector<SCBug> vec = new Vector<SCBug>();
+		if (this.getGrid() instanceof SCGrid) {
+			SCGrid grid = (SCGrid) this.getGrid();
+			for (int i = (this._x - getHelper().visionRadius); i < (this._x + getHelper().visionRadius); i++) {
+				for (int j = (this._y - getHelper().visionRadius); j < (this._y + getHelper().visionRadius); j++) {
+					if ((i < grid.getXSize()) && (j < grid.getYSize())) {
+						if (grid.getBug(i, j, 1) == null) {
+							SCBug newBug = new SCBug();
+							newBug.moveBug(i, j, 1);
+							vec.add(newBug);
 						}
 					}
 				}
