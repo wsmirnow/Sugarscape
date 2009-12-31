@@ -48,6 +48,11 @@ public class SCHelper extends Agent {
 	 * Expansion Ratio in between [0, 1]
 	 */
 	public double expansionRatio = 0.2; // a
+	
+	/**
+	 * Mode for "Aufgabe" No. 2
+	 */
+	public boolean searchActiveForPartner = false;
 
 	/**
 	 * Error Representation

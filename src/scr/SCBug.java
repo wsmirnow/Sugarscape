@@ -123,11 +123,11 @@ public class SCBug extends Bug {
 	 */
 	public void action() {
 		// Increase the Age
-		this.currAge++;
 		if ((this.currAge >= this.maxAge) || (this.currWealth <= 0)) {
 			// This Bug has to die, it is too old or has no Sugar!
 			die();
 		} else {
+			this.currAge++;
 			// Consume Sugar every metabolism Timesteps
 			if (this.currMB >= getHelper().metabolism) {
 				this.removeSugar(getHelper().sugarConsumingRatio);
@@ -171,11 +171,18 @@ public class SCBug extends Bug {
 				if (grid.getBug(this._x, this._y, 0) instanceof SCSugarBug) {
 					if (((SCSugarBug) grid.getBug(this._x, this._y, 0))
 							.getCurrentAmountOfSugar() <= 0) {
-						Vector<SCSugarBug> vec = new Vector<SCSugarBug>();
-						vec = getHighestAmountOfSugar(getHelper().visionRadius);
-						int rand = getHelper().getRandomIntWithinLimits(0,
-								vec.size() - 1);
-						SCSugarBug b = vec.get(rand);
+						SCSugarBug b = null;
+						int rand;
+						// If Mode != Search Active for Partner
+						if (!getHelper().searchActiveForPartner) {
+							Vector<SCSugarBug> vec = new Vector<SCSugarBug>();
+							vec = getHighestAmountOfSugar(getHelper().visionRadius);
+							rand = getHelper().getRandomIntWithinLimits(0,
+									vec.size() - 1);
+							b = vec.get(rand);
+						} else {
+							// TODO
+						}
 						if (b != null) {
 							this.moveBug(b._x, b._y, 1);
 						}
