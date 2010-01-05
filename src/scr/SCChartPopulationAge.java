@@ -50,7 +50,7 @@ public class SCChartPopulationAge extends Chart {
 	public SCChartPopulationAge() {
 		setVTitle("Anzahl Agenten");
 		setHTitle("Altersspanne");
-		setComment("Ordnet Agenten deren Altersspanne zu.");
+		setComment("Ordnet Agenten deren Altersspanne (5er Schritte) zu.");
 	}
 
 	/**
@@ -60,6 +60,9 @@ public class SCChartPopulationAge extends Chart {
 
 		super.condition();
 
+		if (grid == null || helper == null)
+			return;
+		
 		HashMap<Integer, Integer> bugAgeMap = new HashMap<Integer, Integer>();
 
 		for (int x = 0; x < grid.xsize; x++)
