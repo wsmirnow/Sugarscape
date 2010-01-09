@@ -36,7 +36,7 @@ public class SCChartWealth extends Chart{
 	public SCChartWealth(){
 		setHTitle("Zeit");
 		setVTitle("Wohlstand");
-		setComment("Zeigt den Wohlstand der Agenten über die Zeit an");
+		setComment("Zeigt den durchschnittlichen Wohlstand der Agenten über die Zeit an");
 	}
 	
 	public void condition(){
@@ -44,13 +44,17 @@ public class SCChartWealth extends Chart{
 		super.condition();
 		
 		int wealth = 0;
+		int count = 0;
+		
 		for (int x = 0; x < grid.xsize; x++)
 			for (int y = 0; y < grid.ysize; y++) {
 				Bug bug = grid.getBug(x, y, 1);
 				if (bug != null && bug instanceof SCBug)
+					count++;
 					wealth += ((SCBug)bug).getCurrWealth();
 			}
 		
+		wealth = wealth/count;
 		lineTo("Wohlstand", Chart.TYPE_LINE, grid.getTop().getTime(), wealth);
 	}
 	
