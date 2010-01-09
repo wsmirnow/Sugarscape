@@ -54,6 +54,6 @@ public class SCChartWealth extends Chart{
 				}
 			}
 		
-		lineTo("Wohlstand", Chart.TYPE_LINE, grid.getTop().getTime(), (bugCount != 0 ? wealth/bugCount : 0));
+		lineTo("Wohlstand", Chart.TYPE_LINE, grid.getTop().getTime(), wealth/bugCount);
 	}
 }
