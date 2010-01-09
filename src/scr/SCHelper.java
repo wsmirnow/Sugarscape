@@ -26,14 +26,12 @@
  */
 package scr;
 
-import eawag.model.Agent;
-
 /**
  * Helper
  * 
  * @author Denis Meyer
  */
-public class SCHelper extends Agent {
+public class SCHelper {
 
 	/************************************************/
 	// Variables
@@ -148,7 +146,7 @@ public class SCHelper extends Agent {
 	/**
 	 * Max. max. Age
 	 */
-	public int maxAgeMax = 100;
+	public int maxAgeMax = 75;
 
 	/************************************************/
 	// Functions

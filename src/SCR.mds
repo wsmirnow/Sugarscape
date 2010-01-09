@@ -8,7 +8,7 @@
   fin = 10
   max = 10
   nsel = (java.lang.String[]
-    "SCGrid")
+    "SCChartGeneration")
   nexp = (java.lang.String[]
     "_root")
   simulatorHeight = 600
@@ -46490,30 +46490,6 @@ SCChartGeneration
     ctitle = ()
     comment = "Chart")
   scGrid = SCGrid)
-SCHelper
-(scr.SCHelper
-  active = true
-  maxAgeMax = 100
-  maxAgeMin = 60
-  maxWealth1stGen = 100
-  minWealth1stGen = 50
-  maxFertilityAgeMale = 60
-  maxFertilityAgeFemale = 50
-  minFertilityAgeMale = 50
-  minFertilityAgeFemale = 40
-  minFertilityAgeMax = 15
-  minFertilityAgeMin = 12
-  sexLimit = 50
-  divideFactorHasEnoughSugar = 1
-  visionRadius = 4
-  sugarMiningRatio = 2
-  getSugarStep = 1
-  sugarConsumingRatio = 1
-  metabolism = 2
-  movementSpeed = 1
-  searchActiveForPartner = false
-  expansionRatio = 0.5
-  maxAmountOfSugarInSugarAgent = 20)
 SCChartPopulation
 (scr.SCChartPopulation
   active = true
