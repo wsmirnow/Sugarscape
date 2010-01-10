@@ -62,7 +62,7 @@ public class SCChartPopulationAge extends Chart {
 
 		if (grid == null || helper == null)
 			return;
-		
+
 		HashMap<Integer, Integer> bugAgeMap = new HashMap<Integer, Integer>();
 
 		for (int x = 0; x < grid.xsize; x++)

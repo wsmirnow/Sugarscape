@@ -29,34 +29,48 @@ package scr;
 import eawag.chart.Chart;
 import eawag.grid.Bug;
 
-public class SCChartWealth extends Chart{
-	
+/**
+ * Chart Diagram for the Sugar
+ * 
+ * @author Waldemar S.
+ */
+public class SCChartWealth extends Chart {
+
+	/**
+	 * Grid
+	 */
 	public SCGrid grid;
-	
-	public SCChartWealth(){
+
+	/**
+	 * Constructor
+	 */
+	public SCChartWealth() {
 		setHTitle("Zeit");
 		setVTitle("Wohlstand");
 		setComment("Zeigt den durchschnittlichen Wohlstand der Agenten über die Zeit an");
 	}
-	
-	public void condition(){
-		
+
+	/**
+	 * Condition
+	 */
+	public void condition() {
+
 		super.condition();
-		
+
 		int wealth = 0;
 		int count = 0;
-		
+
 		for (int x = 0; x < grid.xsize; x++)
 			for (int y = 0; y < grid.ysize; y++) {
 				Bug bug = grid.getBug(x, y, 1);
 				if (bug != null && bug instanceof SCBug) {
 					count++;
-					wealth += ((SCBug)bug).getCurrWealth();
+					wealth += ((SCBug) bug).getCurrWealth();
 				}
 			}
-		
-		wealth = count > 0 ? wealth/count : 0;
+
+		wealth = count > 0 ? wealth / count : 0;
 		lineTo("Wohlstand", Chart.TYPE_LINE, grid.getTop().getTime(), wealth);
 	}
-	
+
 }
