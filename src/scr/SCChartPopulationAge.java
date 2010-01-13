@@ -81,7 +81,7 @@ public class SCChartPopulationAge extends Chart {
 		removeAllPoints("Altersspanne");
 		int bugCount = 0;
 
-		for (int age = 0; age < helper.getMaxAgeMax(); age++) {
+		for (int age = 0; age <= helper.getMaxAgeMax(); age++) {
 
 			if (bugAgeMap.containsKey(age))
 				bugCount += bugAgeMap.get(age);
