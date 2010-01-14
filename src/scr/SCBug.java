@@ -623,6 +623,7 @@ public class SCBug extends Bug {
 							if (grid.getBug(i, this._y, 1) == null) {
 								SCBug newBug = new SCBug();
 								newBug._x = i;
+								newBug._y = this._y;
 								// newBug.moveBug(i, 0, 1);
 								vec.add(newBug);
 							}
@@ -634,6 +635,7 @@ public class SCBug extends Bug {
 						if (i < grid.getYSize()) {
 							if (grid.getBug(this._x, i, 1) == null) {
 								SCBug newBug = new SCBug();
+								newBug._x = this._x;
 								newBug._y = i;
 								// newBug.moveBug(0, i, 1);
 								vec.add(newBug);
@@ -820,7 +822,7 @@ public class SCBug extends Bug {
 					for (int i = 0; i < xCoords.size(); i++) {
 						if (i < grid.getXSize()) {
 							if ((grid.getBug(i, this._y, 1) == null)
-							/* && !(grid.getBug(i, 0, 1) instanceof SCBug) */) {
+							/* && !(grid.getBug(i, this._y, 1) instanceof SCBug) */) {
 								b = new SCBug(0, initialSugar, getRandomSex(),
 										generation, parent1, parent2);
 								b._x = i;
@@ -832,7 +834,7 @@ public class SCBug extends Bug {
 				}
 				if (!yCoords.isEmpty()) {
 					for (int i = 0; i < yCoords.size(); i++) {
-						if (i < grid.getXSize()) {
+						if (i < grid.getYSize()) {
 							if ((grid.getBug(this._x, i, 1) == null)
 							/* && !(grid.getBug(this._x, i, 1) instanceof SCBug) */) {
 								b = new SCBug(0, initialSugar, getRandomSex(),
@@ -968,8 +970,10 @@ public class SCBug extends Bug {
 	/**
 	 * Moves the new Bug (Helper Functions - reproduce)
 	 * 
-	 * @param i x-Coordinate
-	 * @param j y-Coordinate
+	 * @param i
+	 *            x-Coordinate
+	 * @param j
+	 *            y-Coordinate
 	 * @return created Bug if successfully, null else
 	 */
 	private SCBug moveNewBug(int i, int j) {
@@ -1032,14 +1036,14 @@ public class SCBug extends Bug {
 			yCoords = getExtendedVonNeumannYCoordinatesAround();
 			if (!xCoords.isEmpty()) {
 				for (int i = 0; i < xCoords.size(); i++) {
-					if (!((freePlaceBug = moveNewBug(i, 0)) == null)) {
+					if (!((freePlaceBug = moveNewBug(i, this._y)) == null)) {
 						return freePlaceBug;
 					}
 				}
 			}
 			if (!yCoords.isEmpty()) {
 				for (int i = 0; i < yCoords.size(); i++) {
-					if (!((freePlaceBug = moveNewBug(0, i)) == null)) {
+					if (!((freePlaceBug = moveNewBug(this._x, i)) == null)) {
 						return freePlaceBug;
 					}
 				}
