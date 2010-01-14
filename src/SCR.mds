@@ -8,7 +8,7 @@
   fin = 10
   max = 10
   nsel = (java.lang.String[]
-    "SCChartGeneration")
+    "SCGrid")
   nexp = (java.lang.String[]
     "_root")
   simulatorHeight = 600
@@ -46382,28 +46382,33 @@ SCGrid
     _BEGIN_
     _END_
   _END_
-SCHelper
-(scr.SCHelper
+SCChartLifespan
+(scr.SCChartLifespan
   active = true
-  maxAgeMax = 100
-  maxAgeMin = 60
-  maxWealth1stGen = 100
-  minWealth1stGen = 50
-  maxFertilityAgeMale = 60
-  maxFertilityAgeFemale = 50
-  minFertilityAgeMale = 50
-  minFertilityAgeFemale = 40
-  minFertilityAgeMax = 15
-  minFertilityAgeMin = 12
-  sexLimit = 50
-  divideFactorHasEnoughSugar = 1
-  visionRadius = 4
-  sugarMiningRatio = 2
-  getSugarStep = 1
-  sugarConsumingRatio = 1
-  metabolism = 2
-  expansionRatio = 0.5
-  maxAmountOfSugarInSugarAgent = 20)
+  hcontent = (xlog.component.ScaleContent
+    visible = false
+    guides = (xlog.component.ScaleGuide[])
+    docmax = 1.0
+    docmin = 0.0
+    title = "Zeit"
+    format = 1
+    invert = false
+    oposite = false)
+  vcontent = (xlog.component.ScaleContent
+    visible = false
+    guides = (xlog.component.ScaleGuide[])
+    docmax = 1.0
+    docmin = 0.0
+    title = "Lebenserwartung"
+    format = 1
+    invert = false
+    oposite = false)
+  content = (eawag.chart.ChartContent
+    fit = 0
+    group = (eawag.chart.ChartGroup[])
+    ctitle = ()
+    comment = "Zeigt die durchschnittliche Lebenserwartung der Agenten \374ber die Zeit an")
+  grid = SCGrid)
 SCChartWealth
 (scr.SCChartWealth
   active = true
@@ -46457,7 +46462,6 @@ SCChartPopulationAge
     group = (eawag.chart.ChartGroup[])
     ctitle = ()
     comment = "Ordnet Agenten deren Altersspanne zu.")
-  helper = ()
   grid = SCGrid)
 SCChartSugar
 (scr.SCChartSugar
