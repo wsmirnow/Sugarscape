@@ -208,7 +208,10 @@ public class SCBug extends Bug {
 												.getRandomIntWithinLimits(0,
 														freePlaces.size() - 1);
 										bug = freePlaces.get(rand);
-										if (bug != null) {
+										// If the free Place is in Sight of this
+										// Bug
+										if ((bug != null) && isInSight(bug)) {
+											// Move
 											this.moveBug(bug._x, bug._y, 1);
 										}
 										found = true;
@@ -715,6 +718,21 @@ public class SCBug extends Bug {
 	}
 
 	/**
+	 * Returns if Bug b is in the VisionRadius of this Bug
+	 * 
+	 * @param b
+	 *            Bug
+	 * @return true if Bug b is in the VisionRadius of this Bug, false else
+	 */
+	private boolean isInSight(SCBug b) {
+		boolean x = (b._x > (this._x - helper.getVisionRadius()))
+				&& (b._x < (this._x + helper.getVisionRadius()));
+		boolean y = (b._y > (this._y - helper.getVisionRadius()))
+				&& (b._y < (this._y + helper.getVisionRadius()));
+		return x && y;
+	}
+
+	/**
 	 * Reproduces if fertile
 	 * 
 	 * @return the Descendant
@@ -724,12 +742,9 @@ public class SCBug extends Bug {
 		if (this.getGrid() instanceof SCGrid) {
 			SCGrid grid = (SCGrid) this.getGrid();
 			boolean rdy = false;
-			for (int i = (this._x - helper.getVisionRadius()); (i < (this._x + helper
-					.getVisionRadius()))
-					&& !rdy; i++) {
-				for (int j = (this._y - helper.getVisionRadius()); (j < (this._y + helper
-						.getVisionRadius()))
-						&& !rdy; j++) {
+			// TODO VisionRadius korrekt?
+			for (int i = (this._x - 1); (i < (this._x + 1)) && !rdy; i++) {
+				for (int j = (this._y - 1); (j < (this._y + 1)) && !rdy; j++) {
 					if ((i < grid.getXSize()) && (j < grid.getYSize())) {
 						if (grid.getBug(i, j, 1) instanceof SCBug) {
 							SCBug tmp = (SCBug) grid.getBug(i, j, 1);
@@ -746,12 +761,14 @@ public class SCBug extends Bug {
 									int gen = Math.max(this.generation,
 											tmp.generation);
 									for (int vi = 0; (vi < vec.size()) && !rdy; vi++) {
-										freePlaceBug = vec
-												.get(vi)
-												.setDescendantToFreeCoordinatesAround(
-														thisCurHalf
-																+ tmpCurHalf,
-														gen + 1, this, tmp);
+										if (isInSight(vec.get(vi))) {
+											freePlaceBug = vec
+													.get(vi)
+													.setDescendantToFreeCoordinatesAround(
+															thisCurHalf
+																	+ tmpCurHalf,
+															gen + 1, this, tmp);
+										}
 										if (freePlaceBug != null) {
 											// Remove this Amount of Sugar
 											// from the Parents
