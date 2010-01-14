@@ -38,14 +38,50 @@ public class SCHelper {
 	/************************************************/
 
 	/**
+	 * Extended Von Neumann Neighborhood or every neighboor
+	 */
+	public boolean extendedVonNeumannNeighborhood = false;
+
+	/**
+	 * Flag for active Search fo a Partner
+	 */
+	public boolean searchActiveForPartner = false;
+
+	/**
+	 * Field of Vision Radius of extended Moore Neighbourhood at Reproduce
+	 */
+	public int visionRadiusReproduce = 4;
+	
+	/**
+	 * Expansion Ratio in between [0, 1]
+	 */
+	public double expansionRatio = 0.2; // a
+
+	/**
+	 * Metabolism (Time Steps / sugarConsumingRatio Sugar)
+	 */
+	public int metabolism = 2;
+
+	/**
+	 * Field of Vision Radius of extended Moore Neighbourhood
+	 */
+	public int visionRadius = 4;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	/**
 	 * Error Representation
 	 */
 	public static final int ERROR = Integer.MAX_VALUE;
-
-	/**
-	 * Extended Von Neumann Neighborhood or every neighboor
-	 */
-	public boolean extendedVonNeumannNeighborhood = true;
 
 	/**
 	 * Max. Amount of Sugar in 1 SugarAgent
@@ -53,24 +89,9 @@ public class SCHelper {
 	public int maxAmountOfSugarInSugarAgent = 20; // c
 
 	/**
-	 * Expansion Ratio in between [0, 1]
-	 */
-	public double expansionRatio = 0.1; // a
-
-	/**
-	 * Mode for "Aufgabe" No. 2
-	 */
-	public boolean searchActiveForPartner = true;
-
-	/**
 	 * The Movement Speed (per Timestep)
 	 */
 	public int movementSpeed = 1;
-
-	/**
-	 * Metabolism (Time Steps / sugarConsumingRatio Sugar)
-	 */
-	public int metabolism = 2;
 
 	/**
 	 * Sugar Consuming Ratio
@@ -86,17 +107,6 @@ public class SCHelper {
 	 * Sugar Mining Ratio
 	 */
 	public int sugarMiningRatio = 4;
-
-	/**
-	 * Field of Vision Radius of extended Moore Neighbourhood
-	 */
-	public int visionRadius = 4;
-
-	/**
-	 * Field of Vision Radius of extended Moore Neighbourhood at Reproduce
-	 * (TODO) hochsetzen, um mehr Generationen zu bekommen
-	 */
-	public int visionRadiusReproduce = 4;
 
 	/**
 	 * Adds a Divisor in the Function hasEnoughSugar() -> return
