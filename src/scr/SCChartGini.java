@@ -1,6 +1,5 @@
 package scr;
 
-
 import java.util.Collections;
 import java.util.Vector;
 
@@ -12,9 +11,9 @@ public class SCChartGini extends Chart {
 	SCGrid grid;
 	
 	public SCChartGini() {
-		setHTitle("H");
-		setVTitle("V");
-		setComment("comment");
+		setHTitle("Zeit");
+		setVTitle("Gini Koeff");
+		setComment("Stellt den Gini Koeffizient über die Zeit dar.");
 	}
 	
 	public void condition() {
