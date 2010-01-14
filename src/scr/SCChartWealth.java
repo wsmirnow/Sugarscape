@@ -32,28 +32,47 @@ import eawag.grid.Bug;
 public class SCChartWealth extends Chart{
 	
 	public SCGrid grid;
-	
-	public SCChartWealth(){
+
+	/**
+	 * Constructor
+	 */
+	public SCChartWealth() {
 		setHTitle("Zeit");
 		setVTitle("Wohlstand");
 		setComment("Zeigt den durchschnittlichen Wohlstand der Agenten über die Zeit an");
 	}
-	
-	public void condition(){
-		
+
+	/**
+	 * Condition
+	 */
+	public void condition() {
+
 		super.condition();
-		
+
 		int wealth = 0;
-		int bugCount = 0;
+		int minWealth = Integer.MAX_VALUE;
+		int maxWealth = Integer.MIN_VALUE;
+		int count = 0;
+
 		for (int x = 0; x < grid.xsize; x++)
 			for (int y = 0; y < grid.ysize; y++) {
 				Bug bug = grid.getBug(x, y, 1);
 				if (bug != null && bug instanceof SCBug) {
-					bugCount++;
-					wealth += ((SCBug)bug).getCurrWealth();
+					count++;
+					int bugWealt = ((SCBug) bug).getCurrWealth();
+					wealth += bugWealt;
+					minWealth = Math.min(minWealth, bugWealt);
+					maxWealth = Math.max(maxWealth, bugWealt);
 				}
 			}
+
+		wealth = count > 0 ? wealth / count : 0;
+		minWealth = count > 0 ? minWealth : 0;
+		maxWealth = count > 0 ? maxWealth : 0;
 		
-		lineTo("Wohlstand", Chart.TYPE_LINE, grid.getTop().getTime(), (bugCount != 0 ? wealth/bugCount : 0));
+		lineTo("Durchschnitt", Chart.TYPE_LINE, grid.getTop().getTime(), wealth);
+		lineTo("Min", Chart.TYPE_LINE, grid.getTop().getTime(), minWealth);
+		lineTo("Max", Chart.TYPE_LINE, grid.getTop().getTime(), maxWealth);
 	}
+
 }

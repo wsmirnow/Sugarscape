@@ -499,7 +499,7 @@ public class SCBug extends Bug {
 	 */
 	private int getRandomMaxAge() {
 		int tmp = helper.getRandomIntWithinLimits(helper.getMaxAgeMin(), helper
-				.getMaxAgeMin());
+				.getMaxAgeMax());
 		if (tmp != helper.getError()) {
 			return tmp;
 		}

@@ -8,7 +8,7 @@
   fin = 10
   max = 10
   nsel = (java.lang.String[]
-    "SCGrid")
+    "SCChartGeneration")
   nexp = (java.lang.String[]
     "_root")
   simulatorHeight = 600
