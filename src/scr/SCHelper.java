@@ -55,7 +55,7 @@ public class SCHelper {
 	/**
 	 * Expansion Ratio in between [0, 1]
 	 */
-	public double expansionRatio = 0.5; // a
+	public double expansionRatio = 0.1; // a
 
 	/**
 	 * Mode for "Aufgabe" No. 2
