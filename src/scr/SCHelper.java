@@ -50,12 +50,12 @@ public class SCHelper {
 	/**
 	 * Expansion Ratio in between [0, 1]
 	 */
-	public double expansionRatio = 0.5; // a
+	public double expansionRatio = 0.1; // a
 
 	/**
 	 * Mode for "Aufgabe" No. 2
 	 */
-	public boolean searchActiveForPartner = false;
+	public boolean searchActiveForPartner = true;
 
 	/**
 	 * The Movement Speed (per Timestep)
@@ -146,7 +146,7 @@ public class SCHelper {
 	/**
 	 * Max. max. Age
 	 */
-	public int maxAgeMax = 75;
+	public int maxAgeMax = 80;
 
 	/************************************************/
 	// Functions

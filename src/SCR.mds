@@ -28,7 +28,7 @@ SCGrid
   active = true
   randomize = false
   zhigh = 2
-  zlow = 1
+  zlow = 0
   bugs = (eawag.grid.Bug[][][]
     (eawag.grid.Bug[][]
       (eawag.grid.Bug[]
