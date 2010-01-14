@@ -41,11 +41,11 @@ public class SCHelper {
 	 * Error Representation
 	 */
 	public static final int ERROR = Integer.MAX_VALUE;
-	
+
 	/**
 	 * Extended Von Neumann Neighborhood or every neighboor
 	 */
-	public boolean extendedVonNeumannNeighborhood = true;
+	public boolean extendedVonNeumannNeighborhood = false;
 
 	/**
 	 * Max. Amount of Sugar in 1 SugarAgent
@@ -93,8 +93,8 @@ public class SCHelper {
 	public int visionRadius = 4;
 
 	/**
-	 * Field of Vision Radius of extended Moore Neighbourhood at Reproduce
-	 * TODO hochsetzen, um mehr Generationen zu bekommen
+	 * Field of Vision Radius of extended Moore Neighbourhood at Reproduce TODO
+	 * hochsetzen, um mehr Generationen zu bekommen
 	 */
 	public int visionRadiusReproduce = 4;
 
@@ -321,7 +321,7 @@ public class SCHelper {
 	public int getError() {
 		return ERROR;
 	}
-	
+
 	/**
 	 * Getter
 	 * 
