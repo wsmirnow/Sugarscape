@@ -41,6 +41,11 @@ public class SCHelper {
 	 * Error Representation
 	 */
 	public static final int ERROR = Integer.MAX_VALUE;
+	
+	/**
+	 * Extended Von Neumann Neighborhood or every neighboor
+	 */
+	public boolean extendedVonNeumannNeighborhood = false;
 
 	/**
 	 * Max. Amount of Sugar in 1 SugarAgent
@@ -86,6 +91,12 @@ public class SCHelper {
 	 * Field of Vision Radius of extended Moore Neighbourhood
 	 */
 	public int visionRadius = 4;
+
+	/**
+	 * Field of Vision Radius of extended Moore Neighbourhood at Reproduce
+	 * TODO hochsetzen, um mehr Generationen zu bekommen
+	 */
+	public int visionRadiusReproduce = 4;
 
 	/**
 	 * Adds a Divisor in the Function hasEnoughSugar() -> return
@@ -161,7 +172,7 @@ public class SCHelper {
 	public int getRandomInt(int upperLimit) {
 		if (upperLimit > 0){ 
 			return (int) (Math.random() * (upperLimit + 1));
-		}else{
+		} else {
 			return getError();
 		}
 	}
@@ -262,6 +273,15 @@ public class SCHelper {
 	 * 
 	 * @return var
 	 */
+	public int getVisionRadiusReproduce() {
+		return visionRadiusReproduce;
+	}
+
+	/**
+	 * Getter
+	 * 
+	 * @return var
+	 */
 	public int getDivideFactorHasEnoughSugar() {
 		return divideFactorHasEnoughSugar;
 	}
@@ -300,6 +320,15 @@ public class SCHelper {
 	 */
 	public int getError() {
 		return ERROR;
+	}
+	
+	/**
+	 * Getter
+	 * 
+	 * @return var
+	 */
+	public boolean extendedVonNeumannNeighborhood() {
+		return extendedVonNeumannNeighborhood;
 	}
 
 	/**
