@@ -45,7 +45,7 @@ public class SCHelper {
 	/**
 	 * Extended Von Neumann Neighborhood or every neighboor
 	 */
-	public boolean extendedVonNeumannNeighborhood = false;
+	public boolean extendedVonNeumannNeighborhood = true;
 
 	/**
 	 * Max. Amount of Sugar in 1 SugarAgent
