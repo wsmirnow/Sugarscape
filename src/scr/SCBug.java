@@ -195,19 +195,37 @@ public class SCBug extends Bug {
 										.getSex())
 										&& neighbours.get(i).isFertile()
 										&& neighbours.get(i).hasEnoughSugar()) {
+									SCBug potPartner = neighbours.get(i);
+									// Get free Places around the Partner
 									Vector<SCBug> freePlaces = new Vector<SCBug>();
-									freePlaces = neighbours.get(i)
-											.getFreePlacesAround();
+									freePlaces = neighbours.get(i).getFreePlacesAround();
 									// If free Places around the potential
 									// Partner found
 									if ((freePlaces != null)
 											&& !freePlaces.isEmpty()) {
-										// Move to a random Position around
-										// the potential Partner
-										int rand = helper
-												.getRandomIntWithinLimits(0,
-														freePlaces.size() - 1);
-										bug = freePlaces.get(rand);
+										// Get closest Point to the potential Partner
+										SCBug tmp = null;
+										double erg = 1000.0;
+										for(int j = 0; j < freePlaces.size(); j++) {
+											bug = freePlaces.get(j);
+											if (bug != null) {
+												if(tmp != null) {
+													int dx = potPartner._x - bug._x;
+													int dy = potPartner._y - bug._y;
+													double tmpErg = Math.sqrt(dx * dx + dy * dy);
+													if(tmpErg < erg) {
+														tmp = bug;
+														erg = tmpErg;
+													}
+												} else {
+													int dx = potPartner._x - bug._x;
+													int dy = potPartner._y - bug._y;
+													erg = Math.sqrt(dx * dx + dy * dy);
+													tmp = bug;
+												}
+											}
+										}
+										bug = tmp;
 										// If the free Place is in Sight of this
 										// Bug
 										if ((bug != null) && isInSight(bug)) {
@@ -277,6 +295,34 @@ public class SCBug extends Bug {
 	/************************************************/
 	// Getter-Functions
 	/************************************************/
+
+	/**
+	 * Returns the extended Von Neumann Neighborhood-Coordinates around this Bug
+	 * 
+	 * @return the extended Von Neumann Neighborhood-Coordinates around this Bug
+	 */
+	public Vector<Integer> getExtendedVonNeumannCoordinatesAround() {
+		Vector<Integer> vec = new Vector<Integer>();
+		if (this.getGrid() instanceof SCGrid) {
+			SCGrid grid = (SCGrid) this.getGrid();
+			// down + top
+			for (int i = (this._x - helper.getVisionRadius()); i < (this._x + helper
+					.getVisionRadius()); i++) {
+				if ((i != this._x) && (i < grid.getXSize())) {
+					vec.add(i);
+				}
+			}
+			// left + right
+			for (int j = (this._y - helper.getVisionRadius()); j < (this._y + helper
+					.getVisionRadius()); j++) {
+				if ((j != this._y) && (j < grid.getYSize())) {
+					vec.add(j);
+				}
+			}
+		}
+
+		return vec;
+	}
 
 	/**
 	 * Returns the initial Sugar (Birth)
@@ -476,7 +522,9 @@ public class SCBug extends Bug {
 					if ((i < grid.getXSize()) && (j < grid.getYSize())) {
 						if (grid.getBug(i, j, 1) == null) {
 							SCBug newBug = new SCBug();
-							newBug.moveBug(i, j, 1);
+							newBug._x = i;
+							newBug._y = j;
+							// newBug.moveBug(i, j, 1);
 							vec.add(newBug);
 						}
 					}
