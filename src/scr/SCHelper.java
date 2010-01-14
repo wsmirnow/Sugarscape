@@ -88,6 +88,11 @@ public class SCHelper {
 	public int visionRadius = 4;
 
 	/**
+	 * Field of Vision Radius of extended Moore Neighbourhood at Reproduce
+	 */
+	public int visionRadiusReproduce = 1;
+
+	/**
 	 * Adds a Divisor in the Function hasEnoughSugar() -> return
 	 * (getCurrWealth() >= (getInitialSugar() / divideFactorHasEnoughSugar));
 	 */
@@ -255,6 +260,15 @@ public class SCHelper {
 	 */
 	public int getVisionRadius() {
 		return visionRadius;
+	}
+
+	/**
+	 * Getter
+	 * 
+	 * @return var
+	 */
+	public int getVisionRadiusReproduce() {
+		return visionRadiusReproduce;
 	}
 
 	/**

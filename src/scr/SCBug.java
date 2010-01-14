@@ -742,9 +742,12 @@ public class SCBug extends Bug {
 		if (this.getGrid() instanceof SCGrid) {
 			SCGrid grid = (SCGrid) this.getGrid();
 			boolean rdy = false;
-			// TODO VisionRadius hochsetzen, um mehr Generationen zu generieren?
-			for (int i = (this._x - 1); (i < (this._x + 1)) && !rdy; i++) {
-				for (int j = (this._y - 1); (j < (this._y + 1)) && !rdy; j++) {
+			for (int i = (this._x - helper.getVisionRadiusReproduce()); (i < (this._x + helper
+					.getVisionRadiusReproduce()))
+					&& !rdy; i++) {
+				for (int j = (this._y - helper.getVisionRadiusReproduce()); (j < (this._y + helper
+						.getVisionRadiusReproduce()))
+						&& !rdy; j++) {
 					if ((i < grid.getXSize()) && (j < grid.getYSize())) {
 						if (grid.getBug(i, j, 1) instanceof SCBug) {
 							SCBug tmp = (SCBug) grid.getBug(i, j, 1);
