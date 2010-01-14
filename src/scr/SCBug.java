@@ -742,7 +742,7 @@ public class SCBug extends Bug {
 		if (this.getGrid() instanceof SCGrid) {
 			SCGrid grid = (SCGrid) this.getGrid();
 			boolean rdy = false;
-			// TODO VisionRadius korrekt?
+			// TODO VisionRadius hochsetzen, um mehr Generationen zu generieren?
 			for (int i = (this._x - 1); (i < (this._x + 1)) && !rdy; i++) {
 				for (int j = (this._y - 1); (j < (this._y + 1)) && !rdy; j++) {
 					if ((i < grid.getXSize()) && (j < grid.getYSize())) {
@@ -768,13 +768,13 @@ public class SCBug extends Bug {
 															thisCurHalf
 																	+ tmpCurHalf,
 															gen + 1, this, tmp);
-										}
-										if (freePlaceBug != null) {
-											// Remove this Amount of Sugar
-											// from the Parents
-											this.removeSugar(thisCurHalf);
-											tmp.removeSugar(tmpCurHalf);
-											rdy = true;
+											if (freePlaceBug != null) {
+												// Remove this Amount of Sugar
+												// from the Parents
+												this.removeSugar(thisCurHalf);
+												tmp.removeSugar(tmpCurHalf);
+												rdy = true;
+											}
 										}
 									}
 								}
