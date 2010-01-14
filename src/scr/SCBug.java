@@ -198,29 +198,38 @@ public class SCBug extends Bug {
 									SCBug potPartner = neighbours.get(i);
 									// Get free Places around the Partner
 									Vector<SCBug> freePlaces = new Vector<SCBug>();
-									freePlaces = neighbours.get(i).getFreePlacesAround();
+									freePlaces = neighbours.get(i)
+											.getFreePlacesAround();
 									// If free Places around the potential
 									// Partner found
 									if ((freePlaces != null)
 											&& !freePlaces.isEmpty()) {
-										// Get closest Point to the potential Partner
+										// Get closest Point to the potential
+										// Partner
 										SCBug tmp = null;
 										double erg = 1000.0;
-										for(int j = 0; j < freePlaces.size(); j++) {
+										for (int j = 0; j < freePlaces.size(); j++) {
 											bug = freePlaces.get(j);
 											if (bug != null) {
-												if(tmp != null) {
-													int dx = potPartner._x - bug._x;
-													int dy = potPartner._y - bug._y;
-													double tmpErg = Math.sqrt(dx * dx + dy * dy);
-													if(tmpErg < erg) {
+												if (tmp != null) {
+													int dx = potPartner._x
+															- bug._x;
+													int dy = potPartner._y
+															- bug._y;
+													double tmpErg = Math
+															.sqrt(dx * dx + dy
+																	* dy);
+													if (tmpErg < erg) {
 														tmp = bug;
 														erg = tmpErg;
 													}
 												} else {
-													int dx = potPartner._x - bug._x;
-													int dy = potPartner._y - bug._y;
-													erg = Math.sqrt(dx * dx + dy * dy);
+													int dx = potPartner._x
+															- bug._x;
+													int dy = potPartner._y
+															- bug._y;
+													erg = Math.sqrt(dx * dx
+															+ dy * dy);
 													tmp = bug;
 												}
 											}
@@ -458,20 +467,26 @@ public class SCBug extends Bug {
 		int currHighestValue = -1;
 		if (this.getGrid() instanceof SCGrid) {
 			SCGrid grid = (SCGrid) this.getGrid();
-			for (int i = (this._x - helper.getVisionRadius()); i < (this._x + helper
-					.getVisionRadius()); i++) {
-				for (int j = (this._y - helper.getVisionRadius()); j < (this._y + helper
-						.getVisionRadius()); j++) {
-					if ((i < grid.getXSize()) && (j < grid.getYSize())) {
-						if (grid.getBug(i, j, 0) instanceof SCSugarBug) {
-							SCSugarBug tmp = (SCSugarBug) grid.getBug(i, j, 0);
-							int tmpVal = tmp.getCurrentAmountOfSugar();
-							if (tmpVal > currHighestValue) {
-								currHighestValue = tmpVal;
-								vec.clear();
-								vec.add(tmp);
-							} else if (tmpVal == currHighestValue) {
-								vec.add(tmp);
+			if (helper.extendedVonNeumannNeighborhood) {
+				// TODO
+				Vector<Integer> coords = new Vector<Integer>();
+			} else {
+				for (int i = (this._x - helper.getVisionRadius()); i < (this._x + helper
+						.getVisionRadius()); i++) {
+					for (int j = (this._y - helper.getVisionRadius()); j < (this._y + helper
+							.getVisionRadius()); j++) {
+						if ((i < grid.getXSize()) && (j < grid.getYSize())) {
+							if (grid.getBug(i, j, 0) instanceof SCSugarBug) {
+								SCSugarBug tmp = (SCSugarBug) grid.getBug(i, j,
+										0);
+								int tmpVal = tmp.getCurrentAmountOfSugar();
+								if (tmpVal > currHighestValue) {
+									currHighestValue = tmpVal;
+									vec.clear();
+									vec.add(tmp);
+								} else if (tmpVal == currHighestValue) {
+									vec.add(tmp);
+								}
 							}
 						}
 					}
@@ -491,13 +506,18 @@ public class SCBug extends Bug {
 		Vector<SCBug> vec = new Vector<SCBug>();
 		if (this.getGrid() instanceof SCGrid) {
 			SCGrid grid = (SCGrid) this.getGrid();
-			for (int i = (this._x - helper.getVisionRadius()); i < (this._x + helper
-					.getVisionRadius()); i++) {
-				for (int j = (this._y - helper.getVisionRadius()); j < (this._y + helper
-						.getVisionRadius()); j++) {
-					if ((i < grid.getXSize()) && (j < grid.getYSize())) {
-						if (grid.getBug(i, j, 1) instanceof SCBug) {
-							vec.add((SCBug) grid.getBug(i, j, 1));
+			if (helper.extendedVonNeumannNeighborhood) {
+				// TODO
+				Vector<Integer> coords = new Vector<Integer>();
+			} else {
+				for (int i = (this._x - helper.getVisionRadius()); i < (this._x + helper
+						.getVisionRadius()); i++) {
+					for (int j = (this._y - helper.getVisionRadius()); j < (this._y + helper
+							.getVisionRadius()); j++) {
+						if ((i < grid.getXSize()) && (j < grid.getYSize())) {
+							if (grid.getBug(i, j, 1) instanceof SCBug) {
+								vec.add((SCBug) grid.getBug(i, j, 1));
+							}
 						}
 					}
 				}
@@ -515,17 +535,22 @@ public class SCBug extends Bug {
 		Vector<SCBug> vec = new Vector<SCBug>();
 		if (this.getGrid() instanceof SCGrid) {
 			SCGrid grid = (SCGrid) this.getGrid();
-			for (int i = (this._x - helper.getVisionRadius()); i < (this._x + helper
-					.getVisionRadius()); i++) {
-				for (int j = (this._y - helper.getVisionRadius()); j < (this._y + helper
-						.getVisionRadius()); j++) {
-					if ((i < grid.getXSize()) && (j < grid.getYSize())) {
-						if (grid.getBug(i, j, 1) == null) {
-							SCBug newBug = new SCBug();
-							newBug._x = i;
-							newBug._y = j;
-							// newBug.moveBug(i, j, 1);
-							vec.add(newBug);
+			if (helper.extendedVonNeumannNeighborhood) {
+				// TODO
+				Vector<Integer> coords = new Vector<Integer>();
+			} else {
+				for (int i = (this._x - helper.getVisionRadius()); i < (this._x + helper
+						.getVisionRadius()); i++) {
+					for (int j = (this._y - helper.getVisionRadius()); j < (this._y + helper
+							.getVisionRadius()); j++) {
+						if ((i < grid.getXSize()) && (j < grid.getYSize())) {
+							if (grid.getBug(i, j, 1) == null) {
+								SCBug newBug = new SCBug();
+								newBug._x = i;
+								newBug._y = j;
+								// newBug.moveBug(i, j, 1);
+								vec.add(newBug);
+							}
 						}
 					}
 				}
@@ -682,19 +707,24 @@ public class SCBug extends Bug {
 		SCBug b = null;
 		if (this.getGrid() instanceof SCGrid) {
 			SCGrid grid = (SCGrid) this.getGrid();
-			for (int i = (this._x - helper.getVisionRadius()); i < (this._x + helper
-					.getVisionRadius()); i++) {
-				for (int j = (this._y - helper.getVisionRadius()); j < (this._y + helper
-						.getVisionRadius()); j++) {
-					if ((i < grid.getXSize()) && (j < grid.getYSize())) {
-						if ((grid.getBug(i, j, 1) == null)
-						/* && !(grid.getBug(i, j, 1) instanceof SCBug) */) {
-							b = new SCBug(0, initialSugar, getRandomSex(),
-									generation, parent1, parent2);
-							b.moveBug(i, j, 1);
-							b.join(grid);
-							b.updateDepiction();
-							return b;
+			if (helper.extendedVonNeumannNeighborhood) {
+				// TODO
+				Vector<Integer> coords = new Vector<Integer>();
+			} else {
+				for (int i = (this._x - helper.getVisionRadius()); i < (this._x + helper
+						.getVisionRadius()); i++) {
+					for (int j = (this._y - helper.getVisionRadius()); j < (this._y + helper
+							.getVisionRadius()); j++) {
+						if ((i < grid.getXSize()) && (j < grid.getYSize())) {
+							if ((grid.getBug(i, j, 1) == null)
+							/* && !(grid.getBug(i, j, 1) instanceof SCBug) */) {
+								b = new SCBug(0, initialSugar, getRandomSex(),
+										generation, parent1, parent2);
+								b.moveBug(i, j, 1);
+								b.join(grid);
+								b.updateDepiction();
+								return b;
+							}
 						}
 					}
 				}
@@ -790,41 +820,52 @@ public class SCBug extends Bug {
 		if (this.getGrid() instanceof SCGrid) {
 			SCGrid grid = (SCGrid) this.getGrid();
 			boolean rdy = false;
-			for (int i = (this._x - helper.getVisionRadiusReproduce()); (i < (this._x + helper
-					.getVisionRadiusReproduce()))
-					&& !rdy; i++) {
-				for (int j = (this._y - helper.getVisionRadiusReproduce()); (j < (this._y + helper
+			if (helper.extendedVonNeumannNeighborhood) {
+				// TODO
+				Vector<Integer> coords = new Vector<Integer>();
+			} else {
+				for (int i = (this._x - helper.getVisionRadiusReproduce()); (i < (this._x + helper
 						.getVisionRadiusReproduce()))
-						&& !rdy; j++) {
-					if ((i < grid.getXSize()) && (j < grid.getYSize())) {
-						if (grid.getBug(i, j, 1) instanceof SCBug) {
-							SCBug tmp = (SCBug) grid.getBug(i, j, 1);
-							if ((tmp.getSex() != this.getSex())
-									&& tmp.isFertile() && tmp.hasEnoughSugar()) {
-								// Get Neighbours from this Bug
-								Vector<SCBug> vec = new Vector<SCBug>();
-								vec = this.getNeighbours();
-								if ((vec != null) && (vec.size() > 0)) {
-									// Initial Sugar (Half of the Amount of
-									// Sugar of the Parents by its Birth)
-									int thisCurHalf = this.getInitialSugar() / 2;
-									int tmpCurHalf = tmp.getInitialSugar() / 2;
-									int gen = Math.max(this.generation,
-											tmp.generation);
-									for (int vi = 0; (vi < vec.size()) && !rdy; vi++) {
-										if (isInSight(vec.get(vi))) {
-											freePlaceBug = vec
-													.get(vi)
-													.setDescendantToFreeCoordinatesAround(
-															thisCurHalf
-																	+ tmpCurHalf,
-															gen + 1, this, tmp);
-											if (freePlaceBug != null) {
-												// Remove this Amount of Sugar
-												// from the Parents
-												this.removeSugar(thisCurHalf);
-												tmp.removeSugar(tmpCurHalf);
-												rdy = true;
+						&& !rdy; i++) {
+					for (int j = (this._y - helper.getVisionRadiusReproduce()); (j < (this._y + helper
+							.getVisionRadiusReproduce()))
+							&& !rdy; j++) {
+						if ((i < grid.getXSize()) && (j < grid.getYSize())) {
+							if (grid.getBug(i, j, 1) instanceof SCBug) {
+								SCBug tmp = (SCBug) grid.getBug(i, j, 1);
+								if ((tmp.getSex() != this.getSex())
+										&& tmp.isFertile()
+										&& tmp.hasEnoughSugar()) {
+									// Get Neighbours from this Bug
+									Vector<SCBug> vec = new Vector<SCBug>();
+									vec = this.getNeighbours();
+									if ((vec != null) && (vec.size() > 0)) {
+										// Initial Sugar (Half of the Amount of
+										// Sugar of the Parents by its Birth)
+										int thisCurHalf = this
+												.getInitialSugar() / 2;
+										int tmpCurHalf = tmp.getInitialSugar() / 2;
+										int gen = Math.max(this.generation,
+												tmp.generation);
+										for (int vi = 0; (vi < vec.size())
+												&& !rdy; vi++) {
+											if (isInSight(vec.get(vi))) {
+												freePlaceBug = vec
+														.get(vi)
+														.setDescendantToFreeCoordinatesAround(
+																thisCurHalf
+																		+ tmpCurHalf,
+																gen + 1, this,
+																tmp);
+												if (freePlaceBug != null) {
+													// Remove this Amount of
+													// Sugar
+													// from the Parents
+													this
+															.removeSugar(thisCurHalf);
+													tmp.removeSugar(tmpCurHalf);
+													rdy = true;
+												}
 											}
 										}
 									}
