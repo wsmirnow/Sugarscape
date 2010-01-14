@@ -52,7 +52,7 @@ public class SCHelper extends Agent {
 	/**
 	 * Expansion Ratio in between [0, 1]
 	 */
-	public double expansionRatio = 0.2; // a
+	public double expansionRatio = 0.1; // a
 
 	/**
 	 * Mode for "Aufgabe" No. 2
@@ -161,7 +161,11 @@ public class SCHelper extends Agent {
 	 * @return a random Integer between 0 and upperLimit
 	 */
 	public int getRandomInt(int upperLimit) {
-		return (int) (Math.random() * (upperLimit + 1));
+		if (upperLimit > 0){ 
+			return (int) (Math.random() * (upperLimit + 1));
+		}else{
+			return getError();
+		}
 	}
 
 	/**

@@ -38,6 +38,8 @@ import eawag.grid.Depiction;
 public class SCBug extends Bug {
 
 	private static final SCHelper helper = new SCHelper();
+	private static int deathCount = 0;
+	private static int deathAge = 0;
 
 	/************************************************/
 	// Private Variables
@@ -128,16 +130,6 @@ public class SCBug extends Bug {
 			die();
 		} else {
 			this.currAge++;
-			// Consume Sugar every metabolism Timesteps
-			if (this.currMB >= helper.getMetabolism()) {
-				this.removeSugar(helper.getSugarConsumingRatio());
-				if (this.currWealth < 0) {
-					this.currWealth = 0;
-				}
-				this.currMB = 0;
-			} else {
-				this.currMB++;
-			}
 
 			// Get Sugar from the SCSugarBug every getSugarStep Timesteps
 			if (this.currGetSugarStep >= helper.getGetSugarStep()) {
@@ -161,6 +153,17 @@ public class SCBug extends Bug {
 					this.descendants.add(descendant);
 					numberOfDescendants++;
 				}
+			}
+			
+			// Consume Sugar every metabolism Timesteps
+			if (this.currMB >= helper.getMetabolism()) {
+				this.removeSugar(helper.getSugarConsumingRatio());
+				if (this.currWealth < 0) {
+					this.currWealth = 0;
+				}
+				this.currMB = 0;
+			} else {
+				this.currMB++;
 			}
 
 			// Move around
@@ -372,6 +375,24 @@ public class SCBug extends Bug {
 	 */
 	public int getMaxAge() {
 		return this.maxAge;
+	}
+	
+	/**
+	 * Returns the number of died Agents
+	 * 
+	 * @return number of died Agents
+	 */
+	public int getDeadAgents(){
+		return deathCount;
+	}
+	
+	/**
+	 * Returns the sum of dyingages
+	 * 
+	 * @return sum of dyingages
+	 */
+	public int getDyingAge(){
+		return deathAge;
 	}
 
 	/**
@@ -769,6 +790,9 @@ public class SCBug extends Bug {
 				}
 			}
 		}
+		//Count
+		deathCount++;
+		deathAge += this.getCurrAge();
 		// Leave the Field
 		this.leave();
 	}
