@@ -29,8 +29,16 @@ package scr;
 import eawag.chart.Chart;
 import eawag.grid.Bug;
 
-public class SCChartWealth extends Chart{
-	
+/**
+ * Helper
+ * 
+ * @author Stefan H., Waldemar S.
+ */
+public class SCChartWealth extends Chart {
+
+	/**
+	 * Grid
+	 */
 	public SCGrid grid;
 
 	/**
@@ -69,7 +77,7 @@ public class SCChartWealth extends Chart{
 		wealth = count > 0 ? wealth / count : 0;
 		minWealth = count > 0 ? minWealth : 0;
 		maxWealth = count > 0 ? maxWealth : 0;
-		
+
 		lineTo("Durchschnitt", Chart.TYPE_LINE, grid.getTop().getTime(), wealth);
 		lineTo("Min", Chart.TYPE_LINE, grid.getTop().getTime(), minWealth);
 		lineTo("Max", Chart.TYPE_LINE, grid.getTop().getTime(), maxWealth);

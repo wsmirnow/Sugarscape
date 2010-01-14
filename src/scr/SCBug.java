@@ -154,7 +154,7 @@ public class SCBug extends Bug {
 					numberOfDescendants++;
 				}
 			}
-			
+
 			// Consume Sugar every metabolism Timesteps
 			if (this.currMB >= helper.getMetabolism()) {
 				this.removeSugar(helper.getSugarConsumingRatio());
@@ -376,22 +376,22 @@ public class SCBug extends Bug {
 	public int getMaxAge() {
 		return this.maxAge;
 	}
-	
+
 	/**
 	 * Returns the number of died Agents
 	 * 
 	 * @return number of died Agents
 	 */
-	public int getDeadAgents(){
+	public int getDeadAgents() {
 		return deathCount;
 	}
-	
+
 	/**
 	 * Returns the sum of dyingages
 	 * 
 	 * @return sum of dyingages
 	 */
-	public int getDyingAge(){
+	public int getDyingAge() {
 		return deathAge;
 	}
 
@@ -790,7 +790,7 @@ public class SCBug extends Bug {
 				}
 			}
 		}
-		//Count
+		// Count
 		deathCount++;
 		deathAge += this.getCurrAge();
 		// Leave the Field

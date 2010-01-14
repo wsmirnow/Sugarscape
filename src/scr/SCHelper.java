@@ -159,9 +159,9 @@ public class SCHelper {
 	 * @return a random Integer between 0 and upperLimit
 	 */
 	public int getRandomInt(int upperLimit) {
-		if (upperLimit > 0){ 
+		if (upperLimit > 0) {
 			return (int) (Math.random() * (upperLimit + 1));
-		}else{
+		} else {
 			return getError();
 		}
 	}
