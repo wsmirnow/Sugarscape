@@ -306,44 +306,34 @@ public class SCBug extends Bug {
 	/************************************************/
 
 	/**
-	 * Returns the extended Von Neumann Neighborhood-X-Coordinates around this
-	 * Bug
+	 * Returns a Vector with the Coordinates of the Von-Neumann-Neighborhood
+	 * around this Bug
 	 * 
-	 * @return the extended Von Neumann Neighborhood-Y-Coordinates around this
-	 *         Bug
+	 * @return a Vector with the Coordinates of the Von-Neumann-Neighborhood
+	 *         around this Bug
 	 */
-	public Vector<Integer> getExtendedVonNeumannXCoordinatesAround() {
-		Vector<Integer> vec = new Vector<Integer>();
+	public Vector<int[]> getExtendedVonNeumannCoordinatesAround() {
+		Vector<int[]> vec = new Vector<int[]>();
 		if (this.getGrid() instanceof SCGrid) {
 			SCGrid grid = (SCGrid) this.getGrid();
 			// down + top
-			for (int i = (this._x - helper.getVisionRadius()); i < (this._x + helper
+			for (int i = (this._x - helper.getVisionRadius()); i <= (this._x + helper
 					.getVisionRadius()); i++) {
 				if ((i != this._x) && (i < grid.getXSize())) {
-					vec.add(i);
+					int arr[] = new int[2];
+					arr[0] = i;
+					arr[1] = this._y;
+					vec.add(arr);
 				}
 			}
-		}
-
-		return vec;
-	}
-
-	/**
-	 * Returns the extended Von Neumann Neighborhood-Y-Coordinates around this
-	 * Bug
-	 * 
-	 * @return the extended Von Neumann Neighborhood-Y-Coordinates around this
-	 *         Bug
-	 */
-	public Vector<Integer> getExtendedVonNeumannYCoordinatesAround() {
-		Vector<Integer> vec = new Vector<Integer>();
-		if (this.getGrid() instanceof SCGrid) {
-			SCGrid grid = (SCGrid) this.getGrid();
 			// left + right
-			for (int j = (this._y - helper.getVisionRadius()); j < (this._y + helper
-					.getVisionRadius()); j++) {
-				if ((j != this._y) && (j < grid.getYSize())) {
-					vec.add(j);
+			for (int i = (this._y - helper.getVisionRadius()); i <= (this._y + helper
+					.getVisionRadius()); i++) {
+				if ((i != this._y) && (i < grid.getYSize())) {
+					int arr[] = new int[2];
+					arr[0] = this._x;
+					arr[1] = i;
+					vec.add(arr);
 				}
 			}
 		}
@@ -485,36 +475,17 @@ public class SCBug extends Bug {
 		int currHighestValue = -1;
 		if (this.getGrid() instanceof SCGrid) {
 			SCGrid grid = (SCGrid) this.getGrid();
-			if (helper.extendedVonNeumannNeighborhood) {
-				Vector<Integer> xCoords = new Vector<Integer>();
-				Vector<Integer> yCoords = new Vector<Integer>();
-				xCoords = getExtendedVonNeumannXCoordinatesAround();
-				yCoords = getExtendedVonNeumannYCoordinatesAround();
-				if (!xCoords.isEmpty()) {
-					for (int i = 0; i < xCoords.size(); i++) {
-						if (i < grid.getXSize()) {
-							if (grid.getBug(i, this._y, 0) instanceof SCSugarBug) {
-								SCSugarBug tmp = (SCSugarBug) grid.getBug(i,
-										this._y, 0);
-								int tmpVal = tmp.getCurrentAmountOfSugar();
-								if (tmpVal > currHighestValue) {
-									currHighestValue = tmpVal;
-									vec.clear();
-									vec.add(tmp);
-								} else if (tmpVal == currHighestValue) {
-									vec.add(tmp);
-								}
-							}
-						}
-					}
-				}
-				currHighestValue = -1;
-				if (!yCoords.isEmpty()) {
-					for (int i = 0; i < yCoords.size(); i++) {
-						if (i < grid.getYSize()) {
-							if (grid.getBug(this._x, i, 0) instanceof SCSugarBug) {
+			if (helper.getExtendedVonNeumannNeighborhood()) {
+				Vector<int[]> coords = new Vector<int[]>();
+				coords = getExtendedVonNeumannCoordinatesAround();
+				if (!coords.isEmpty()) {
+					for (int i = 0; i < coords.size(); i++) {
+						if ((coords.get(i)[0] < grid.getXSize())
+								&& (coords.get(i)[1] < grid.getYSize())) {
+							if (grid.getBug(coords.get(i)[0], coords.get(i)[1],
+									0) instanceof SCSugarBug) {
 								SCSugarBug tmp = (SCSugarBug) grid.getBug(
-										this._x, i, 0);
+										coords.get(i)[0], coords.get(i)[1], 0);
 								int tmpVal = tmp.getCurrentAmountOfSugar();
 								if (tmpVal > currHighestValue) {
 									currHighestValue = tmpVal;
@@ -563,25 +534,17 @@ public class SCBug extends Bug {
 		Vector<SCBug> vec = new Vector<SCBug>();
 		if (this.getGrid() instanceof SCGrid) {
 			SCGrid grid = (SCGrid) this.getGrid();
-			if (helper.extendedVonNeumannNeighborhood) {
-				Vector<Integer> xCoords = new Vector<Integer>();
-				Vector<Integer> yCoords = new Vector<Integer>();
-				xCoords = getExtendedVonNeumannXCoordinatesAround();
-				yCoords = getExtendedVonNeumannYCoordinatesAround();
-				if (!xCoords.isEmpty()) {
-					for (int i = 0; i < xCoords.size(); i++) {
-						if (i < grid.getXSize()) {
-							if (grid.getBug(i, this._y, 1) instanceof SCBug) {
-								vec.add((SCBug) grid.getBug(i, this._y, 1));
-							}
-						}
-					}
-				}
-				if (!yCoords.isEmpty()) {
-					for (int i = 0; i < yCoords.size(); i++) {
-						if (i < grid.getYSize()) {
-							if (grid.getBug(this._x, i, 1) instanceof SCBug) {
-								vec.add((SCBug) grid.getBug(this._x, i, 1));
+			if (helper.getExtendedVonNeumannNeighborhood()) {
+				Vector<int[]> coords = new Vector<int[]>();
+				coords = getExtendedVonNeumannCoordinatesAround();
+				if (!coords.isEmpty()) {
+					for (int i = 0; i < coords.size(); i++) {
+						if ((coords.get(i)[0] < grid.getXSize())
+								&& (coords.get(i)[1] < grid.getYSize())) {
+							if (grid.getBug(coords.get(i)[0], coords.get(i)[1],
+									1) instanceof SCBug) {
+								vec.add((SCBug) grid.getBug(coords.get(i)[0],
+										coords.get(i)[1], 1));
 							}
 						}
 					}
@@ -612,32 +575,18 @@ public class SCBug extends Bug {
 		Vector<SCBug> vec = new Vector<SCBug>();
 		if (this.getGrid() instanceof SCGrid) {
 			SCGrid grid = (SCGrid) this.getGrid();
-			if (helper.extendedVonNeumannNeighborhood) {
-				Vector<Integer> xCoords = new Vector<Integer>();
-				Vector<Integer> yCoords = new Vector<Integer>();
-				xCoords = getExtendedVonNeumannXCoordinatesAround();
-				yCoords = getExtendedVonNeumannYCoordinatesAround();
-				if (!xCoords.isEmpty()) {
-					for (int i = 0; i < xCoords.size(); i++) {
-						if (i < grid.getXSize()) {
-							if (grid.getBug(i, this._y, 1) == null) {
+			if (helper.getExtendedVonNeumannNeighborhood()) {
+				Vector<int[]> coords = new Vector<int[]>();
+				coords = getExtendedVonNeumannCoordinatesAround();
+				if (!coords.isEmpty()) {
+					for (int i = 0; i < coords.size(); i++) {
+						if ((coords.get(i)[0] < grid.getXSize())
+								&& (coords.get(i)[1] < grid.getYSize())) {
+							if (grid.getBug(coords.get(i)[0], coords.get(i)[1],
+									1) == null) {
 								SCBug newBug = new SCBug();
-								newBug._x = i;
-								newBug._y = this._y;
-								// newBug.moveBug(i, 0, 1);
-								vec.add(newBug);
-							}
-						}
-					}
-				}
-				if (!yCoords.isEmpty()) {
-					for (int i = 0; i < yCoords.size(); i++) {
-						if (i < grid.getYSize()) {
-							if (grid.getBug(this._x, i, 1) == null) {
-								SCBug newBug = new SCBug();
-								newBug._x = this._x;
-								newBug._y = i;
-								// newBug.moveBug(0, i, 1);
+								newBug._x = coords.get(i)[0];
+								newBug._y = coords.get(i)[1];
 								vec.add(newBug);
 							}
 						}
@@ -813,49 +762,23 @@ public class SCBug extends Bug {
 		if (this.getGrid() instanceof SCGrid) {
 			SCGrid grid = (SCGrid) this.getGrid();
 			Vector<SCBug> bugs = new Vector<SCBug>();
-			if (helper.extendedVonNeumannNeighborhood) {
-				Vector<Integer> xCoords = new Vector<Integer>();
-				Vector<Integer> yCoords = new Vector<Integer>();
-				xCoords = getExtendedVonNeumannXCoordinatesAround();
-				yCoords = getExtendedVonNeumannYCoordinatesAround();
-				if (!xCoords.isEmpty()) {
-					for (int i = 0; i < xCoords.size(); i++) {
-						if (i < grid.getXSize()) {
-							if ((grid.getBug(i, this._y, 1) == null)
-							/* && !(grid.getBug(i, this._y, 1) instanceof SCBug) */) {
+			if (helper.getExtendedVonNeumannNeighborhood()) {
+				Vector<int[]> coords = new Vector<int[]>();
+				coords = getExtendedVonNeumannCoordinatesAround();
+				if (!coords.isEmpty()) {
+					for (int i = 0; i < coords.size(); i++) {
+						if ((coords.get(i)[0] < grid.getXSize())
+								&& (coords.get(i)[1] < grid.getYSize())) {
+							if ((grid.getBug(coords.get(i)[0],
+									coords.get(i)[1], 1) == null)) {
 								b = new SCBug(0, initialSugar, getRandomSex(),
 										generation, parent1, parent2);
-								b._x = i;
-								b._y = this._y;
+								b._x = coords.get(i)[0];
+								b._y = coords.get(i)[1];
 								bugs.add(b);
 							}
 						}
 					}
-				}
-				if (!yCoords.isEmpty()) {
-					for (int i = 0; i < yCoords.size(); i++) {
-						if (i < grid.getYSize()) {
-							if ((grid.getBug(this._x, i, 1) == null)
-							/* && !(grid.getBug(this._x, i, 1) instanceof SCBug) */) {
-								b = new SCBug(0, initialSugar, getRandomSex(),
-										generation, parent1, parent2);
-								b._x = this._x;
-								b._y = i;
-								bugs.add(b);
-							}
-						}
-					}
-				}
-				if (!bugs.isEmpty()) {
-					int rand = helper.getRandomIntWithinLimits(0,
-							bugs.size() - 1);
-					bugs.get(rand).moveBug(bugs.get(rand)._x,
-							bugs.get(rand)._y, 1);
-					bugs.get(rand).join(grid);
-					bugs.get(rand).updateDepiction();
-					return bugs.get(rand);
-				} else {
-					return null;
 				}
 			} else {
 				for (int i = (this._x - helper.getVisionRadius()); i < (this._x + helper
@@ -1029,21 +952,13 @@ public class SCBug extends Bug {
 	private SCBug reproduce() {
 		SCBug freePlaceBug = null;
 		boolean rdy = false;
-		if (helper.extendedVonNeumannNeighborhood) {
-			Vector<Integer> xCoords = new Vector<Integer>();
-			Vector<Integer> yCoords = new Vector<Integer>();
-			xCoords = getExtendedVonNeumannXCoordinatesAround();
-			yCoords = getExtendedVonNeumannYCoordinatesAround();
-			if (!xCoords.isEmpty()) {
-				for (int i = 0; i < xCoords.size(); i++) {
-					if (!((freePlaceBug = moveNewBug(i, this._y)) == null)) {
-						return freePlaceBug;
-					}
-				}
-			}
-			if (!yCoords.isEmpty()) {
-				for (int i = 0; i < yCoords.size(); i++) {
-					if (!((freePlaceBug = moveNewBug(this._x, i)) == null)) {
+		if (helper.getExtendedVonNeumannNeighborhood()) {
+			Vector<int[]> coords = new Vector<int[]>();
+			coords = getExtendedVonNeumannCoordinatesAround();
+			if (!coords.isEmpty()) {
+				for (int i = 0; i < coords.size(); i++) {
+					if (!((freePlaceBug = moveNewBug(coords.get(i)[0], coords
+							.get(i)[1])) == null)) {
 						return freePlaceBug;
 					}
 				}

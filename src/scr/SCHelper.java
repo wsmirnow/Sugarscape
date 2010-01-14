@@ -45,7 +45,7 @@ public class SCHelper {
 	/**
 	 * Extended Von Neumann Neighborhood or every neighboor
 	 */
-	public boolean extendedVonNeumannNeighborhood = false;
+	public boolean extendedVonNeumannNeighborhood = true;
 
 	/**
 	 * Max. Amount of Sugar in 1 SugarAgent
@@ -93,8 +93,8 @@ public class SCHelper {
 	public int visionRadius = 4;
 
 	/**
-	 * Field of Vision Radius of extended Moore Neighbourhood at Reproduce TODO
-	 * hochsetzen, um mehr Generationen zu bekommen
+	 * Field of Vision Radius of extended Moore Neighbourhood at Reproduce
+	 * (TODO) hochsetzen, um mehr Generationen zu bekommen
 	 */
 	public int visionRadiusReproduce = 4;
 
@@ -327,7 +327,7 @@ public class SCHelper {
 	 * 
 	 * @return var
 	 */
-	public boolean extendedVonNeumannNeighborhood() {
+	public boolean getExtendedVonNeumannNeighborhood() {
 		return extendedVonNeumannNeighborhood;
 	}
 
