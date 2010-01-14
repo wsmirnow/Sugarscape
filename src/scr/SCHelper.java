@@ -50,12 +50,12 @@ public class SCHelper {
 	/**
 	 * Expansion Ratio in between [0, 1]
 	 */
-	public double expansionRatio = 0.5; // a
+	public double expansionRatio = 0.2; // a
 
 	/**
 	 * Mode for "Aufgabe" No. 2
 	 */
-	public boolean searchActiveForPartner = false;
+	public boolean searchActiveForPartner = true;
 
 	/**
 	 * The Movement Speed (per Timestep)
