@@ -124,7 +124,7 @@ public class SCBug extends Bug {
 	 * Action-Function
 	 */
 	public void action() {
-		// Increase the Age
+		// Too old to live?
 		if ((this.currAge >= this.maxAge) || (this.currWealth <= 0)) {
 			// This Bug has to die, it is too old or has no Sugar!
 			die();
@@ -192,79 +192,72 @@ public class SCBug extends Bug {
 		if (this.getGrid() instanceof SCGrid) {
 			SCGrid grid = (SCGrid) this.getGrid();
 			if (grid.getBug(this._x, this._y, 0) instanceof SCSugarBug) {
-				if (((SCSugarBug) grid.getBug(this._x, this._y, 0))
-						.getCurrentAmountOfSugar() <= 0) {
-					boolean found = false;
-					// Search Active for a Partner
-					if (helper.searchActiveForPartner()) {
-						SCBug bug = null;
-						Vector<SCBug> neighbours = new Vector<SCBug>();
-						neighbours = this.getNeighbours();
-						// If there are Neighbors
-						if ((neighbours != null) && !neighbours.isEmpty()) {
-							for (int i = 0; (i < neighbours.size()) && !found; i++) {
-								// If a Neighbor fits as a Partner
-								if ((neighbours.get(i).getSex() != this
-										.getSex())
-										&& neighbours.get(i).isFertile()
-										&& neighbours.get(i).hasEnoughSugar()) {
-									SCBug potPartner = neighbours.get(i);
-									// Get free Places around the Partner
-									Vector<SCBug> freePlaces = new Vector<SCBug>();
-									freePlaces = neighbours.get(i)
-											.getFreePlacesAround();
-									// If free Places around the potential
-									// Partner exist
-									if ((freePlaces != null)
-											&& !freePlaces.isEmpty()) {
-										// Get closest Point to the potential
-										// Partner
-										SCBug tmp = null;
-										double erg = 1000.0;
-										for (int j = 0; j < freePlaces.size(); j++) {
-											bug = freePlaces.get(j);
-											if ((bug != null) && isInSight(bug)) {
-												if (tmp != null) {
-													double tmpErg = bugDistance(
-															potPartner, bug);
-													if (tmpErg < erg) {
-														tmp = bug;
-														erg = tmpErg;
-													}
-												} else {
-													erg = bugDistance(
-															potPartner, bug);
-													tmp = bug;
-												}
+				boolean found = false;
+				// Search Active for a Partner
+				if (helper.searchActiveForPartner()
+						&& (((SCSugarBug) grid.getBug(this._x, this._y, 0))
+								.getCurrentAmountOfSugar() <= helper.searchActiveForPartnerSugarMiningLimit)) {
+					SCBug bug = null;
+					Vector<SCBug> neighbours = new Vector<SCBug>();
+					neighbours = this.getNeighbours();
+					// If there are Neighbors
+					if ((neighbours != null) && !neighbours.isEmpty()) {
+						for (int i = 0; (i < neighbours.size()) && !found; i++) {
+							// If a Neighbor fits as a Partner
+							if ((neighbours.get(i).getSex() != this.getSex())
+									&& neighbours.get(i).isFertile()
+									&& neighbours.get(i).hasEnoughSugar()) {
+								SCBug potPartner = neighbours.get(i);
+								// Get free Places around the Partner
+								Vector<SCBug> freePlaces = new Vector<SCBug>();
+								freePlaces = neighbours.get(i)
+										.getFreePlacesAround();
+								// If free Places around the potential
+								// Partner exist
+								if ((freePlaces != null)
+										&& !freePlaces.isEmpty()) {
+									// Get closest Point to the potential
+									// Partner
+									double erg = Integer.MAX_VALUE;
+									for (int j = 0; j < freePlaces.size(); j++) {
+										SCBug tmp = freePlaces.get(j);
+										if ((tmp != null) && isInSight(tmp)) {
+											double tmpErg = bugDistance(
+													potPartner, tmp)
+													+ bugDistance(tmp, this);
+											if (tmpErg < erg) {
+												bug = tmp;
+												erg = tmpErg;
 											}
 										}
-										bug = tmp;
-										// If the free Place is in Sight of this
-										// Bug
-										if ((bug != null) && isInSight(bug)) {
-											// Move
-											this.moveBug(bug._x, bug._y, 1);
-											found = true;
-										}
+									}
+									// If the free Place is in Sight of this
+									// Bug
+									if ((bug != null) && isInSight(bug)) {
+										// Move
+										this.moveBug(bug._x, bug._y, 1);
+										found = true;
 									}
 								}
 							}
 						}
 					}
-					// If no Partner with free Space around found or
-					// "Search Active for a Partner" is not active
-					if (!found) {
-						SCSugarBug sugarBug = null;
-						// Move Bug to the Field with the highest Amount o
-						// Sugar
-						Vector<SCSugarBug> vec = new Vector<SCSugarBug>();
-						vec = getHighestAmountOfSugar(helper.getVisionRadius());
-						int rand = helper.getRandomIntWithinLimits(0, vec
-								.size() - 1);
-						sugarBug = vec.get(rand);
-						if (sugarBug != null) {
-							this.moveBug(sugarBug._x, sugarBug._y, 1);
-						}
+				}
+				// If no Partner with free Space around found or
+				// "Search Active for a Partner" is not active
+				if (!found
+						&& (((SCSugarBug) grid.getBug(this._x, this._y, 0))
+								.getCurrentAmountOfSugar() <= 0)) {
+					SCSugarBug sugarBug = null;
+					// Move Bug to the Field with the highest Amount o
+					// Sugar
+					Vector<SCSugarBug> vec = new Vector<SCSugarBug>();
+					vec = getHighestAmountOfSugar(helper.getVisionRadius());
+					int rand = helper.getRandomIntWithinLimits(0,
+							vec.size() - 1);
+					sugarBug = vec.get(rand);
+					if (sugarBug != null) {
+						this.moveBug(sugarBug._x, sugarBug._y, 1);
 					}
 				}
 			}
@@ -579,40 +572,32 @@ public class SCBug extends Bug {
 		Vector<SCBug> vec = new Vector<SCBug>();
 		if (this.getGrid() instanceof SCGrid) {
 			SCGrid grid = (SCGrid) this.getGrid();
-			if (helper.getExtendedVonNeumannNeighborhood()) {
-				Vector<int[]> coords = new Vector<int[]>();
-				coords = getExtendedVonNeumannCoordinatesAround();
-				if (!coords.isEmpty()) {
-					for (int i = 0; i < coords.size(); i++) {
-						if ((coords.get(i)[0] < grid.getXSize())
-								&& (coords.get(i)[1] < grid.getYSize())) {
-							if (grid.getBug(coords.get(i)[0], coords.get(i)[1],
-									1) == null) {
-								SCBug newBug = new SCBug();
-								newBug._x = coords.get(i)[0];
-								newBug._y = coords.get(i)[1];
-								vec.add(newBug);
-							}
-						}
-					}
-				}
-			} else {
-				for (int i = (this._x - helper.getVisionRadius()); i < (this._x + helper
-						.getVisionRadius()); i++) {
-					for (int j = (this._y - helper.getVisionRadius()); j < (this._y + helper
-							.getVisionRadius()); j++) {
-						if ((i < grid.getXSize()) && (j < grid.getYSize())) {
-							if (grid.getBug(i, j, 1) == null) {
-								SCBug newBug = new SCBug();
-								newBug._x = i;
-								newBug._y = j;
-								// newBug.moveBug(i, j, 1);
-								vec.add(newBug);
-							}
+			/*
+			 * if (helper.getExtendedVonNeumannNeighborhood()) { Vector<int[]>
+			 * coords = new Vector<int[]>(); coords =
+			 * getExtendedVonNeumannCoordinatesAround(); if (!coords.isEmpty())
+			 * { for (int i = 0; i < coords.size(); i++) { if ((coords.get(i)[0]
+			 * < grid.getXSize()) && (coords.get(i)[1] < grid.getYSize())) { if
+			 * (grid.getBug(coords.get(i)[0], coords.get(i)[1], 1) == null) {
+			 * SCBug newBug = new SCBug(); newBug._x = coords.get(i)[0];
+			 * newBug._y = coords.get(i)[1]; vec.add(newBug); } } } } } else {
+			 */
+			for (int i = (this._x - helper.getVisionRadius()); i < (this._x + helper
+					.getVisionRadius()); i++) {
+				for (int j = (this._y - helper.getVisionRadius()); j < (this._y + helper
+						.getVisionRadius()); j++) {
+					if ((i < grid.getXSize()) && (j < grid.getYSize())) {
+						if (grid.getBug(i, j, 1) == null) {
+							SCBug newBug = new SCBug();
+							newBug._x = i;
+							newBug._y = j;
+							// newBug.moveBug(i, j, 1);
+							vec.add(newBug);
 						}
 					}
 				}
 			}
+			// }
 		}
 		return vec;
 	}

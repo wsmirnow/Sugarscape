@@ -43,7 +43,7 @@ public class SCHelper {
 	public boolean extendedVonNeumannNeighborhood = false;
 
 	/**
-	 * Flag for active Search fo a Partner
+	 * Flag for active Search for a Partner
 	 */
 	public boolean searchActiveForPartner = true;
 
@@ -51,6 +51,11 @@ public class SCHelper {
 	 * Field of Vision Radius of extended Moore Neighbourhood at Reproduce
 	 */
 	public int visionRadiusReproduce = 4;
+
+	/**
+	 * Field of Vision Radius of extended Moore Neighbourhood
+	 */
+	public int visionRadius = 4;
 
 	/**
 	 * Expansion Ratio in between [0, 1]
@@ -63,9 +68,9 @@ public class SCHelper {
 	public int metabolism = 2;
 
 	/**
-	 * Field of Vision Radius of extended Moore Neighbourhood
+	 * Displays since what amount of Sugar the Bug must move
 	 */
-	public int visionRadius = 4;
+	public int searchActiveForPartnerSugarMiningLimit = 3;
 
 	/**
 	 * Error Representation
@@ -220,6 +225,15 @@ public class SCHelper {
 	 */
 	public boolean searchActiveForPartner() {
 		return searchActiveForPartner;
+	}
+
+	/**
+	 * Getter
+	 * 
+	 * @return var
+	 */
+	public int searchActiveForPartnerSugarMiningLimit() {
+		return searchActiveForPartnerSugarMiningLimit;
 	}
 
 	/**
