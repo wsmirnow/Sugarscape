@@ -194,7 +194,8 @@ public class SCBug extends Bug {
 			if (grid.getBug(this._x, this._y, 0) instanceof SCSugarBug) {
 				boolean found = false;
 				// Search Active for a Partner
-				if (helper.searchActiveForPartner()
+				if (this.isFertile()
+						&& helper.searchActiveForPartner()
 						&& (((SCSugarBug) grid.getBug(this._x, this._y, 0))
 								.getCurrentAmountOfSugar() <= helper.searchActiveForPartnerSugarMiningLimit)) {
 					SCBug bug = null;
@@ -245,9 +246,10 @@ public class SCBug extends Bug {
 				}
 				// If no Partner with free Space around found or
 				// "Search Active for a Partner" is not active
-				if (!found
-						&& (((SCSugarBug) grid.getBug(this._x, this._y, 0))
-								.getCurrentAmountOfSugar() <= 0)) {
+				if ((!found && helper.searchActiveForPartner())
+						|| (!found && !helper.searchActiveForPartner() && (((SCSugarBug) grid
+								.getBug(this._x, this._y, 0))
+								.getCurrentAmountOfSugar() <= 0))) {
 					SCSugarBug sugarBug = null;
 					// Move Bug to the Field with the highest Amount o
 					// Sugar
