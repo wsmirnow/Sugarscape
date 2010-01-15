@@ -45,13 +45,13 @@ public class SCHelper {
 	/**
 	 * Flag for active Search fo a Partner
 	 */
-	public boolean searchActiveForPartner = false;
+	public boolean searchActiveForPartner = true;
 
 	/**
 	 * Field of Vision Radius of extended Moore Neighbourhood at Reproduce
 	 */
 	public int visionRadiusReproduce = 4;
-	
+
 	/**
 	 * Expansion Ratio in between [0, 1]
 	 */
@@ -66,17 +66,6 @@ public class SCHelper {
 	 * Field of Vision Radius of extended Moore Neighbourhood
 	 */
 	public int visionRadius = 4;
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
 	/**
 	 * Error Representation

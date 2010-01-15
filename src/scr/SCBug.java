@@ -172,6 +172,19 @@ public class SCBug extends Bug {
 	}
 
 	/**
+	 * Returns the Distance between 2 Bugs
+	 * 
+	 * @param b1
+	 * @param b2
+	 * @return the Distance between 2 Bugs
+	 */
+	private double bugDistance(SCBug b1, SCBug b2) {
+		int dx = b1._x - b2._x;
+		int dy = b1._y - b2._y;
+		return Math.sqrt(dx * dx + dy * dy);
+	}
+
+	/**
 	 * Moves the Agent: If no more Sugar at the current Place 1. Move to the
 	 * Place with the highest Amount of Sugar OR 2. Search active for a Partner
 	 */
@@ -187,10 +200,10 @@ public class SCBug extends Bug {
 						SCBug bug = null;
 						Vector<SCBug> neighbours = new Vector<SCBug>();
 						neighbours = this.getNeighbours();
-						// If there are Neighbours
+						// If there are Neighbors
 						if ((neighbours != null) && !neighbours.isEmpty()) {
 							for (int i = 0; (i < neighbours.size()) && !found; i++) {
-								// If a Neighbour fits as a Partner
+								// If a Neighbor fits as a Partner
 								if ((neighbours.get(i).getSex() != this
 										.getSex())
 										&& neighbours.get(i).isFertile()
@@ -201,7 +214,7 @@ public class SCBug extends Bug {
 									freePlaces = neighbours.get(i)
 											.getFreePlacesAround();
 									// If free Places around the potential
-									// Partner found
+									// Partner exist
 									if ((freePlaces != null)
 											&& !freePlaces.isEmpty()) {
 										// Get closest Point to the potential
@@ -210,26 +223,17 @@ public class SCBug extends Bug {
 										double erg = 1000.0;
 										for (int j = 0; j < freePlaces.size(); j++) {
 											bug = freePlaces.get(j);
-											if (bug != null) {
+											if ((bug != null) && isInSight(bug)) {
 												if (tmp != null) {
-													int dx = potPartner._x
-															- bug._x;
-													int dy = potPartner._y
-															- bug._y;
-													double tmpErg = Math
-															.sqrt(dx * dx + dy
-																	* dy);
+													double tmpErg = bugDistance(
+															potPartner, bug);
 													if (tmpErg < erg) {
 														tmp = bug;
 														erg = tmpErg;
 													}
 												} else {
-													int dx = potPartner._x
-															- bug._x;
-													int dy = potPartner._y
-															- bug._y;
-													erg = Math.sqrt(dx * dx
-															+ dy * dy);
+													erg = bugDistance(
+															potPartner, bug);
 													tmp = bug;
 												}
 											}
@@ -240,8 +244,8 @@ public class SCBug extends Bug {
 										if ((bug != null) && isInSight(bug)) {
 											// Move
 											this.moveBug(bug._x, bug._y, 1);
+											found = true;
 										}
-										found = true;
 									}
 								}
 							}
@@ -743,7 +747,7 @@ public class SCBug extends Bug {
 	}
 
 	/**
-	 * Returns a SCBug with where the free Coordinates are
+	 * Sets a new Bug around this Bug
 	 * 
 	 * @param initialSugar
 	 *            Initial Sugar
@@ -903,38 +907,38 @@ public class SCBug extends Bug {
 		SCBug freePlaceBug = null;
 		if (this.getGrid() instanceof SCGrid) {
 			SCGrid grid = (SCGrid) this.getGrid();
-			boolean rdy = false;
 			if ((i < grid.getXSize()) && (j < grid.getYSize())
 					&& ((i != this._x) && (j != this._y))) {
 				if (grid.getBug(i, j, 1) instanceof SCBug) {
 					SCBug tmp = (SCBug) grid.getBug(i, j, 1);
 					if ((tmp.getSex() != this.getSex()) && tmp.isFertile()
 							&& tmp.hasEnoughSugar()) {
-						// Get Neighbours from this Bug
-						Vector<SCBug> vec = new Vector<SCBug>();
-						vec = this.getNeighbours();
-						if ((vec != null) && (vec.size() > 0)) {
-							// Initial Sugar (Half of the Amount of
-							// Sugar of the Parents by its Birth)
-							int thisCurHalf = this.getInitialSugar() / 2;
-							int tmpCurHalf = tmp.getInitialSugar() / 2;
-							int gen = Math.max(this.generation, tmp.generation);
-							for (int vi = 0; (vi < vec.size()) && !rdy; vi++) {
-								if (isInSight(vec.get(vi))) {
-									freePlaceBug = vec
-											.get(vi)
-											.setDescendantToFreeCoordinatesAround(
-													thisCurHalf + tmpCurHalf,
-													gen + 1, this, tmp);
-									if (freePlaceBug != null) {
-										// Remove this Amount of
-										// Sugar
-										// from the Parents
-										this.removeSugar(thisCurHalf);
-										tmp.removeSugar(tmpCurHalf);
-										rdy = true;
-									}
-								}
+						// Initial Sugar (Half of the Amount of
+						// Sugar of the Parents by its Birth)
+						int thisCurHalf = this.getInitialSugar() / 2;
+						int tmpCurHalf = tmp.getInitialSugar() / 2;
+						int gen = Math.max(this.generation, tmp.generation);
+						freePlaceBug = this
+								.setDescendantToFreeCoordinatesAround(
+										thisCurHalf + tmpCurHalf, gen + 1,
+										this, tmp);
+						if (freePlaceBug != null) {
+							// Remove this Amount of
+							// Sugar
+							// from the Parents
+							this.removeSugar(thisCurHalf);
+							tmp.removeSugar(tmpCurHalf);
+						} else {
+							freePlaceBug = tmp
+									.setDescendantToFreeCoordinatesAround(
+											thisCurHalf + tmpCurHalf, gen + 1,
+											this, tmp);
+							if (freePlaceBug != null) {
+								// Remove this Amount of
+								// Sugar
+								// from the Parents
+								this.removeSugar(thisCurHalf);
+								tmp.removeSugar(tmpCurHalf);
 							}
 						}
 					}
