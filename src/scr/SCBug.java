@@ -185,8 +185,8 @@ public class SCBug extends Bug {
 	}
 
 	/**
-	 * Moves the Agent: If no more Sugar at the current Place 1. Move to the
-	 * Place with the highest Amount of Sugar OR 2. Search active for a Partner
+	 * Moves the Agent: If no more Sugar at the current Place Move to the Place
+	 * with the highest Amount of Sugar OR Search active for a Partner
 	 */
 	private void move() {
 		if (this.getGrid() instanceof SCGrid) {
@@ -197,7 +197,8 @@ public class SCBug extends Bug {
 				if (this.isFertile()
 						&& helper.searchActiveForPartner()
 						&& (((SCSugarBug) grid.getBug(this._x, this._y, 0))
-								.getCurrentAmountOfSugar() <= helper.searchActiveForPartnerSugarMiningLimit)) {
+								.getCurrentAmountOfSugar() <= helper
+								.searchActiveForPartnerSugarMiningLimit())) {
 					SCBug bug = null;
 					Vector<SCBug> neighbours = new Vector<SCBug>();
 					neighbours = this.getNeighbours();

@@ -166,7 +166,7 @@ public class SCSugarBug extends Bug {
 	private double getNext_R() {
 		// return Math.min(this._r + helper.expansionRatio,
 		// helper.expansionRatio.maxAmountOfSugarInSugarAgent);
-		return Math.min(this._r + helper.expansionRatio, this.c);
+		return Math.min(this._r + helper.getExpansionRatio(), this.c);
 	}
 
 	/**
