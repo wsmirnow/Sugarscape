@@ -124,9 +124,6 @@ public class SCBug extends Bug {
 	 * Action-Function
 	 */
 	public void action() {
-		Vector<int[]> vect = new Vector<int[]>();
-		vect = getExtendedVonNeumannCoordinatesAround();
-
 		// Too old to live?
 		if ((this.currAge >= this.maxAge) || (this.currWealth <= 0)) {
 			// This Bug has to die, it is too old or has no Sugar!
@@ -971,10 +968,10 @@ public class SCBug extends Bug {
 			Vector<int[]> coords = new Vector<int[]>();
 			coords = getExtendedVonNeumannCoordinatesAround();
 			if (!coords.isEmpty()) {
-				for (int i = 0; i < coords.size(); i++) {
+				for (int i = 0; (i < coords.size()) && !rdy; i++) {
 					if (!((freePlaceBug = moveNewBug(coords.get(i)[0], coords
 							.get(i)[1])) == null)) {
-						return freePlaceBug;
+						rdy = true;
 					}
 				}
 			}
@@ -986,7 +983,7 @@ public class SCBug extends Bug {
 						.getVisionRadiusReproduce()))
 						&& !rdy; j++) {
 					if (!((freePlaceBug = moveNewBug(i, j)) == null)) {
-						return freePlaceBug;
+						rdy = true;
 					}
 				}
 			}
@@ -998,7 +995,7 @@ public class SCBug extends Bug {
 	 * Die-Function (Inheritance of the Sugar etc.)
 	 */
 	private void die() {
-		// Inheritate
+		// Pass on
 		if (getCurrWealth() > 0) {
 			int amount = 0;
 			if ((this.descendants != null) && (this.descendants.size() > 0)) {
