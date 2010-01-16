@@ -205,11 +205,11 @@ public class SCBug extends Bug {
 					// If there are Neighbors
 					if ((neighbours != null) && !neighbours.isEmpty()) {
 						for (int i = 0; (i < neighbours.size()) && !found; i++) {
+							SCBug neighbor = neighbours.get(i);
 							// If a Neighbor fits as a Partner
-							if ((neighbours.get(i).getSex() != this.getSex())
-									&& neighbours.get(i).isFertile()
-									&& neighbours.get(i).hasEnoughSugar()) {
-								SCBug potPartner = neighbours.get(i);
+							if ((neighbor.getSex() != this.getSex())
+									&& neighbor.isFertile()
+									&& neighbor.hasEnoughSugar()) {
 								// Get free Places around the Partner
 								Vector<SCBug> freePlaces = new Vector<SCBug>();
 								freePlaces = neighbours.get(i)
@@ -225,7 +225,7 @@ public class SCBug extends Bug {
 										SCBug tmp = freePlaces.get(j);
 										if ((tmp != null) && isInSight(tmp)) {
 											double tmpErg = bugDistance(
-													potPartner, tmp)
+													neighbor, tmp)
 													+ bugDistance(tmp, this);
 											if (tmpErg < erg) {
 												bug = tmp;
@@ -236,7 +236,7 @@ public class SCBug extends Bug {
 									// If the free Place is in Sight of this
 									// Bug
 									if ((bug != null) && isInSight(bug)) {
-										// Move
+										// Move this Bug to the found free Place
 										this.moveBug(bug._x, bug._y, 1);
 										found = true;
 									}
@@ -252,15 +252,18 @@ public class SCBug extends Bug {
 								.getBug(this._x, this._y, 0))
 								.getCurrentAmountOfSugar() <= 0))) {
 					SCSugarBug sugarBug = null;
-					// Move Bug to the Field with the highest Amount o
-					// Sugar
+					// Get Place(s) with the highest Amount of Sugar
 					Vector<SCSugarBug> vec = new Vector<SCSugarBug>();
-					vec = getHighestAmountOfSugar(helper.getVisionRadius());
-					int rand = helper.getRandomIntWithinLimits(0,
-							vec.size() - 1);
-					sugarBug = vec.get(rand);
-					if (sugarBug != null) {
-						this.moveBug(sugarBug._x, sugarBug._y, 1);
+					vec = this.getHighestAmountOfSugar();
+					if ((vec != null) && !vec.isEmpty()) {
+						// Move randomly to one of the Places with the highest
+						// amount of Sugar
+						int rand = helper.getRandomIntWithinLimits(0, vec
+								.size() - 1);
+						sugarBug = vec.get(rand);
+						if (sugarBug != null) {
+							this.moveBug(sugarBug._x, sugarBug._y, 1);
+						}
 					}
 				}
 			}
@@ -465,12 +468,10 @@ public class SCBug extends Bug {
 	 * Returns the SCSugarBug with the highest Amount of Sugar within a
 	 * Blickfeld
 	 * 
-	 * @param bf
-	 *            Blickfeld
 	 * @return a Vector of SCSugarBugs with the highest Amount of Sugar within
 	 *         the Blickfeld
 	 */
-	private Vector<SCSugarBug> getHighestAmountOfSugar(int bf) {
+	private Vector<SCSugarBug> getHighestAmountOfSugar() {
 		Vector<SCSugarBug> vec = new Vector<SCSugarBug>();
 		int currHighestValue = -1;
 		if (this.getGrid() instanceof SCGrid) {
