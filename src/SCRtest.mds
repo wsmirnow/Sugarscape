@@ -2,7 +2,7 @@
   encoding = "cvid"
   content = "video.quicktime"
   quality = 0.5
-  gensym = 7022
+  gensym = 7029
   stepPlay = 40
   refreshSeek = 40
   fin = 10
@@ -3584,9 +3584,60 @@ SCGrid
         ()
         ()
         ()
+        SCBug7023
         ()
         ()
         ()
+        SCBug7022
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ())
+      (eawag.grid.Bug[]
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        SCBug7024
         ()
         ()
         ()
@@ -4074,58 +4125,7 @@ SCGrid
         ()
         ()
         ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ())
-      (eawag.grid.Bug[]
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
+        SCBug7027
         ()
         ()
         ()
@@ -4283,6 +4283,57 @@ SCGrid
         ()
         ()
         ()
+        SCBug7026
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ())
+      (eawag.grid.Bug[]
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        SCBug7025
+        ()
+        ()
+        ()
+        ()
         ()
         ()
         ()
@@ -4384,58 +4435,7 @@ SCGrid
         ()
         ()
         ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ())
-      (eawag.grid.Bug[]
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
+        SCBug7028
         ()
         ()
         ()
@@ -42653,6 +42653,188 @@ SCGrid
     maxAge = 68
     currAge = 0
     initialSugar = 82
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug7022
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 36
+    x = 19
+    depict = DepictionBugFemale
+    fertilityAgeMax = 50
+    fertilityAgeMin = 13
+    sex = false
+    currWealth = 94
+    maxAge = 75
+    currAge = 0
+    initialSugar = 94
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug7023
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 32
+    x = 19
+    depict = DepictionBugFemale
+    fertilityAgeMax = 57
+    fertilityAgeMin = 15
+    sex = false
+    currWealth = 96
+    maxAge = 68
+    currAge = 0
+    initialSugar = 96
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug7024
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 34
+    x = 20
+    depict = DepictionBugMale
+    fertilityAgeMax = 51
+    fertilityAgeMin = 14
+    sex = true
+    currWealth = 96
+    maxAge = 76
+    currAge = 0
+    initialSugar = 96
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug7025
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 12
+    x = 34
+    depict = DepictionBugMale
+    fertilityAgeMax = 51
+    fertilityAgeMin = 15
+    sex = true
+    currWealth = 88
+    maxAge = 76
+    currAge = 0
+    initialSugar = 88
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug7026
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 17
+    x = 33
+    depict = DepictionBugMale
+    fertilityAgeMax = 50
+    fertilityAgeMin = 14
+    sex = true
+    currWealth = 65
+    maxAge = 78
+    currAge = 0
+    initialSugar = 65
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug7027
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 12
+    x = 30
+    depict = DepictionBugFemale
+    fertilityAgeMax = 41
+    fertilityAgeMin = 15
+    sex = false
+    currWealth = 86
+    maxAge = 67
+    currAge = 0
+    initialSugar = 86
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug7028
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 16
+    x = 36
+    depict = DepictionBugFemale
+    fertilityAgeMax = 40
+    fertilityAgeMin = 15
+    sex = false
+    currWealth = 59
+    maxAge = 65
+    currAge = 0
+    initialSugar = 59
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector

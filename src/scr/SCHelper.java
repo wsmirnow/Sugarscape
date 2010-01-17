@@ -45,12 +45,12 @@ public class SCHelper {
 	/**
 	 * Flag for active Search for a Partner
 	 */
-	private boolean searchActiveForPartner = false;
+	private boolean searchActiveForPartner = true;
 
 	/**
 	 * Field of Vision Radius of extended Moore Neighbourhood at Reproduce
 	 */
-	private int visionRadiusReproduce = 4;
+	private int visionRadiusReproduce = 3;
 
 	/**
 	 * Field of Vision Radius of extended Moore Neighbourhood
@@ -68,7 +68,8 @@ public class SCHelper {
 	private int metabolism = 2;
 
 	/**
-	 * Displays since what amount of Sugar the Bug must move
+	 * Displays since what amount of Sugar the Bug (who is searching for a
+	 * Partner) must move
 	 */
 	private int searchActiveForPartnerSugarMiningLimit = 3;
 

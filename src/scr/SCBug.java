@@ -125,9 +125,10 @@ public class SCBug extends Bug {
 	 */
 	public void action() {
 		// Too old to live?
-		if ((this.currAge >= this.maxAge) || (this.currWealth <= 0)) {
+		if ((this.currAge > this.maxAge) || (this.currWealth <= 0)) {
 			// This Bug has to die, it is too old or has no Sugar!
 			die();
+			// Keep on living
 		} else {
 			this.currAge++;
 
@@ -169,6 +170,14 @@ public class SCBug extends Bug {
 			// Move around
 			move();
 		}
+	}
+
+	/**
+	 * Show Bug at the Grid by sex
+	 */
+	public void updateDepiction() {
+		String depictName = "DepictionBug" + (getSex() ? "Female" : "Male");
+		super.setDepiction((Depiction) (getBase().findBySerno(depictName)));
 	}
 
 	/**
@@ -234,7 +243,7 @@ public class SCBug extends Bug {
 				}
 				// If no Partner with free Space around found or
 				// "Search Active for a Partner" is not active
-				if ((!found && helper.searchActiveForPartner())
+				if ((!found && helper.searchActiveForPartner() && isFertile())
 						|| (!found && !helper.searchActiveForPartner() && (((SCSugarBug) grid
 								.getBug(this._x, this._y, 0))
 								.getCurrentAmountOfSugar() <= 0))) {
@@ -255,14 +264,6 @@ public class SCBug extends Bug {
 				}
 			}
 		}
-	}
-
-	/**
-	 * Show Bug at the Grid by sex
-	 */
-	public void updateDepiction() {
-		String depictName = "DepictionBug" + (getSex() ? "Female" : "Male");
-		super.setDepiction((Depiction) (getBase().findBySerno(depictName)));
 	}
 
 	/************************************************/
@@ -290,6 +291,21 @@ public class SCBug extends Bug {
 			return (getCurrWealth() >= (getInitialSugar() / divideFactor));
 		}
 		return (getCurrWealth() >= getInitialSugar());
+	}
+
+	/**
+	 * Returns if Bug b is in the VisionRadius of this Bug
+	 * 
+	 * @param b
+	 *            Bug
+	 * @return true if Bug b is in the VisionRadius of this Bug, false else
+	 */
+	private boolean isInSight(SCBug b) {
+		boolean x = (b._x > (this._x - helper.getVisionRadius()))
+				&& (b._x < (this._x + helper.getVisionRadius()));
+		boolean y = (b._y > (this._y - helper.getVisionRadius()))
+				&& (b._y < (this._y + helper.getVisionRadius()));
+		return x && y;
 	}
 
 	/************************************************/
@@ -814,18 +830,6 @@ public class SCBug extends Bug {
 	}
 
 	/**
-	 * Sets the Generation
-	 * 
-	 * @param generation
-	 *            Generation
-	 */
-	public void setGeneration(int generation) {
-		if (generation > 0) {
-			this.generation = generation;
-		}
-	}
-
-	/**
 	 * Sets the Values
 	 * 
 	 * @param currAge
@@ -885,21 +889,6 @@ public class SCBug extends Bug {
 		this.descendants = new Vector<SCBug>();
 		this.parents = new Vector<SCBug>(2);
 		this.numberOfDescendants = 0;
-	}
-
-	/**
-	 * Returns if Bug b is in the VisionRadius of this Bug
-	 * 
-	 * @param b
-	 *            Bug
-	 * @return true if Bug b is in the VisionRadius of this Bug, false else
-	 */
-	private boolean isInSight(SCBug b) {
-		boolean x = (b._x > (this._x - helper.getVisionRadius()))
-				&& (b._x < (this._x + helper.getVisionRadius()));
-		boolean y = (b._y > (this._y - helper.getVisionRadius()))
-				&& (b._y < (this._y + helper.getVisionRadius()));
-		return x && y;
 	}
 
 	/**
@@ -992,7 +981,7 @@ public class SCBug extends Bug {
 	}
 
 	/**
-	 * Die-Function (Inheritance of the Sugar etc.)
+	 * Die-Function (Pass on the Sugar etc.)
 	 */
 	private void die() {
 		// Pass on
