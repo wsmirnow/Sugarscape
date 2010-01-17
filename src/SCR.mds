@@ -46382,6 +46382,33 @@ SCGrid
     _BEGIN_
     _END_
   _END_
+SCChartGini
+(scr.SCChartGini
+  active = true
+  hcontent = (xlog.component.ScaleContent
+    visible = false
+    guides = (xlog.component.ScaleGuide[])
+    docmax = 1.0
+    docmin = 0.0
+    title = "Zeit"
+    format = 1
+    invert = false
+    oposite = false)
+  vcontent = (xlog.component.ScaleContent
+    visible = false
+    guides = (xlog.component.ScaleGuide[])
+    docmax = 1.0
+    docmin = 0.0
+    title = "Ginikoeffizient"
+    format = 1
+    invert = false
+    oposite = false)
+  content = (eawag.chart.ChartContent
+    fit = 0
+    group = (eawag.chart.ChartGroup[])
+    ctitle = ()
+    comment = "Zeigt den Ginikoeffizienten an")
+  grid = SCGrid)
 SCChartLifespan
 (scr.SCChartLifespan
   active = true
