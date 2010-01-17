@@ -50,7 +50,7 @@ public class SCHelper {
 	/**
 	 * Field of Vision Radius of extended Moore Neighbourhood at Reproduce
 	 */
-	private int visionRadiusReproduce = 3;
+	private int visionRadiusReproduce = 2;
 
 	/**
 	 * Field of Vision Radius of extended Moore Neighbourhood
@@ -60,7 +60,7 @@ public class SCHelper {
 	/**
 	 * Expansion Ratio in between [0, 1]
 	 */
-	private double expansionRatio = 0.2; // a
+	private double expansionRatio = 1; // a
 
 	/**
 	 * Metabolism (Time Steps / sugarConsumingRatio Sugar)
