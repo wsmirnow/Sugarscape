@@ -60,7 +60,7 @@ public class SCHelper {
 	/**
 	 * Expansion Ratio in between [0, 1]
 	 */
-	private double expansionRatio = 1; // a
+	private double expansionRatio = 0.2; // a
 
 	/**
 	 * Metabolism (Time Steps / sugarConsumingRatio Sugar)
