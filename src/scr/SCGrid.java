@@ -54,9 +54,11 @@ public class SCGrid extends Grid {
 	/************************************************/
 	
 	public void condition() {
+		
 		avarageWealth = _avarageWealth;
 		bugCount = _bugCount;
 		_avarageWealth = _bugCount = 0;
+		super.condition();
 	}
 
 	/**
