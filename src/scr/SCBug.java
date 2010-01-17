@@ -922,8 +922,7 @@ public class SCBug extends Bug {
 	 * @return a Value calculated by a magic Formula
 	 */
 	private int magicFormula(int value) {
-		double factor = 1.0;
-		factor = (this.getInitialSugar() + this.getCurrWealth()) / 1000;
+		double factor = (this.getInitialSugar() + this.getCurrWealth()) / 1000;
 		return (int) (value + (factor * value));
 	}
 
