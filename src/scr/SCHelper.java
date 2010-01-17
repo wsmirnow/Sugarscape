@@ -50,7 +50,7 @@ public class SCHelper {
 	/**
 	 * Field of Vision Radius of extended Moore Neighbourhood at Reproduce
 	 */
-	private int visionRadiusReproduce = 3;
+	private int visionRadiusReproduce = 2;
 
 	/**
 	 * Field of Vision Radius of extended Moore Neighbourhood
