@@ -81,7 +81,7 @@ public class SCChartWealth extends Chart {
 		
 		Collections.sort(vec);
 		
-		per *= (double)(count/100);	//3% der gesamtbevoelkerung
+		per *= (double)(count)/100;	//3% der gesamtbevoelkerung
 		for(int i=0; i<per; i++){
 			sumRichest += vec.lastElement();
 			vec.remove(vec.lastElement());

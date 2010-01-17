@@ -353,7 +353,10 @@ public class SCBug extends Bug {
 	 * @return the Vision Radius
 	 */
 	public int getVisionRadiusReproduce() {
-		return magicFormula(helper.getVisionRadiusReproduce());
+		if (helper.advantagesForTheRich()) {
+			return magicFormula(helper.getVisionRadiusReproduce());
+		}
+		return helper.getVisionRadiusReproduce();
 	}
 
 	/**
@@ -362,7 +365,10 @@ public class SCBug extends Bug {
 	 * @return the Vision Radius
 	 */
 	public int getVisionRadius() {
-		return magicFormula(helper.getVisionRadius());
+		if (helper.advantagesForTheRich()) {
+			return magicFormula(helper.getVisionRadius());
+		}
+		return helper.getVisionRadius();
 	}
 
 	/**
@@ -371,7 +377,10 @@ public class SCBug extends Bug {
 	 * @return the Metabolism
 	 */
 	public int getMetabolism() {
-		return magicFormula(helper.getMetabolism());
+		if (helper.advantagesForTheRich()) {
+			return magicFormula(helper.getMetabolism());
+		}
+		return helper.getMetabolism();
 	}
 
 	/**
@@ -760,7 +769,7 @@ public class SCBug extends Bug {
 	 *            Depiction
 	 */
 	public void setDepiction(Depiction depict) {
-		
+
 		if (!depict.serno.startsWith("DepictionBug")) {
 			return;
 		}
@@ -993,30 +1002,30 @@ public class SCBug extends Bug {
 		boolean rdy = false;
 		// TODO
 		// if (helper.getExtendedVonNeumannNeighborhood()) {
-		// 	Vector<int[]> coords = new Vector<int[]>();
-		// 	coords = getExtendedVonNeumannCoordinatesAround();
-		// 	if ((coords == null) || !coords.isEmpty()) {
-		// 		for (int i = 0; (i < coords.size()) && !rdy; i++) {
-		 			// System.out.println("\n" + coords.size() + "\nx: " +
-		 			// coords.get(i)[0] + ", y: " + coords.get(i)[1] + "\n");
-		// 			if (!((freePlaceBug = moveNewBug(coords.get(i)[0], coords
-		// 					.get(i)[1])) == null)) {
-		// 				rdy = true;
-		// 			}
-		// 		}
-		// 	}
+		// Vector<int[]> coords = new Vector<int[]>();
+		// coords = getExtendedVonNeumannCoordinatesAround();
+		// if ((coords == null) || !coords.isEmpty()) {
+		// for (int i = 0; (i < coords.size()) && !rdy; i++) {
+		// System.out.println("\n" + coords.size() + "\nx: " +
+		// coords.get(i)[0] + ", y: " + coords.get(i)[1] + "\n");
+		// if (!((freePlaceBug = moveNewBug(coords.get(i)[0], coords
+		// .get(i)[1])) == null)) {
+		// rdy = true;
+		// }
+		// }
+		// }
 		// } else {
-			for (int i = (this._x - this.getVisionRadiusReproduce()); (i < (this._x + this
+		for (int i = (this._x - this.getVisionRadiusReproduce()); (i < (this._x + this
+				.getVisionRadiusReproduce()))
+				&& !rdy; i++) {
+			for (int j = (this._y - this.getVisionRadiusReproduce()); (j < (this._y + this
 					.getVisionRadiusReproduce()))
-					&& !rdy; i++) {
-				for (int j = (this._y - this.getVisionRadiusReproduce()); (j < (this._y + this
-						.getVisionRadiusReproduce()))
-						&& !rdy; j++) {
-					if (!((freePlaceBug = moveNewBug(i, j)) == null)) {
-						rdy = true;
-					}
+					&& !rdy; j++) {
+				if (!((freePlaceBug = moveNewBug(i, j)) == null)) {
+					rdy = true;
 				}
 			}
+		}
 		// }
 		return freePlaceBug;
 	}
