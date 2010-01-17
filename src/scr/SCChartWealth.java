@@ -92,12 +92,13 @@ public class SCChartWealth extends Chart {
 		}
 
 		wealth = count > 0 ? wealth / count : 0;
+		minWealth = count > 0 ? minWealth : 0;
+		maxWealth = count > 0 ? maxWealth: 0;
 
 		lineTo("Durchschnitt", Chart.TYPE_LINE, grid.getTop().getTime(), wealth);
 		lineTo("Min", Chart.TYPE_LINE, grid.getTop().getTime(), minWealth);
 		lineTo("Max", Chart.TYPE_LINE, grid.getTop().getTime(), maxWealth);
-		// lineTo("Reichste 3 %", Chart.TYPE_LINE, grid.getTop().getTime(),
-		// sumRichest);
+		// lineTo("Reichste 3 %", Chart.TYPE_LINE, grid.getTop().getTime(), sumRichest);
 	}
 
 }
