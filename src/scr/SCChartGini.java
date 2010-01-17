@@ -6,20 +6,32 @@ import java.util.Vector;
 import eawag.chart.Chart;
 import eawag.grid.Bug;
 
+/**
+ * Chart Diagram for Gini coefficient
+ * 
+ * @author Waldemar S. Stefan H.
+ *
+ */
 public class SCChartGini extends Chart {
 	
 	SCGrid grid;
 	
+	/**
+	 * Constructor 
+	 */
 	public SCChartGini() {
 		setHTitle("Zeit");
 		setVTitle("Gini Koeff");
 		setComment("Stellt den Gini Koeffizient über die Zeit dar.");
 	}
 	
+	/**
+	 * Condition Method
+	 */
 	public void condition() {
 		
 		super.condition();
-		
+
 		if (grid == null)
 			return;
 		

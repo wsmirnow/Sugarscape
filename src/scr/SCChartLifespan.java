@@ -30,7 +30,7 @@ import eawag.chart.Chart;
 import eawag.grid.Bug;
 
 /**
- * Helper
+ * Chart Diagram for average Age of Bugs
  * 
  * @author Stefan H., Waldemar S.
  */
