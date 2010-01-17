@@ -2,7 +2,7 @@
   encoding = "cvid"
   content = "video.quicktime"
   quality = 0.5
-  gensym = 6311
+  gensym = 7022
   stepPlay = 40
   refreshSeek = 40
   fin = 10
@@ -11,9 +11,9 @@
     "SCGrid")
   nexp = (java.lang.String[]
     "_root")
-  simulatorHeight = 722
-  simulatorWidth = 1280
-  errorDividerLocation = 598
+  simulatorHeight = 600
+  simulatorWidth = 900
+  errorDividerLocation = 431
   treeDividerLocation = 321
   descriptionDividerLocation = 300
   showDescription = false
@@ -674,17 +674,17 @@ SCGrid
         SCSugarBug5550
         SCSugarBug5549
         SCSugarBug6034
-        SCSugarBug6033
-        SCSugarBug6032
-        SCSugarBug6031
-        SCSugarBug6030
-        SCSugarBug6029
-        SCSugarBug6028
-        SCSugarBug6027
-        SCSugarBug6026
-        SCSugarBug6025
-        SCSugarBug6024
-        SCSugarBug6023
+        SCSugarBug6984
+        SCSugarBug6983
+        SCSugarBug6982
+        SCSugarBug6981
+        SCSugarBug6980
+        SCSugarBug6979
+        SCSugarBug6978
+        SCSugarBug6977
+        SCSugarBug6976
+        SCSugarBug6975
+        SCSugarBug6974
         SCSugarBug5536
         SCSugarBug5535
         SCSugarBug4450
@@ -725,17 +725,17 @@ SCGrid
         SCSugarBug5533
         SCSugarBug5532
         SCSugarBug6022
-        SCSugarBug6021
-        SCSugarBug6020
-        SCSugarBug6019
-        SCSugarBug6018
-        SCSugarBug6017
-        SCSugarBug6016
-        SCSugarBug6015
-        SCSugarBug6014
-        SCSugarBug6013
-        SCSugarBug6012
-        SCSugarBug6011
+        SCSugarBug6973
+        SCSugarBug6972
+        SCSugarBug6971
+        SCSugarBug6970
+        SCSugarBug6969
+        SCSugarBug6968
+        SCSugarBug6967
+        SCSugarBug6966
+        SCSugarBug6965
+        SCSugarBug6964
+        SCSugarBug6963
         SCSugarBug5519
         SCSugarBug5518
         SCSugarBug4425
@@ -776,17 +776,17 @@ SCGrid
         SCSugarBug5516
         SCSugarBug5515
         SCSugarBug6010
-        SCSugarBug6009
-        SCSugarBug6008
-        SCSugarBug6007
-        SCSugarBug6006
-        SCSugarBug6005
-        SCSugarBug6004
-        SCSugarBug6003
-        SCSugarBug6002
-        SCSugarBug6001
-        SCSugarBug6000
-        SCSugarBug5999
+        SCSugarBug6962
+        SCSugarBug6961
+        SCSugarBug6960
+        SCSugarBug6959
+        SCSugarBug6958
+        SCSugarBug6957
+        SCSugarBug6956
+        SCSugarBug6955
+        SCSugarBug6954
+        SCSugarBug6953
+        SCSugarBug6952
         SCSugarBug5502
         SCSugarBug5501
         SCSugarBug4400
@@ -827,20 +827,20 @@ SCGrid
         SCSugarBug5499
         SCSugarBug5498
         SCSugarBug5998
-        SCSugarBug5997
-        SCSugarBug5996
-        SCSugarBug5995
-        SCSugarBug5994
-        SCSugarBug5993
-        SCSugarBug5992
-        SCSugarBug5991
-        SCSugarBug5990
-        SCSugarBug5989
-        SCSugarBug5988
-        SCSugarBug5987
-        SCSugarBug5485
-        SCSugarBug5484
-        SCSugarBug4375
+        SCSugarBug6951
+        SCSugarBug6950
+        SCSugarBug7020
+        SCSugarBug7019
+        SCSugarBug7018
+        SCSugarBug7017
+        SCSugarBug7016
+        SCSugarBug7015
+        SCSugarBug6943
+        SCSugarBug6942
+        SCSugarBug6941
+        SCSugarBug6841
+        SCSugarBug6840
+        SCSugarBug6683
         SCSugarBug4374
         SCSugarBug4373
         SCSugarBug4372
@@ -878,20 +878,20 @@ SCGrid
         SCSugarBug5482
         SCSugarBug5481
         SCSugarBug5986
-        SCSugarBug5985
-        SCSugarBug6252
-        SCSugarBug6251
-        SCSugarBug6250
-        SCSugarBug6249
-        SCSugarBug6248
-        SCSugarBug6247
-        SCSugarBug5978
-        SCSugarBug5977
-        SCSugarBug5976
-        SCSugarBug5975
-        SCSugarBug5468
-        SCSugarBug5467
-        SCSugarBug4350
+        SCSugarBug6940
+        SCSugarBug6939
+        SCSugarBug7014
+        SCSugarBug7013
+        SCSugarBug7012
+        SCSugarBug7011
+        SCSugarBug7010
+        SCSugarBug7009
+        SCSugarBug6932
+        SCSugarBug6931
+        SCSugarBug6930
+        SCSugarBug6828
+        SCSugarBug6827
+        SCSugarBug6669
         SCSugarBug4349
         SCSugarBug4348
         SCSugarBug4347
@@ -929,20 +929,20 @@ SCGrid
         SCSugarBug5465
         SCSugarBug5464
         SCSugarBug5974
-        SCSugarBug5973
-        SCSugarBug6246
-        SCSugarBug6245
-        SCSugarBug6244
-        SCSugarBug6243
-        SCSugarBug6242
-        SCSugarBug6241
-        SCSugarBug5966
-        SCSugarBug5965
-        SCSugarBug5964
-        SCSugarBug5963
-        SCSugarBug5451
-        SCSugarBug5450
-        SCSugarBug4325
+        SCSugarBug6929
+        SCSugarBug6928
+        SCSugarBug7008
+        SCSugarBug7007
+        SCSugarBug7006
+        SCSugarBug7005
+        SCSugarBug7004
+        SCSugarBug7003
+        SCSugarBug6921
+        SCSugarBug6920
+        SCSugarBug6919
+        SCSugarBug6815
+        SCSugarBug6814
+        SCSugarBug6655
         SCSugarBug4324
         SCSugarBug4323
         SCSugarBug4322
@@ -980,20 +980,20 @@ SCGrid
         SCSugarBug5448
         SCSugarBug5447
         SCSugarBug5962
-        SCSugarBug5961
-        SCSugarBug6240
-        SCSugarBug6239
-        SCSugarBug6238
-        SCSugarBug6237
-        SCSugarBug6236
-        SCSugarBug6235
-        SCSugarBug5954
-        SCSugarBug5953
-        SCSugarBug5952
-        SCSugarBug5951
-        SCSugarBug5434
-        SCSugarBug5433
-        SCSugarBug4300
+        SCSugarBug6918
+        SCSugarBug6917
+        SCSugarBug7002
+        SCSugarBug7001
+        SCSugarBug7000
+        SCSugarBug6999
+        SCSugarBug6998
+        SCSugarBug6997
+        SCSugarBug6910
+        SCSugarBug6909
+        SCSugarBug6908
+        SCSugarBug6802
+        SCSugarBug6801
+        SCSugarBug6641
         SCSugarBug4299
         SCSugarBug4298
         SCSugarBug4297
@@ -1031,20 +1031,20 @@ SCGrid
         SCSugarBug5431
         SCSugarBug5430
         SCSugarBug5950
-        SCSugarBug5949
-        SCSugarBug6234
-        SCSugarBug6233
-        SCSugarBug6232
-        SCSugarBug6231
-        SCSugarBug6230
-        SCSugarBug6229
-        SCSugarBug5942
-        SCSugarBug5941
-        SCSugarBug5940
-        SCSugarBug5939
-        SCSugarBug5417
-        SCSugarBug5416
-        SCSugarBug4275
+        SCSugarBug6907
+        SCSugarBug6906
+        SCSugarBug6996
+        SCSugarBug6995
+        SCSugarBug6994
+        SCSugarBug6993
+        SCSugarBug6992
+        SCSugarBug6991
+        SCSugarBug6899
+        SCSugarBug6898
+        SCSugarBug6897
+        SCSugarBug6789
+        SCSugarBug6788
+        SCSugarBug6627
         SCSugarBug4274
         SCSugarBug4273
         SCSugarBug4272
@@ -1082,20 +1082,20 @@ SCGrid
         SCSugarBug5414
         SCSugarBug5413
         SCSugarBug5938
-        SCSugarBug5937
-        SCSugarBug6228
-        SCSugarBug6227
-        SCSugarBug6226
-        SCSugarBug6225
-        SCSugarBug6224
-        SCSugarBug6223
-        SCSugarBug5930
-        SCSugarBug5929
-        SCSugarBug5928
-        SCSugarBug5927
-        SCSugarBug5400
-        SCSugarBug5399
-        SCSugarBug4250
+        SCSugarBug6896
+        SCSugarBug6895
+        SCSugarBug6990
+        SCSugarBug6989
+        SCSugarBug6988
+        SCSugarBug6987
+        SCSugarBug6986
+        SCSugarBug6985
+        SCSugarBug6888
+        SCSugarBug6887
+        SCSugarBug6886
+        SCSugarBug6776
+        SCSugarBug6775
+        SCSugarBug6613
         SCSugarBug4249
         SCSugarBug4248
         SCSugarBug4247
@@ -1133,20 +1133,20 @@ SCGrid
         SCSugarBug5397
         SCSugarBug5396
         SCSugarBug5926
-        SCSugarBug5925
-        SCSugarBug6222
-        SCSugarBug6221
-        SCSugarBug6220
-        SCSugarBug6219
-        SCSugarBug6218
-        SCSugarBug6217
-        SCSugarBug5918
-        SCSugarBug5917
-        SCSugarBug5916
-        SCSugarBug5915
-        SCSugarBug5383
-        SCSugarBug5382
-        SCSugarBug4225
+        SCSugarBug6885
+        SCSugarBug6884
+        SCSugarBug6883
+        SCSugarBug6882
+        SCSugarBug6881
+        SCSugarBug6880
+        SCSugarBug6879
+        SCSugarBug6878
+        SCSugarBug6877
+        SCSugarBug6876
+        SCSugarBug6875
+        SCSugarBug6763
+        SCSugarBug6762
+        SCSugarBug6599
         SCSugarBug4224
         SCSugarBug4223
         SCSugarBug4222
@@ -1184,20 +1184,20 @@ SCGrid
         SCSugarBug5380
         SCSugarBug5379
         SCSugarBug5914
-        SCSugarBug5913
-        SCSugarBug5912
-        SCSugarBug5911
-        SCSugarBug5910
-        SCSugarBug5909
-        SCSugarBug5908
-        SCSugarBug5907
-        SCSugarBug5906
-        SCSugarBug5905
-        SCSugarBug5904
-        SCSugarBug5903
-        SCSugarBug5366
-        SCSugarBug5365
-        SCSugarBug4200
+        SCSugarBug6874
+        SCSugarBug6873
+        SCSugarBug6872
+        SCSugarBug6871
+        SCSugarBug6870
+        SCSugarBug6869
+        SCSugarBug6868
+        SCSugarBug6867
+        SCSugarBug6866
+        SCSugarBug6865
+        SCSugarBug6864
+        SCSugarBug6750
+        SCSugarBug6749
+        SCSugarBug6585
         SCSugarBug4199
         SCSugarBug4198
         SCSugarBug4197
@@ -1235,20 +1235,20 @@ SCGrid
         SCSugarBug5363
         SCSugarBug5362
         SCSugarBug5902
-        SCSugarBug5901
-        SCSugarBug5900
-        SCSugarBug5899
-        SCSugarBug5898
-        SCSugarBug5897
-        SCSugarBug5896
-        SCSugarBug5895
-        SCSugarBug5894
-        SCSugarBug5893
-        SCSugarBug5892
-        SCSugarBug5891
-        SCSugarBug5349
-        SCSugarBug5348
-        SCSugarBug4175
+        SCSugarBug6863
+        SCSugarBug6862
+        SCSugarBug6861
+        SCSugarBug6860
+        SCSugarBug6859
+        SCSugarBug6858
+        SCSugarBug6857
+        SCSugarBug6856
+        SCSugarBug6855
+        SCSugarBug6854
+        SCSugarBug6853
+        SCSugarBug6737
+        SCSugarBug6736
+        SCSugarBug6571
         SCSugarBug4174
         SCSugarBug4173
         SCSugarBug4172
@@ -1286,20 +1286,20 @@ SCGrid
         SCSugarBug5346
         SCSugarBug5345
         SCSugarBug5344
-        SCSugarBug5343
-        SCSugarBug5342
-        SCSugarBug5341
-        SCSugarBug5340
-        SCSugarBug5339
-        SCSugarBug5338
-        SCSugarBug5337
-        SCSugarBug5336
-        SCSugarBug5335
-        SCSugarBug5334
-        SCSugarBug5333
-        SCSugarBug5332
-        SCSugarBug5331
-        SCSugarBug4150
+        SCSugarBug6735
+        SCSugarBug6734
+        SCSugarBug6733
+        SCSugarBug6732
+        SCSugarBug6731
+        SCSugarBug6730
+        SCSugarBug6729
+        SCSugarBug6728
+        SCSugarBug6727
+        SCSugarBug6726
+        SCSugarBug6725
+        SCSugarBug6724
+        SCSugarBug6723
+        SCSugarBug6557
         SCSugarBug4149
         SCSugarBug4148
         SCSugarBug4147
@@ -1337,20 +1337,20 @@ SCGrid
         SCSugarBug5329
         SCSugarBug5328
         SCSugarBug5327
-        SCSugarBug5326
-        SCSugarBug5325
-        SCSugarBug5324
-        SCSugarBug5323
-        SCSugarBug5322
-        SCSugarBug5321
-        SCSugarBug5320
-        SCSugarBug5319
-        SCSugarBug5318
-        SCSugarBug5317
-        SCSugarBug5316
-        SCSugarBug5315
-        SCSugarBug5314
-        SCSugarBug4125
+        SCSugarBug6722
+        SCSugarBug6721
+        SCSugarBug6720
+        SCSugarBug6719
+        SCSugarBug6718
+        SCSugarBug6717
+        SCSugarBug6716
+        SCSugarBug6715
+        SCSugarBug6714
+        SCSugarBug6713
+        SCSugarBug6712
+        SCSugarBug6711
+        SCSugarBug6710
+        SCSugarBug6543
         SCSugarBug4124
         SCSugarBug4123
         SCSugarBug4122
@@ -1388,20 +1388,20 @@ SCGrid
         SCSugarBug5312
         SCSugarBug5311
         SCSugarBug5310
-        SCSugarBug5309
-        SCSugarBug5308
-        SCSugarBug5307
-        SCSugarBug5306
-        SCSugarBug5305
-        SCSugarBug5304
-        SCSugarBug5303
-        SCSugarBug5302
-        SCSugarBug5301
-        SCSugarBug5300
-        SCSugarBug5299
-        SCSugarBug5298
-        SCSugarBug5297
-        SCSugarBug4100
+        SCSugarBug6709
+        SCSugarBug6708
+        SCSugarBug6707
+        SCSugarBug6706
+        SCSugarBug6705
+        SCSugarBug6704
+        SCSugarBug6703
+        SCSugarBug6702
+        SCSugarBug6701
+        SCSugarBug6700
+        SCSugarBug6699
+        SCSugarBug6698
+        SCSugarBug6697
+        SCSugarBug6529
         SCSugarBug4099
         SCSugarBug4098
         SCSugarBug4097
@@ -1439,20 +1439,20 @@ SCGrid
         SCSugarBug4091
         SCSugarBug4090
         SCSugarBug4089
-        SCSugarBug4088
-        SCSugarBug4087
-        SCSugarBug4086
-        SCSugarBug4085
-        SCSugarBug4084
-        SCSugarBug4083
-        SCSugarBug4082
-        SCSugarBug4081
-        SCSugarBug4080
-        SCSugarBug4079
-        SCSugarBug4078
-        SCSugarBug4077
-        SCSugarBug4076
-        SCSugarBug4075
+        SCSugarBug6528
+        SCSugarBug6527
+        SCSugarBug6526
+        SCSugarBug6525
+        SCSugarBug6524
+        SCSugarBug6523
+        SCSugarBug6522
+        SCSugarBug6521
+        SCSugarBug6520
+        SCSugarBug6519
+        SCSugarBug6518
+        SCSugarBug6517
+        SCSugarBug6516
+        SCSugarBug6515
         SCSugarBug4074
         SCSugarBug4073
         SCSugarBug4072
@@ -1490,20 +1490,20 @@ SCGrid
         SCSugarBug4066
         SCSugarBug4065
         SCSugarBug4064
-        SCSugarBug4063
-        SCSugarBug4062
-        SCSugarBug4061
-        SCSugarBug4060
-        SCSugarBug4059
-        SCSugarBug4058
-        SCSugarBug4057
-        SCSugarBug4056
-        SCSugarBug4055
-        SCSugarBug4054
-        SCSugarBug4053
-        SCSugarBug4052
-        SCSugarBug4051
-        SCSugarBug4050
+        SCSugarBug6514
+        SCSugarBug6513
+        SCSugarBug6512
+        SCSugarBug6511
+        SCSugarBug6510
+        SCSugarBug6509
+        SCSugarBug6508
+        SCSugarBug6507
+        SCSugarBug6506
+        SCSugarBug6505
+        SCSugarBug6504
+        SCSugarBug6503
+        SCSugarBug6502
+        SCSugarBug6501
         SCSugarBug4049
         SCSugarBug4048
         SCSugarBug4047
@@ -1541,11 +1541,11 @@ SCGrid
         SCSugarBug4041
         SCSugarBug4040
         SCSugarBug4039
-        SCSugarBug4038
-        SCSugarBug4037
-        SCSugarBug4036
-        SCSugarBug4035
-        SCSugarBug4034
+        SCSugarBug6495
+        SCSugarBug6494
+        SCSugarBug6493
+        SCSugarBug6492
+        SCSugarBug6491
         SCSugarBug4033
         SCSugarBug4032
         SCSugarBug4031
@@ -3432,8 +3432,59 @@ SCGrid
         ()
         ()
         ()
-        SCBug6309
         ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ())
+      (eawag.grid.Bug[]
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        SCBug7021
         ()
         ()
         ()
@@ -3535,57 +3586,6 @@ SCGrid
         ()
         ()
         ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ())
-      (eawag.grid.Bug[]
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        SCBug6310
         ()
         ()
         ()
@@ -26092,21 +26092,6 @@ SCGrid
     r = 2)
     _BEGIN_
     _END_
-  SCSugarBug4375
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 43
-    x = 15
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
   SCSugarBug4374
   (scr.SCSugarBug
     active = true
@@ -26204,21 +26189,6 @@ SCGrid
     flyer = false
     z = 0
     y = 25
-    x = 16
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4350
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 43
     x = 16
     depict = Depiction2
     sugarMltp = 5
@@ -26332,21 +26302,6 @@ SCGrid
     r = 2)
     _BEGIN_
     _END_
-  SCSugarBug4325
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 43
-    x = 17
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
   SCSugarBug4324
   (scr.SCSugarBug
     active = true
@@ -26444,21 +26399,6 @@ SCGrid
     flyer = false
     z = 0
     y = 25
-    x = 18
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4300
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 43
     x = 18
     depict = Depiction2
     sugarMltp = 5
@@ -26572,21 +26512,6 @@ SCGrid
     r = 2)
     _BEGIN_
     _END_
-  SCSugarBug4275
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 43
-    x = 19
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
   SCSugarBug4274
   (scr.SCSugarBug
     active = true
@@ -26684,21 +26609,6 @@ SCGrid
     flyer = false
     z = 0
     y = 25
-    x = 20
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4250
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 43
     x = 20
     depict = Depiction2
     sugarMltp = 5
@@ -26812,21 +26722,6 @@ SCGrid
     r = 2)
     _BEGIN_
     _END_
-  SCSugarBug4225
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 43
-    x = 21
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
   SCSugarBug4224
   (scr.SCSugarBug
     active = true
@@ -26865,21 +26760,6 @@ SCGrid
     z = 0
     y = 46
     x = 21
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4200
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 43
-    x = 22
     depict = Depiction2
     sugarMltp = 5
     c = 0
@@ -26932,21 +26812,6 @@ SCGrid
     r = 2)
     _BEGIN_
     _END_
-  SCSugarBug4175
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 43
-    x = 23
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
   SCSugarBug4174
   (scr.SCSugarBug
     active = true
@@ -26985,21 +26850,6 @@ SCGrid
     z = 0
     y = 46
     x = 23
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4150
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 43
-    x = 24
     depict = Depiction2
     sugarMltp = 5
     c = 0
@@ -27052,21 +26902,6 @@ SCGrid
     r = 2)
     _BEGIN_
     _END_
-  SCSugarBug4125
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 43
-    x = 25
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
   SCSugarBug4124
   (scr.SCSugarBug
     active = true
@@ -27105,21 +26940,6 @@ SCGrid
     z = 0
     y = 46
     x = 25
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4100
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 43
-    x = 26
     depict = Depiction2
     sugarMltp = 5
     c = 0
@@ -27209,216 +27029,6 @@ SCGrid
     flyer = false
     z = 0
     y = 29
-    x = 27
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4088
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 30
-    x = 27
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4087
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 31
-    x = 27
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4086
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 32
-    x = 27
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4085
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 33
-    x = 27
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4084
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 34
-    x = 27
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4083
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 35
-    x = 27
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4082
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 36
-    x = 27
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4081
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 37
-    x = 27
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4080
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 38
-    x = 27
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4079
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 39
-    x = 27
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4078
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 40
-    x = 27
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4077
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 41
-    x = 27
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4076
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 42
-    x = 27
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4075
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 43
     x = 27
     depict = Depiction2
     sugarMltp = 5
@@ -27517,216 +27127,6 @@ SCGrid
     r = 2)
     _BEGIN_
     _END_
-  SCSugarBug4063
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 30
-    x = 28
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4062
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 31
-    x = 28
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4061
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 32
-    x = 28
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4060
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 33
-    x = 28
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4059
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 34
-    x = 28
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4058
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 35
-    x = 28
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4057
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 36
-    x = 28
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4056
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 37
-    x = 28
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4055
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 38
-    x = 28
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4054
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 39
-    x = 28
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4053
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 40
-    x = 28
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4052
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 41
-    x = 28
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4051
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 42
-    x = 28
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4050
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 43
-    x = 28
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
   SCSugarBug4049
   (scr.SCSugarBug
     active = true
@@ -27809,81 +27209,6 @@ SCGrid
     flyer = false
     z = 0
     y = 29
-    x = 29
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4038
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 30
-    x = 29
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4037
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 31
-    x = 29
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4036
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 32
-    x = 29
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4035
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 33
-    x = 29
-    depict = Depiction2
-    sugarMltp = 5
-    c = 0
-    _r = 10.0
-    r = 2)
-    _BEGIN_
-    _END_
-  SCSugarBug4034
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 34
     x = 29
     depict = Depiction2
     sugarMltp = 5
@@ -34762,36 +34087,6 @@ SCGrid
     r = 3)
     _BEGIN_
     _END_
-  SCSugarBug5485
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 41
-    x = 15
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5484
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 42
-    x = 15
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
   SCSugarBug5483
   (scr.SCSugarBug
     active = true
@@ -34829,36 +34124,6 @@ SCGrid
     flyer = false
     z = 0
     y = 28
-    x = 16
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5468
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 41
-    x = 16
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5467
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 42
     x = 16
     depict = Depiction3
     sugarMltp = 5
@@ -34912,36 +34177,6 @@ SCGrid
     r = 3)
     _BEGIN_
     _END_
-  SCSugarBug5451
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 41
-    x = 17
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5450
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 42
-    x = 17
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
   SCSugarBug5449
   (scr.SCSugarBug
     active = true
@@ -34979,36 +34214,6 @@ SCGrid
     flyer = false
     z = 0
     y = 28
-    x = 18
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5434
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 41
-    x = 18
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5433
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 42
     x = 18
     depict = Depiction3
     sugarMltp = 5
@@ -35062,36 +34267,6 @@ SCGrid
     r = 3)
     _BEGIN_
     _END_
-  SCSugarBug5417
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 41
-    x = 19
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5416
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 42
-    x = 19
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
   SCSugarBug5415
   (scr.SCSugarBug
     active = true
@@ -35129,36 +34304,6 @@ SCGrid
     flyer = false
     z = 0
     y = 28
-    x = 20
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5400
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 41
-    x = 20
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5399
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 42
     x = 20
     depict = Depiction3
     sugarMltp = 5
@@ -35212,36 +34357,6 @@ SCGrid
     r = 3)
     _BEGIN_
     _END_
-  SCSugarBug5383
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 41
-    x = 21
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5382
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 42
-    x = 21
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
   SCSugarBug5381
   (scr.SCSugarBug
     active = true
@@ -35287,36 +34402,6 @@ SCGrid
     r = 3)
     _BEGIN_
     _END_
-  SCSugarBug5366
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 41
-    x = 22
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5365
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 42
-    x = 22
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
   SCSugarBug5364
   (scr.SCSugarBug
     active = true
@@ -35354,36 +34439,6 @@ SCGrid
     flyer = false
     z = 0
     y = 28
-    x = 23
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5349
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 41
-    x = 23
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5348
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 42
     x = 23
     depict = Depiction3
     sugarMltp = 5
@@ -35452,201 +34507,6 @@ SCGrid
     r = 3)
     _BEGIN_
     _END_
-  SCSugarBug5343
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 30
-    x = 24
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5342
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 31
-    x = 24
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5341
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 32
-    x = 24
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5340
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 33
-    x = 24
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5339
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 34
-    x = 24
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5338
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 35
-    x = 24
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5337
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 36
-    x = 24
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5336
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 37
-    x = 24
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5335
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 38
-    x = 24
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5334
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 39
-    x = 24
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5333
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 40
-    x = 24
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5332
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 41
-    x = 24
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5331
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 42
-    x = 24
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
   SCSugarBug5330
   (scr.SCSugarBug
     active = true
@@ -35707,201 +34567,6 @@ SCGrid
     r = 3)
     _BEGIN_
     _END_
-  SCSugarBug5326
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 30
-    x = 25
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5325
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 31
-    x = 25
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5324
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 32
-    x = 25
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5323
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 33
-    x = 25
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5322
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 34
-    x = 25
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5321
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 35
-    x = 25
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5320
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 36
-    x = 25
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5319
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 37
-    x = 25
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5318
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 38
-    x = 25
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5317
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 39
-    x = 25
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5316
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 40
-    x = 25
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5315
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 41
-    x = 25
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5314
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 42
-    x = 25
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
   SCSugarBug5313
   (scr.SCSugarBug
     active = true
@@ -35954,201 +34619,6 @@ SCGrid
     flyer = false
     z = 0
     y = 29
-    x = 26
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5309
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 30
-    x = 26
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5308
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 31
-    x = 26
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5307
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 32
-    x = 26
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5306
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 33
-    x = 26
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5305
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 34
-    x = 26
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5304
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 35
-    x = 26
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5303
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 36
-    x = 26
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5302
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 37
-    x = 26
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5301
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 38
-    x = 26
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5300
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 39
-    x = 26
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5299
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 40
-    x = 26
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5298
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 41
-    x = 26
-    depict = Depiction3
-    sugarMltp = 5
-    c = 0
-    _r = 15.0
-    r = 3)
-    _BEGIN_
-    _END_
-  SCSugarBug5297
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 42
     x = 26
     depict = Depiction3
     sugarMltp = 5
@@ -37762,171 +36232,6 @@ SCGrid
     r = 4)
     _BEGIN_
     _END_
-  SCSugarBug6033
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 30
-    x = 12
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug6032
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 31
-    x = 12
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug6031
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 32
-    x = 12
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug6030
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 33
-    x = 12
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug6029
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 34
-    x = 12
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug6028
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 35
-    x = 12
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug6027
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 36
-    x = 12
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug6026
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 37
-    x = 12
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug6025
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 38
-    x = 12
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug6024
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 39
-    x = 12
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug6023
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 40
-    x = 12
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
   SCSugarBug6022
   (scr.SCSugarBug
     active = true
@@ -37934,171 +36239,6 @@ SCGrid
     flyer = false
     z = 0
     y = 29
-    x = 13
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug6021
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 30
-    x = 13
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug6020
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 31
-    x = 13
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug6019
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 32
-    x = 13
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug6018
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 33
-    x = 13
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug6017
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 34
-    x = 13
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug6016
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 35
-    x = 13
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug6015
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 36
-    x = 13
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug6014
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 37
-    x = 13
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug6013
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 38
-    x = 13
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug6012
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 39
-    x = 13
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug6011
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 40
     x = 13
     depict = Depiction4
     sugarMltp = 5
@@ -38122,171 +36262,6 @@ SCGrid
     r = 4)
     _BEGIN_
     _END_
-  SCSugarBug6009
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 30
-    x = 14
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug6008
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 31
-    x = 14
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug6007
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 32
-    x = 14
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug6006
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 33
-    x = 14
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug6005
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 34
-    x = 14
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug6004
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 35
-    x = 14
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug6003
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 36
-    x = 14
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug6002
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 37
-    x = 14
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug6001
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 38
-    x = 14
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug6000
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 39
-    x = 14
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5999
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 40
-    x = 14
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
   SCSugarBug5998
   (scr.SCSugarBug
     active = true
@@ -38294,171 +36269,6 @@ SCGrid
     flyer = false
     z = 0
     y = 29
-    x = 15
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5997
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 30
-    x = 15
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5996
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 31
-    x = 15
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5995
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 32
-    x = 15
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5994
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 33
-    x = 15
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5993
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 34
-    x = 15
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5992
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 35
-    x = 15
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5991
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 36
-    x = 15
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5990
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 37
-    x = 15
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5989
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 38
-    x = 15
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5988
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 39
-    x = 15
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5987
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 40
     x = 15
     depict = Depiction4
     sugarMltp = 5
@@ -38482,81 +36292,6 @@ SCGrid
     r = 4)
     _BEGIN_
     _END_
-  SCSugarBug5985
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 30
-    x = 16
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5978
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 37
-    x = 16
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5977
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 38
-    x = 16
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5976
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 39
-    x = 16
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5975
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 40
-    x = 16
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
   SCSugarBug5974
   (scr.SCSugarBug
     active = true
@@ -38564,81 +36299,6 @@ SCGrid
     flyer = false
     z = 0
     y = 29
-    x = 17
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5973
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 30
-    x = 17
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5966
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 37
-    x = 17
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5965
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 38
-    x = 17
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5964
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 39
-    x = 17
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5963
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 40
     x = 17
     depict = Depiction4
     sugarMltp = 5
@@ -38662,81 +36322,6 @@ SCGrid
     r = 4)
     _BEGIN_
     _END_
-  SCSugarBug5961
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 30
-    x = 18
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5954
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 37
-    x = 18
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5953
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 38
-    x = 18
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5952
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 39
-    x = 18
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5951
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 40
-    x = 18
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
   SCSugarBug5950
   (scr.SCSugarBug
     active = true
@@ -38744,81 +36329,6 @@ SCGrid
     flyer = false
     z = 0
     y = 29
-    x = 19
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5949
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 30
-    x = 19
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5942
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 37
-    x = 19
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5941
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 38
-    x = 19
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5940
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 39
-    x = 19
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5939
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 40
     x = 19
     depict = Depiction4
     sugarMltp = 5
@@ -38842,81 +36352,6 @@ SCGrid
     r = 4)
     _BEGIN_
     _END_
-  SCSugarBug5937
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 30
-    x = 20
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5930
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 37
-    x = 20
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5929
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 38
-    x = 20
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5928
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 39
-    x = 20
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5927
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 40
-    x = 20
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
   SCSugarBug5926
   (scr.SCSugarBug
     active = true
@@ -38924,81 +36359,6 @@ SCGrid
     flyer = false
     z = 0
     y = 29
-    x = 21
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5925
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 30
-    x = 21
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5918
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 37
-    x = 21
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5917
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 38
-    x = 21
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5916
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 39
-    x = 21
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5915
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 40
     x = 21
     depict = Depiction4
     sugarMltp = 5
@@ -39022,171 +36382,6 @@ SCGrid
     r = 4)
     _BEGIN_
     _END_
-  SCSugarBug5913
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 30
-    x = 22
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5912
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 31
-    x = 22
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5911
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 32
-    x = 22
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5910
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 33
-    x = 22
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5909
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 34
-    x = 22
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5908
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 35
-    x = 22
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5907
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 36
-    x = 22
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5906
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 37
-    x = 22
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5905
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 38
-    x = 22
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5904
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 39
-    x = 22
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5903
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 40
-    x = 22
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
   SCSugarBug5902
   (scr.SCSugarBug
     active = true
@@ -39194,171 +36389,6 @@ SCGrid
     flyer = false
     z = 0
     y = 29
-    x = 23
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5901
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 30
-    x = 23
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5900
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 31
-    x = 23
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5899
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 32
-    x = 23
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5898
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 33
-    x = 23
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5897
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 34
-    x = 23
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5896
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 35
-    x = 23
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5895
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 36
-    x = 23
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5894
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 37
-    x = 23
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5893
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 38
-    x = 23
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5892
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 39
-    x = 23
-    depict = Depiction4
-    sugarMltp = 5
-    c = 0
-    _r = 20.0
-    r = 4)
-    _BEGIN_
-    _END_
-  SCSugarBug5891
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 40
     x = 23
     depict = Depiction4
     sugarMltp = 5
@@ -41257,546 +38287,6 @@ SCGrid
     r = 4)
     _BEGIN_
     _END_
-  SCSugarBug6252
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 31
-    x = 16
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6251
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 32
-    x = 16
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6250
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 33
-    x = 16
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6249
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 34
-    x = 16
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6248
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 35
-    x = 16
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6247
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 36
-    x = 16
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6246
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 31
-    x = 17
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6245
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 32
-    x = 17
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6244
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 33
-    x = 17
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6243
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 34
-    x = 17
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6242
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 35
-    x = 17
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6241
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 36
-    x = 17
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6240
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 31
-    x = 18
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6239
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 32
-    x = 18
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6238
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 33
-    x = 18
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6237
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 34
-    x = 18
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6236
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 35
-    x = 18
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6235
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 36
-    x = 18
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6234
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 31
-    x = 19
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6233
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 32
-    x = 19
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6232
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 33
-    x = 19
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6231
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 34
-    x = 19
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6230
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 35
-    x = 19
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6229
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 36
-    x = 19
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6228
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 31
-    x = 20
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6227
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 32
-    x = 20
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6226
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 33
-    x = 20
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6225
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 34
-    x = 20
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6224
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 35
-    x = 20
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6223
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 36
-    x = 20
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6222
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 31
-    x = 21
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6221
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 32
-    x = 21
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6220
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 33
-    x = 21
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6219
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 34
-    x = 21
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6218
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 35
-    x = 21
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
-  SCSugarBug6217
-  (scr.SCSugarBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 0
-    y = 36
-    x = 21
-    depict = Depiction5
-    sugarMltp = 5
-    c = 0
-    _r = 25.0
-    r = 5)
-    _BEGIN_
-    _END_
   SCSugarBug6308
   (scr.SCSugarBug
     active = true
@@ -42637,48 +39127,3532 @@ SCGrid
     r = 5)
     _BEGIN_
     _END_
-  SCBug6309
-  (scr.SCBug
+  SCSugarBug6495
+  (scr.SCSugarBug
     active = true
     randomize = false
     flyer = false
-    z = 1
-    y = 33
-    x = 16
-    depict = DepictionBugFemale
-    fertilityAgeMax = 56
-    fertilityAgeMin = 13
-    sex = true
-    currWealth = 74
-    maxAge = 65
-    currAge = 0
-    initialSugar = 74
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
+    z = 0
+    y = 30
+    x = 29
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
     _BEGIN_
     _END_
-  SCBug6310
+  SCSugarBug6494
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 31
+    x = 29
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6493
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 32
+    x = 29
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6492
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 33
+    x = 29
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6491
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 34
+    x = 29
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6683
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 43
+    x = 15
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6669
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 43
+    x = 16
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6655
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 43
+    x = 17
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6641
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 43
+    x = 18
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6627
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 43
+    x = 19
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6613
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 43
+    x = 20
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6599
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 43
+    x = 21
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6585
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 43
+    x = 22
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6571
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 43
+    x = 23
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6557
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 43
+    x = 24
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6543
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 43
+    x = 25
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6529
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 43
+    x = 26
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6528
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 30
+    x = 27
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6527
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 31
+    x = 27
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6526
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 32
+    x = 27
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6525
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 33
+    x = 27
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6524
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 34
+    x = 27
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6523
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 35
+    x = 27
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6522
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 36
+    x = 27
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6521
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 37
+    x = 27
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6520
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 38
+    x = 27
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6519
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 39
+    x = 27
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6518
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 40
+    x = 27
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6517
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 41
+    x = 27
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6516
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 42
+    x = 27
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6515
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 43
+    x = 27
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6514
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 30
+    x = 28
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6513
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 31
+    x = 28
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6512
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 32
+    x = 28
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6511
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 33
+    x = 28
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6510
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 34
+    x = 28
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6509
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 35
+    x = 28
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6508
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 36
+    x = 28
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6507
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 37
+    x = 28
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6506
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 38
+    x = 28
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6505
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 39
+    x = 28
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6504
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 40
+    x = 28
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6503
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 41
+    x = 28
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6502
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 42
+    x = 28
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6501
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 43
+    x = 28
+    depict = Depiction2
+    sugarMltp = 5
+    c = 0
+    _r = 10.0
+    r = 2)
+    _BEGIN_
+    _END_
+  SCSugarBug6841
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 41
+    x = 15
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6840
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 42
+    x = 15
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6828
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 41
+    x = 16
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6827
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 42
+    x = 16
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6815
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 41
+    x = 17
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6814
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 42
+    x = 17
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6802
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 41
+    x = 18
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6801
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 42
+    x = 18
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6789
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 41
+    x = 19
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6788
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 42
+    x = 19
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6776
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 41
+    x = 20
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6775
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 42
+    x = 20
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6763
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 41
+    x = 21
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6762
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 42
+    x = 21
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6750
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 41
+    x = 22
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6749
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 42
+    x = 22
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6737
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 41
+    x = 23
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6736
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 42
+    x = 23
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6735
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 30
+    x = 24
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6734
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 31
+    x = 24
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6733
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 32
+    x = 24
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6732
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 33
+    x = 24
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6731
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 34
+    x = 24
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6730
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 35
+    x = 24
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6729
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 36
+    x = 24
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6728
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 37
+    x = 24
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6727
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 38
+    x = 24
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6726
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 39
+    x = 24
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6725
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 40
+    x = 24
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6724
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 41
+    x = 24
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6723
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 42
+    x = 24
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6722
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 30
+    x = 25
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6721
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 31
+    x = 25
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6720
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 32
+    x = 25
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6719
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 33
+    x = 25
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6718
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 34
+    x = 25
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6717
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 35
+    x = 25
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6716
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 36
+    x = 25
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6715
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 37
+    x = 25
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6714
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 38
+    x = 25
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6713
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 39
+    x = 25
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6712
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 40
+    x = 25
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6711
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 41
+    x = 25
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6710
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 42
+    x = 25
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6709
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 30
+    x = 26
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6708
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 31
+    x = 26
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6707
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 32
+    x = 26
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6706
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 33
+    x = 26
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6705
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 34
+    x = 26
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6704
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 35
+    x = 26
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6703
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 36
+    x = 26
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6702
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 37
+    x = 26
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6701
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 38
+    x = 26
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6700
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 39
+    x = 26
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6699
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 40
+    x = 26
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6698
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 41
+    x = 26
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6697
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 42
+    x = 26
+    depict = Depiction3
+    sugarMltp = 5
+    c = 0
+    _r = 15.0
+    r = 3)
+    _BEGIN_
+    _END_
+  SCSugarBug6984
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 30
+    x = 12
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6983
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 31
+    x = 12
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6982
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 32
+    x = 12
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6981
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 33
+    x = 12
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6980
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 34
+    x = 12
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6979
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 35
+    x = 12
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6978
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 36
+    x = 12
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6977
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 37
+    x = 12
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6976
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 38
+    x = 12
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6975
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 39
+    x = 12
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6974
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 40
+    x = 12
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6973
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 30
+    x = 13
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6972
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 31
+    x = 13
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6971
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 32
+    x = 13
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6970
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 33
+    x = 13
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6969
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 34
+    x = 13
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6968
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 35
+    x = 13
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6967
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 36
+    x = 13
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6966
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 37
+    x = 13
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6965
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 38
+    x = 13
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6964
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 39
+    x = 13
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6963
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 40
+    x = 13
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6962
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 30
+    x = 14
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6961
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 31
+    x = 14
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6960
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 32
+    x = 14
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6959
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 33
+    x = 14
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6958
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 34
+    x = 14
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6957
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 35
+    x = 14
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6956
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 36
+    x = 14
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6955
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 37
+    x = 14
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6954
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 38
+    x = 14
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6953
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 39
+    x = 14
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6952
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 40
+    x = 14
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6951
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 30
+    x = 15
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6950
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 31
+    x = 15
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6943
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 38
+    x = 15
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6942
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 39
+    x = 15
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6941
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 40
+    x = 15
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6940
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 30
+    x = 16
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6939
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 31
+    x = 16
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6932
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 38
+    x = 16
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6931
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 39
+    x = 16
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6930
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 40
+    x = 16
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6929
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 30
+    x = 17
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6928
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 31
+    x = 17
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6921
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 38
+    x = 17
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6920
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 39
+    x = 17
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6919
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 40
+    x = 17
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6918
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 30
+    x = 18
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6917
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 31
+    x = 18
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6910
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 38
+    x = 18
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6909
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 39
+    x = 18
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6908
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 40
+    x = 18
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6907
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 30
+    x = 19
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6906
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 31
+    x = 19
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6899
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 38
+    x = 19
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6898
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 39
+    x = 19
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6897
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 40
+    x = 19
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6896
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 30
+    x = 20
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6895
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 31
+    x = 20
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6888
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 38
+    x = 20
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6887
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 39
+    x = 20
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6886
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 40
+    x = 20
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6885
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 30
+    x = 21
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6884
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 31
+    x = 21
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6883
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 32
+    x = 21
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6882
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 33
+    x = 21
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6881
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 34
+    x = 21
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6880
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 35
+    x = 21
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6879
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 36
+    x = 21
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6878
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 37
+    x = 21
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6877
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 38
+    x = 21
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6876
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 39
+    x = 21
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6875
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 40
+    x = 21
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6874
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 30
+    x = 22
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6873
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 31
+    x = 22
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6872
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 32
+    x = 22
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6871
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 33
+    x = 22
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6870
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 34
+    x = 22
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6869
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 35
+    x = 22
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6868
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 36
+    x = 22
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6867
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 37
+    x = 22
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6866
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 38
+    x = 22
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6865
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 39
+    x = 22
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6864
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 40
+    x = 22
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6863
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 30
+    x = 23
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6862
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 31
+    x = 23
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6861
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 32
+    x = 23
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6860
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 33
+    x = 23
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6859
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 34
+    x = 23
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6858
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 35
+    x = 23
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6857
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 36
+    x = 23
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6856
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 37
+    x = 23
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6855
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 38
+    x = 23
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6854
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 39
+    x = 23
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug6853
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 40
+    x = 23
+    depict = Depiction4
+    sugarMltp = 5
+    c = 0
+    _r = 20.0
+    r = 4)
+    _BEGIN_
+    _END_
+  SCSugarBug7020
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 32
+    x = 15
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug7019
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 33
+    x = 15
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug7018
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 34
+    x = 15
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug7017
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 35
+    x = 15
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug7016
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 36
+    x = 15
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug7015
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 37
+    x = 15
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug7014
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 32
+    x = 16
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug7013
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 33
+    x = 16
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug7012
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 34
+    x = 16
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug7011
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 35
+    x = 16
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug7010
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 36
+    x = 16
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug7009
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 37
+    x = 16
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug7008
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 32
+    x = 17
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug7007
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 33
+    x = 17
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug7006
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 34
+    x = 17
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug7005
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 35
+    x = 17
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug7004
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 36
+    x = 17
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug7003
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 37
+    x = 17
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug7002
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 32
+    x = 18
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug7001
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 33
+    x = 18
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug7000
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 34
+    x = 18
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug6999
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 35
+    x = 18
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug6998
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 36
+    x = 18
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug6997
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 37
+    x = 18
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug6996
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 32
+    x = 19
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug6995
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 33
+    x = 19
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug6994
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 34
+    x = 19
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug6993
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 35
+    x = 19
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug6992
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 36
+    x = 19
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug6991
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 37
+    x = 19
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug6990
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 32
+    x = 20
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug6989
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 33
+    x = 20
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug6988
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 34
+    x = 20
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug6987
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 35
+    x = 20
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug6986
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 36
+    x = 20
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCSugarBug6985
+  (scr.SCSugarBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 0
+    y = 37
+    x = 20
+    depict = Depiction5
+    sugarMltp = 5
+    c = 0
+    _r = 25.0
+    r = 5)
+    _BEGIN_
+    _END_
+  SCBug7021
   (scr.SCBug
     active = true
     randomize = false
     flyer = false
     z = 1
-    y = 33
-    x = 19
+    y = 34
+    x = 17
     depict = DepictionBugMale
     fertilityAgeMax = 57
-    fertilityAgeMin = 14
+    fertilityAgeMin = 13
     sex = false
-    currWealth = 62
-    maxAge = 66
+    currWealth = 82
+    maxAge = 68
     currAge = 0
-    initialSugar = 62
+    initialSugar = 82
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector

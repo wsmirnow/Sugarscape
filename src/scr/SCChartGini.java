@@ -1,3 +1,29 @@
+/**
+ * Sugarscape
+ * Copyright 2009-2010 Denis M., Stefan H., Waldemar S.
+ * 
+ * Author: Denis M., Stefan H., Waldemar S.
+ * Website: http://github.com/CallToPower/Sugarscape
+ * AG: Lecture "Regelbasierte Modelle" at the University of Osnabrueck (Germany)
+ * 
+ * The Sugarscape is free Software:
+ * You can redistribute it and/or modify it under the Terms of the
+ * GNU General Public License
+ * as published by the Free Software Foundation, either version 3 of the
+ * License,
+ * or (at your Option) any later Version.
+ * 
+ * The Sugarscape Application is distributed WITHOUT ANY WARRANTY;
+ * without even the implied Warranty of MERCHANTABILITY or FITNESS FOR A
+ * PARTICULAR PURPOSE.
+ * See the GNU General Public License for more Details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with the Sugarscape Application.
+ * If not, see <http://www.gnu.org/licenses/>.
+ * 
+ * File: scr/SCChartGini.java
+ */
 package scr;
 
 import java.util.Collections;
@@ -13,11 +39,14 @@ import eawag.grid.Bug;
  *
  */
 public class SCChartGini extends Chart {
-	
-	SCGrid grid;
-	
+
 	/**
-	 * Constructor 
+	 * Grid
+	 */
+	SCGrid grid;
+
+	/**
+	 * Chart
 	 */
 	public SCChartGini() {
 		setHTitle("Zeit");
