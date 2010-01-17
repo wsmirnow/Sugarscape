@@ -135,6 +135,9 @@ public class SCSugarBug extends Bug {
 	 *            Depiction
 	 */
 	public void setDepiction(Depiction depict) {
+		if (z != 0)
+			return;
+		
 		int depictR = getRbySerno(depict.serno);
 		_r = (double) depictR * sugarMltp;
 		setValue(depictR);

@@ -734,7 +734,7 @@ public class SCBug extends Bug {
 	 *            Depiction
 	 */
 	public void setDepiction(Depiction depict) {
-
+		
 		if (!depict.serno.startsWith("DepictionBug")) {
 			return;
 		}
