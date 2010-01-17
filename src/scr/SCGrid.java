@@ -94,11 +94,19 @@ public class SCGrid extends Grid {
 		}
 	}
 	
+	/**
+	 * Adds
+	 * @param currentBugWealth
+	 */
 	public void addAvarageWealth(int currentBugWealth) {
 		_avarageWealth += currentBugWealth;
 		_bugCount++;
 	}
 	
+	/**
+	 * Returns the Average Wealth
+	 * @return the Average Wealth
+	 */
 	public int getAvarageWealth() {
 		return (int) (bugCount > 0 ? avarageWealth / bugCount : 0);
 	}
