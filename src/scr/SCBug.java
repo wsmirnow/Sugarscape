@@ -353,10 +353,7 @@ public class SCBug extends Bug {
 	 * @return the Vision Radius
 	 */
 	public int getVisionRadiusReproduce() {
-		double factor = 1.0;
-		int vr = helper.getVisionRadiusReproduce();
-		factor = (this.getInitialSugar() + this.getCurrWealth()) / 1000;
-		return (int) (vr + (factor * vr));
+		return magicFormula(helper.getVisionRadiusReproduce());
 	}
 
 	/**
@@ -365,10 +362,7 @@ public class SCBug extends Bug {
 	 * @return the Vision Radius
 	 */
 	public int getVisionRadius() {
-		double factor = 1.0;
-		int vr = helper.getVisionRadius();
-		factor = (this.getInitialSugar() + this.getCurrWealth()) / 1000;
-		return (int) (vr + (factor * vr));
+		return magicFormula(helper.getVisionRadius());
 	}
 
 	/**
@@ -377,10 +371,7 @@ public class SCBug extends Bug {
 	 * @return the Metabolism
 	 */
 	public int getMetabolism() {
-		double factor = 1.0;
-		int mb = helper.getMetabolism();
-		factor = (this.getInitialSugar() + this.getCurrWealth()) / 1000;
-		return (int) (mb - (factor * mb));
+		return magicFormula(helper.getMetabolism());
 	}
 
 	/**
@@ -913,6 +904,18 @@ public class SCBug extends Bug {
 		int dx = b1._x - b2._x;
 		int dy = b1._y - b2._y;
 		return Math.sqrt(dx * dx + dy * dy);
+	}
+
+	/**
+	 * Returns a Value calculated by a magic Formula
+	 * 
+	 * @param value
+	 * @return a Value calculated by a magic Formula
+	 */
+	private int magicFormula(int value) {
+		double factor = 1.0;
+		factor = (this.getInitialSugar() + this.getCurrWealth()) / 1000;
+		return (int) (value + (factor * value));
 	}
 
 	/**
