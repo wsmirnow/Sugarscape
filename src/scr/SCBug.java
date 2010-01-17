@@ -244,9 +244,8 @@ public class SCBug extends Bug {
 				// If no Partner with free Space around found or
 				// "Search Active for a Partner" is not active
 				if ((!found && helper.searchActiveForPartner() && isFertile())
-						|| (!found && !helper.searchActiveForPartner() && (((SCSugarBug) grid
-								.getBug(this._x, this._y, 0))
-								.getCurrentAmountOfSugar() <= 0))) {
+						|| (!found && (((SCSugarBug) grid.getBug(this._x,
+								this._y, 0)).getCurrentAmountOfSugar() <= 0))) {
 					SCSugarBug sugarBug = null;
 					// Get Place(s) with the highest Amount of Sugar
 					Vector<SCSugarBug> vec = new Vector<SCSugarBug>();
@@ -953,18 +952,21 @@ public class SCBug extends Bug {
 	private SCBug reproduce() {
 		SCBug freePlaceBug = null;
 		boolean rdy = false;
-		if (helper.getExtendedVonNeumannNeighborhood()) {
+		// TODO
+		/*if (helper.getExtendedVonNeumannNeighborhood()) {
 			Vector<int[]> coords = new Vector<int[]>();
 			coords = getExtendedVonNeumannCoordinatesAround();
-			if (!coords.isEmpty()) {
+			if ((coords == null) || !coords.isEmpty()) {
 				for (int i = 0; (i < coords.size()) && !rdy; i++) {
+					// System.out.println("\n" + coords.size() + "\nx: " +
+					// coords.get(i)[0] + ", y: " + coords.get(i)[1] + "\n");
 					if (!((freePlaceBug = moveNewBug(coords.get(i)[0], coords
 							.get(i)[1])) == null)) {
 						rdy = true;
 					}
 				}
 			}
-		} else {
+		} else {*/
 			for (int i = (this._x - helper.getVisionRadiusReproduce()); (i < (this._x + helper
 					.getVisionRadiusReproduce()))
 					&& !rdy; i++) {
@@ -976,7 +978,7 @@ public class SCBug extends Bug {
 					}
 				}
 			}
-		}
+		// }
 		return freePlaceBug;
 	}
 
