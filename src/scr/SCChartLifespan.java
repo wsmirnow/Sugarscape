@@ -30,7 +30,7 @@ import eawag.chart.Chart;
 import eawag.grid.Bug;
 
 /**
- * Helper
+ * Chart Diagram for average Age of Bugs
  * 
  * @author Stefan H., Waldemar S.
  */
@@ -64,7 +64,7 @@ public class SCChartLifespan extends Chart {
 				Bug bug = grid.getBug(x, y, 1);
 				if (bug != null && bug instanceof SCBug) {
 					lifespan = ((SCBug) bug).getDeadAgents() == 0 ? 0
-							: ((SCBug) bug).getDyingAge()
+							: ((SCBug) bug).getAgeOfDeath()
 									/ ((SCBug) bug).getDeadAgents();
 				}
 			}

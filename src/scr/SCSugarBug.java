@@ -135,6 +135,9 @@ public class SCSugarBug extends Bug {
 	 *            Depiction
 	 */
 	public void setDepiction(Depiction depict) {
+		if (z != 0)
+			return;
+		
 		int depictR = getRbySerno(depict.serno);
 		_r = (double) depictR * sugarMltp;
 		setValue(depictR);
@@ -166,7 +169,7 @@ public class SCSugarBug extends Bug {
 	private double getNext_R() {
 		// return Math.min(this._r + helper.expansionRatio,
 		// helper.expansionRatio.maxAmountOfSugarInSugarAgent);
-		return Math.min(this._r + helper.expansionRatio, this.c);
+		return Math.min(this._r + helper.getExpansionRatio(), this.c);
 	}
 
 	/**

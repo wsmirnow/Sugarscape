@@ -33,7 +33,7 @@ import eawag.chart.Chart;
 import eawag.grid.Bug;
 
 /**
- * Helper
+ * Chart Diagram for Bugs Wealth
  * 
  * @author Stefan H., Waldemar S.
  */

@@ -36,128 +36,133 @@ public class SCHelper {
 	/************************************************/
 	// Variables
 	/************************************************/
-
-	/**
-	 * Error Representation
-	 */
-	public static final int ERROR = Integer.MAX_VALUE;
 	
 	/**
-	 * Extended Von Neumann Neighborhood or every neighbor
+	 * Extended Von Neumann Neighborhood or every neighboor
 	 */
-	public boolean extendedVonNeumannNeighborhood = false;
+	private boolean extendedVonNeumannNeighborhood = true;
 
 	/**
-	 * Max. Amount of Sugar in 1 SugarAgent
+	 * Flag for active Search for a Partner
 	 */
-	public int maxAmountOfSugarInSugarAgent = 20; // c
+	private boolean searchActiveForPartner = true;
 
 	/**
-	 * Expansion Ratio in between [0, 1]
+	 * Field of Vision Radius of extended Moore Neighbourhood at Reproduce
 	 */
-	public double expansionRatio = 0.2; // a
-
-	/**
-	 * Mode for "Aufgabe" No. 2
-	 */
-	public boolean searchActiveForPartner = true;
-
-	/**
-	 * The Movement Speed (per Timestep)
-	 */
-	public int movementSpeed = 1;
-
-	/**
-	 * Metabolism (Time Steps / sugarConsumingRatio Sugar)
-	 */
-	public int metabolism = 2;
-
-	/**
-	 * Sugar Consuming Ratio
-	 */
-	public int sugarConsumingRatio = 1;
-
-	/**
-	 * Step for getting sugarMiningRatio Sugar
-	 */
-	public int getSugarStep = 2;
-
-	/**
-	 * Sugar Mining Ratio
-	 */
-	public int sugarMiningRatio = 4;
+	private int visionRadiusReproduce = 2;
 
 	/**
 	 * Field of Vision Radius of extended Moore Neighbourhood
 	 */
-	public int visionRadius = 4;
+	private int visionRadius = 4;
 
 	/**
-	 * Field of Vision Radius of extended Moore Neighbourhood at Reproduce
-	 * TODO hochsetzen, um mehr Generationen zu bekommen
+	 * Expansion Ratio in between [0, 1]
 	 */
-	public int visionRadiusReproduce = 4;
+	private double expansionRatio = 1; // a
+
+	/**
+	 * Metabolism (Time Steps / sugarConsumingRatio Sugar)
+	 */
+	private int metabolism = 2;
+
+	/**
+	 * Displays since what amount of Sugar the Bug (who is searching for a
+	 * Partner) must move
+	 */
+	private int searchActiveForPartnerSugarMiningLimit = 10;
+
+	/**
+	 * Error Representation
+	 */
+	private static final int ERROR = Integer.MAX_VALUE;
+
+	/**
+	 * Max. Amount of Sugar in 1 SugarAgent
+	 */
+	private int maxAmountOfSugarInSugarAgent = 20; // c
+
+	/**
+	 * The Movement Speed (per Timestep)
+	 */
+	private int movementSpeed = 1;
+
+	/**
+	 * Sugar Consuming Ratio
+	 */
+	private int sugarConsumingRatio = 1;
+
+	/**
+	 * Step for getting sugarMiningRatio Sugar
+	 */
+	private int getSugarStep = 2;
+
+	/**
+	 * Sugar Mining Ratio
+	 */
+	private int sugarMiningRatio = 4;
 
 	/**
 	 * Adds a Divisor in the Function hasEnoughSugar() -> return
 	 * (getCurrWealth() >= (getInitialSugar() / divideFactorHasEnoughSugar));
 	 */
-	public int divideFactorHasEnoughSugar = 1;
+	private int divideFactorHasEnoughSugar = 1;
 
 	/**
 	 * getRandomSex: random >> sexLimit -> bigger Probability for getting female
 	 */
-	public int sexLimit = 50;
+	private int sexLimit = 50;
 
 	/**
 	 * Min. min. Fertility Age
 	 */
-	public int minFertilityAgeMin = 12;
+	private int minFertilityAgeMin = 12;
 
 	/**
 	 * Max. min. Fertility Age
 	 */
-	public int minFertilityAgeMax = 15;
+	private int minFertilityAgeMax = 15;
 
 	/**
 	 * Min. max. Fertility Age for female
 	 */
-	public int minFertilityAgeFemale = 40;
+	private int minFertilityAgeFemale = 40;
 
 	/**
 	 * Min. max. Fertility Age for male
 	 */
-	public int minFertilityAgeMale = 50;
+	private int minFertilityAgeMale = 50;
 
 	/**
 	 * Max. Fertility Age for female
 	 */
-	public int maxFertilityAgeFemale = 50;
+	private int maxFertilityAgeFemale = 50;
 
 	/**
 	 * Max. Fertility Age for male
 	 */
-	public int maxFertilityAgeMale = 60;
+	private int maxFertilityAgeMale = 60;
 
 	/**
 	 * Min. Wealth for the 1st Generation
 	 */
-	public int minWealth1stGen = 50;
+	private int minWealth1stGen = 50;
 
 	/**
 	 * Max. Wealth for the 1st Generation
 	 */
-	public int maxWealth1stGen = 100;
+	private int maxWealth1stGen = 100;
 
 	/**
 	 * Min. max. Age
 	 */
-	public int maxAgeMin = 60;
+	private int maxAgeMin = 65;
 
 	/**
 	 * Max. max. Age
 	 */
-	public int maxAgeMax = 75;
+	private int maxAgeMax = 80;
 
 	/************************************************/
 	// Functions
@@ -170,7 +175,7 @@ public class SCHelper {
 	 * @return a random Integer between 0 and upperLimit
 	 */
 	public int getRandomInt(int upperLimit) {
-		if (upperLimit > 0){ 
+		if (upperLimit > 0) {
 			return (int) (Math.random() * (upperLimit + 1));
 		} else {
 			return getError();
@@ -219,8 +224,35 @@ public class SCHelper {
 	 * 
 	 * @return var
 	 */
+	public double getExpansionRatio() {
+		return expansionRatio;
+	}
+
+	/**
+	 * Getter
+	 * 
+	 * @return var
+	 */
+	public double getMovementSpeed() {
+		return movementSpeed;
+	}
+
+	/**
+	 * Getter
+	 * 
+	 * @return var
+	 */
 	public boolean searchActiveForPartner() {
 		return searchActiveForPartner;
+	}
+
+	/**
+	 * Getter
+	 * 
+	 * @return var
+	 */
+	public int searchActiveForPartnerSugarMiningLimit() {
+		return searchActiveForPartnerSugarMiningLimit;
 	}
 
 	/**
@@ -321,13 +353,13 @@ public class SCHelper {
 	public int getError() {
 		return ERROR;
 	}
-	
+
 	/**
 	 * Getter
 	 * 
 	 * @return var
 	 */
-	public boolean extendedVonNeumannNeighborhood() {
+	public boolean getExtendedVonNeumannNeighborhood() {
 		return extendedVonNeumannNeighborhood;
 	}
 
@@ -411,5 +443,4 @@ public class SCHelper {
 	public int getMaxAmountOfSugarInSugarAgent() {
 		return maxAmountOfSugarInSugarAgent;
 	}
-	
 }
