@@ -84,6 +84,15 @@ public class SCBug extends Bug {
 	// Max. Fertility Age
 	private int fertilityAgeMax;
 
+	// Metabolism
+	private int metabolism;
+
+	// Vision Radius
+	private int visionRadius;
+
+	// Visio Radius Reproduce
+	private int visionRadiusReproduce;
+
 	/************************************************/
 	// Constructors
 	/************************************************/
@@ -353,10 +362,7 @@ public class SCBug extends Bug {
 	 * @return the Vision Radius
 	 */
 	public int getVisionRadiusReproduce() {
-		if (helper.advantagesForTheRich()) {
-			return magicFormula(helper.getVisionRadiusReproduce());
-		}
-		return helper.getVisionRadiusReproduce();
+		return this.visionRadiusReproduce;
 	}
 
 	/**
@@ -365,10 +371,7 @@ public class SCBug extends Bug {
 	 * @return the Vision Radius
 	 */
 	public int getVisionRadius() {
-		if (helper.advantagesForTheRich()) {
-			return magicFormula(helper.getVisionRadius());
-		}
-		return helper.getVisionRadius();
+		return this.visionRadius;
 	}
 
 	/**
@@ -377,10 +380,7 @@ public class SCBug extends Bug {
 	 * @return the Metabolism
 	 */
 	public int getMetabolism() {
-		if (helper.advantagesForTheRich()) {
-			return magicFormula(helper.getMetabolism());
-		}
-		return helper.getMetabolism();
+		return this.metabolism;
 	}
 
 	/**
@@ -548,6 +548,48 @@ public class SCBug extends Bug {
 			}
 		}
 		return vec;
+	}
+
+	/**
+	 * Returns the new Vision Radius
+	 * 
+	 * @param parent1
+	 * @param parent2
+	 * @return the new Vision Radius
+	 */
+	private int getNewVisionRadius(SCBug parent1, SCBug parent2) {
+		if (helper.advantagesForTheRich()) {
+			// TODO
+		}
+		return helper.getVisionRadius();
+	}
+
+	/**
+	 * Returns the new Vision Radius Reproduce
+	 * 
+	 * @param parent1
+	 * @param parent2
+	 * @return the new Vision Radius Reproduce
+	 */
+	private int getNewVisionRadiusReproduce(SCBug parent1, SCBug parent2) {
+		if (helper.advantagesForTheRich()) {
+			// TODO
+		}
+		return helper.getVisionRadiusReproduce();
+	}
+
+	/**
+	 * Returns the new Metabolism
+	 * 
+	 * @param parent1
+	 * @param parent2
+	 * @return the new Metabolism
+	 */
+	private int getNewMetabolism(SCBug parent1, SCBug parent2) {
+		if (helper.advantagesForTheRich()) {
+			// TODO
+		}
+		return helper.getMetabolism();
 	}
 
 	/**
@@ -891,11 +933,16 @@ public class SCBug extends Bug {
 		}
 		this.parents.add(parent1);
 		this.parents.add(parent2);
-		this.initialSugar = this.currWealth;
+		this.visionRadiusReproduce = this.initialSugar = this.currWealth;
 		this.sex = sex;
 		this.fertilityAgeMin = getRandomFertilityAgeMin();
 		this.fertilityAgeMax = getRandomFertilityAgeMax();
 		this.maxAge = getRandomMaxAge();
+		// Set dependent Values
+		this.visionRadius = getNewVisionRadius(parent1, parent2);
+		this.visionRadiusReproduce = getNewVisionRadiusReproduce(parent1,
+				parent2);
+		this.metabolism = getNewMetabolism(parent1, parent2);
 	}
 
 	/************************************************/
@@ -913,18 +960,6 @@ public class SCBug extends Bug {
 		int dx = b1._x - b2._x;
 		int dy = b1._y - b2._y;
 		return Math.sqrt(dx * dx + dy * dy);
-	}
-
-	/**
-	 * Returns a Value calculated by a magic Formula
-	 * 
-	 * @param value
-	 * @return a Value calculated by a magic Formula
-	 */
-	private int magicFormula(int value) {
-		double factor = 1.0;
-		factor = (this.getInitialSugar() + this.getCurrWealth()) / 1000;
-		return (int) (value + (factor * value));
 	}
 
 	/**
