@@ -157,7 +157,7 @@ public class SCBug extends Bug {
 			}
 
 			// Consume Sugar every metabolism Timesteps
-			if (this.currMB >= helper.getMetabolism()) {
+			if (this.currMB >= this.getMetabolism()) {
 				this.removeSugar(helper.getSugarConsumingRatio());
 				if (this.currWealth < 0) {
 					this.currWealth = 0;
@@ -300,10 +300,10 @@ public class SCBug extends Bug {
 	 * @return true if Bug b is in the VisionRadius of this Bug, false else
 	 */
 	private boolean isInSight(SCBug b) {
-		boolean x = (b._x > (this._x - helper.getVisionRadius()))
-				&& (b._x < (this._x + helper.getVisionRadius()));
-		boolean y = (b._y > (this._y - helper.getVisionRadius()))
-				&& (b._y < (this._y + helper.getVisionRadius()));
+		boolean x = (b._x > (this._x - this.getVisionRadius()))
+				&& (b._x < (this._x + this.getVisionRadius()));
+		boolean y = (b._y > (this._y - this.getVisionRadius()))
+				&& (b._y < (this._y + this.getVisionRadius()));
 		return x && y;
 	}
 
@@ -323,7 +323,7 @@ public class SCBug extends Bug {
 		if (this.getGrid() instanceof SCGrid) {
 			SCGrid grid = (SCGrid) this.getGrid();
 			// down + top
-			for (int i = (this._x - helper.getVisionRadius()); i <= (this._x + helper
+			for (int i = (this._x - this.getVisionRadius()); i <= (this._x + this
 					.getVisionRadius()); i++) {
 				if ((i != this._x) && (i < grid.getXSize())) {
 					int arr[] = new int[2];
@@ -333,7 +333,7 @@ public class SCBug extends Bug {
 				}
 			}
 			// left + right
-			for (int i = (this._y - helper.getVisionRadius()); i <= (this._y + helper
+			for (int i = (this._y - this.getVisionRadius()); i <= (this._y + this
 					.getVisionRadius()); i++) {
 				if ((i != this._y) && (i < grid.getYSize())) {
 					int arr[] = new int[2];
@@ -345,6 +345,42 @@ public class SCBug extends Bug {
 		}
 
 		return vec;
+	}
+
+	/**
+	 * Returns the Vision Radius; Richer->bigger Vision Radius
+	 * 
+	 * @return the Vision Radius
+	 */
+	public int getVisionRadiusReproduce() {
+		double factor = 1.0;
+		int vr = helper.getVisionRadiusReproduce();
+		factor = (this.getInitialSugar() + this.getCurrWealth()) / 1000;
+		return (int) (vr + (factor * vr));
+	}
+
+	/**
+	 * Returns the Vision Radius; Richer->bigger Vision Radius
+	 * 
+	 * @return the Vision Radius
+	 */
+	public int getVisionRadius() {
+		double factor = 1.0;
+		int vr = helper.getVisionRadius();
+		factor = (this.getInitialSugar() + this.getCurrWealth()) / 1000;
+		return (int) (vr + (factor * vr));
+	}
+
+	/**
+	 * Returns the Metabolism; Richer->less sugar consume
+	 * 
+	 * @return the Metabolism
+	 */
+	public int getMetabolism() {
+		double factor = 1.0;
+		int mb = helper.getMetabolism();
+		factor = (this.getInitialSugar() + this.getCurrWealth()) / 1000;
+		return (int) (mb - (factor * mb));
 	}
 
 	/**
@@ -495,9 +531,9 @@ public class SCBug extends Bug {
 					}
 				}
 			} else {
-				for (int i = (this._x - helper.getVisionRadius()); i < (this._x + helper
+				for (int i = (this._x - this.getVisionRadius()); i < (this._x + this
 						.getVisionRadius()); i++) {
-					for (int j = (this._y - helper.getVisionRadius()); j < (this._y + helper
+					for (int j = (this._y - this.getVisionRadius()); j < (this._y + this
 							.getVisionRadius()); j++) {
 						if ((i < grid.getXSize()) && (j < grid.getYSize())) {
 							if (grid.getBug(i, j, 1) == null) {
@@ -551,9 +587,9 @@ public class SCBug extends Bug {
 					}
 				}
 			} else {
-				for (int i = (this._x - helper.getVisionRadius()); i < (this._x + helper
+				for (int i = (this._x - this.getVisionRadius()); i < (this._x + this
 						.getVisionRadius()); i++) {
-					for (int j = (this._y - helper.getVisionRadius()); j < (this._y + helper
+					for (int j = (this._y - this.getVisionRadius()); j < (this._y + this
 							.getVisionRadius()); j++) {
 						if ((i < grid.getXSize()) && (j < grid.getYSize())) {
 							if (grid.getBug(i, j, 0) instanceof SCSugarBug) {
@@ -602,9 +638,9 @@ public class SCBug extends Bug {
 					}
 				}
 			} else {
-				for (int i = (this._x - helper.getVisionRadius()); i < (this._x + helper
+				for (int i = (this._x - this.getVisionRadius()); i < (this._x + this
 						.getVisionRadius()); i++) {
-					for (int j = (this._y - helper.getVisionRadius()); j < (this._y + helper
+					for (int j = (this._y - this.getVisionRadius()); j < (this._y + this
 							.getVisionRadius()); j++) {
 						if ((i < grid.getXSize()) && (j < grid.getYSize())) {
 							if (grid.getBug(i, j, 1) instanceof SCBug) {
@@ -790,9 +826,9 @@ public class SCBug extends Bug {
 					}
 				}
 			} else {
-				for (int i = (this._x - helper.getVisionRadius()); i < (this._x + helper
+				for (int i = (this._x - this.getVisionRadius()); i < (this._x + this
 						.getVisionRadius()); i++) {
-					for (int j = (this._y - helper.getVisionRadius()); j < (this._y + helper
+					for (int j = (this._y - this.getVisionRadius()); j < (this._y + this
 							.getVisionRadius()); j++) {
 						if ((i < grid.getXSize()) && (j < grid.getYSize())) {
 							if ((grid.getBug(i, j, 1) == null)) {
@@ -967,10 +1003,10 @@ public class SCBug extends Bug {
 		// }
 		// }
 		// } else {*/
-		for (int i = (this._x - helper.getVisionRadiusReproduce()); (i < (this._x + helper
+		for (int i = (this._x - this.getVisionRadiusReproduce()); (i < (this._x + this
 				.getVisionRadiusReproduce()))
 				&& !rdy; i++) {
-			for (int j = (this._y - helper.getVisionRadiusReproduce()); (j < (this._y + helper
+			for (int j = (this._y - this.getVisionRadiusReproduce()); (j < (this._y + this
 					.getVisionRadiusReproduce()))
 					&& !rdy; j++) {
 				if (!((freePlaceBug = moveNewBug(i, j)) == null)) {
