@@ -71,7 +71,7 @@ public class SCHelper {
 	 * Displays since what amount of Sugar the Bug (who is searching for a
 	 * Partner) must move
 	 */
-	private int searchActiveForPartnerSugarMiningLimit = 3;
+	private int searchActiveForPartnerSugarMiningLimit = 10;
 
 	/**
 	 * Error Representation
