@@ -43,7 +43,7 @@ public class SCHelper {
 	public static final int ERROR = Integer.MAX_VALUE;
 	
 	/**
-	 * Extended Von Neumann Neighborhood or every neighboor
+	 * Extended Von Neumann Neighborhood or every neighbor
 	 */
 	public boolean extendedVonNeumannNeighborhood = false;
 
@@ -411,4 +411,5 @@ public class SCHelper {
 	public int getMaxAmountOfSugarInSugarAgent() {
 		return maxAmountOfSugarInSugarAgent;
 	}
+	
 }
