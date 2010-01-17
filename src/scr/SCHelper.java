@@ -36,7 +36,7 @@ public class SCHelper {
 	/************************************************/
 	// Variables
 	/************************************************/
-	
+
 	/**
 	 * Extended Von Neumann Neighborhood or every neighboor
 	 */
@@ -66,6 +66,11 @@ public class SCHelper {
 	 * Metabolism (Time Steps / sugarConsumingRatio Sugar)
 	 */
 	private int metabolism = 2;
+
+	/**
+	 * Money for the rich!
+	 */
+	private boolean advantagesForTheRich = true;
 
 	/**
 	 * Displays since what amount of Sugar the Bug (who is searching for a
@@ -262,6 +267,15 @@ public class SCHelper {
 	 */
 	public int getMetabolism() {
 		return metabolism;
+	}
+
+	/**
+	 * Getter
+	 * 
+	 * @return var
+	 */
+	public boolean advantagesForTheRich() {
+		return advantagesForTheRich;
 	}
 
 	/**
