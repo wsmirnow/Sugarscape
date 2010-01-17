@@ -26,6 +26,9 @@
  */
 package scr;
 
+import java.util.Collections;
+import java.util.Vector;
+
 import eawag.chart.Chart;
 import eawag.grid.Bug;
 
@@ -56,11 +59,14 @@ public class SCChartWealth extends Chart {
 	public void condition() {
 
 		super.condition();
-
-		int wealth = 0;
+		
+		int wealth = 0;	//Durchschnitt
 		int minWealth = Integer.MAX_VALUE;
 		int maxWealth = Integer.MIN_VALUE;
-		int count = 0;
+		int count = 0;	//Bugcount
+		Vector<Integer> vec = new Vector<Integer>();
+		double per = 3;	//prozentsatz zum summieren des vermoegens der x% reichsten
+		double sumRichest = 0.0;	//die summe
 
 		for (int x = 0; x < grid.xsize; x++)
 			for (int y = 0; y < grid.ysize; y++) {
@@ -68,19 +74,28 @@ public class SCChartWealth extends Chart {
 				if (bug != null && bug instanceof SCBug) {
 					count++;
 					int bugWealt = ((SCBug) bug).getCurrWealth();
+					vec.add(bugWealt);
 					wealth += bugWealt;
-					minWealth = Math.min(minWealth, bugWealt);
-					maxWealth = Math.max(maxWealth, bugWealt);
 				}
 			}
-
+		
+		Collections.sort(vec);
+		
+		per *= (double)(count/100);	//3% der gesamtbevoelkerung
+		for(int i=0; i<per; i++){
+			sumRichest += vec.lastElement();
+			vec.remove(vec.lastElement());
+			
+		}
+		
 		wealth = count > 0 ? wealth / count : 0;
-		minWealth = count > 0 ? minWealth : 0;
-		maxWealth = count > 0 ? maxWealth : 0;
-
+		minWealth = count > 0 ? vec.firstElement() : 0;
+		maxWealth = count > 0 ? vec.lastElement() : 0;
+		
 		lineTo("Durchschnitt", Chart.TYPE_LINE, grid.getTop().getTime(), wealth);
 		lineTo("Min", Chart.TYPE_LINE, grid.getTop().getTime(), minWealth);
 		lineTo("Max", Chart.TYPE_LINE, grid.getTop().getTime(), maxWealth);
+		lineTo("Reichste 3 %", Chart.TYPE_LINE, grid.getTop().getTime(), sumRichest);
 	}
 
 }
