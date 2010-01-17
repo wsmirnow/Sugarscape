@@ -43,10 +43,21 @@ public class SCGrid extends Grid {
 	/************************************************/
 
 	private boolean init = true;
+	
+	private int avarageWealth = 0;
+	private int _avarageWealth = 0;
+	private int bugCount = 0;
+	private int _bugCount = 0;
 
 	/************************************************/
 	// Other Functions
 	/************************************************/
+	
+	public void condition() {
+		avarageWealth = _avarageWealth;
+		bugCount = _bugCount;
+		_avarageWealth = _bugCount = 0;
+	}
 
 	/**
 	 * Action-Function 1. Put SCSugarAgents on every Cell
@@ -81,6 +92,15 @@ public class SCGrid extends Grid {
 			}
 			init = false;
 		}
+	}
+	
+	public void addAvarageWealth(int currentBugWealth) {
+		_avarageWealth += currentBugWealth;
+		_bugCount++;
+	}
+	
+	public int getAvarageWealth() {
+		return (int) (bugCount > 0 ? avarageWealth / bugCount : 0);
 	}
 
 	/************************************************/
