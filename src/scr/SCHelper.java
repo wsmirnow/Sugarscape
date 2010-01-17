@@ -45,7 +45,7 @@ public class SCHelper {
 	/**
 	 * Flag for active Search for a Partner
 	 */
-	private boolean searchActiveForPartner = false;
+	private boolean searchActiveForPartner = true;
 
 	/**
 	 * Field of Vision Radius of extended Moore Neighbourhood at Reproduce
