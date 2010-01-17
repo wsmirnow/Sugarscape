@@ -155,8 +155,8 @@ public class SCBug extends Bug {
 			} else {
 				this.currGetSugarStep++;
 			}
-			
-			SCGrid grid = (SCGrid)getGrid();
+
+			SCGrid grid = (SCGrid) getGrid();
 			if (grid != null)
 				grid.addAvarageWealth(getCurrWealth());
 
@@ -166,15 +166,18 @@ public class SCBug extends Bug {
 				if ((descendant != null) && (this.descendants != null)) {
 					this.descendants.add(descendant);
 					numberOfDescendants++;
-					
+
 					// enrich rich Bugs
 					if (helper.advantagesForTheRich()) {
-						SCGrid myGrid = (SCGrid)getGrid();
+						SCGrid myGrid = (SCGrid) getGrid();
 						if (myGrid != null) {
 							int avarageWealth = myGrid.getAvarageWealth();
-							avarageWealth = avarageWealth > 0 ? avarageWealth : getCurrWealth();
-							double factor = ((double)getCurrWealth() * 2) / (double)avarageWealth;
-							// if factor > 1 => increase matabolism, vision radius and vision radius reproduce
+							avarageWealth = avarageWealth > 0 ? avarageWealth
+									: getCurrWealth();
+							double factor = ((double) getCurrWealth() * 2)
+									/ (double) avarageWealth;
+							// if factor > 1 => increase matabolism, vision
+							// radius and vision radius reproduce
 							descendant.setMetabolismByFactor(factor);
 							descendant.setVisionRadiusByFactor(factor);
 							descendant.setVisionRadiusReproduceByFactor(factor);
@@ -1010,7 +1013,6 @@ public class SCBug extends Bug {
 	private SCBug reproduce() {
 		SCBug freePlaceBug = null;
 		boolean rdy = false;
-		// TODO
 		// if (helper.getExtendedVonNeumannNeighborhood()) {
 		// Vector<int[]> coords = new Vector<int[]>();
 		// coords = getExtendedVonNeumannCoordinatesAround();
@@ -1039,35 +1041,39 @@ public class SCBug extends Bug {
 		// }
 		return freePlaceBug;
 	}
-	
+
 	/**
 	 * increase Metabolism if Factor > 1
+	 * 
 	 * @param Factor
 	 */
 	public void setMetabolismByFactor(double Factor) {
-		int metabolismTmp = (int)((double)this.metabolism * Factor);
+		int metabolismTmp = (int) ((double) this.metabolism * Factor);
 		if (metabolismTmp > 0 && this.metabolism < metabolismTmp)
 			this.metabolism = metabolismTmp;
-		
+
 	}
-	
+
 	/**
 	 * increase Vision Radius if factor > 1
+	 * 
 	 * @param Factor
 	 */
 	public void setVisionRadiusByFactor(double Factor) {
-		int visionRadiusTmp = (int)((double)this.visionRadius * Factor);
+		int visionRadiusTmp = (int) ((double) this.visionRadius * Factor);
 		if (visionRadiusTmp > 0 && this.visionRadius < visionRadiusTmp)
 			this.visionRadius = visionRadiusTmp;
 	}
-	
+
 	/**
 	 * increase Vision Radius Reproduce if Factor > 1
+	 * 
 	 * @param Factor
 	 */
 	public void setVisionRadiusReproduceByFactor(double Factor) {
-		int visionRadiusReproduceTmp = (int)((double)this.visionRadiusReproduce * Factor);
-		if (visionRadiusReproduceTmp > 0 && this.visionRadiusReproduce < visionRadiusReproduceTmp)
+		int visionRadiusReproduceTmp = (int) ((double) this.visionRadiusReproduce * Factor);
+		if (visionRadiusReproduceTmp > 0
+				&& this.visionRadiusReproduce < visionRadiusReproduceTmp)
 			this.visionRadiusReproduce = visionRadiusReproduceTmp;
 	}
 
