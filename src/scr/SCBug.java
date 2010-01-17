@@ -157,7 +157,7 @@ public class SCBug extends Bug {
 			}
 
 			// Consume Sugar every metabolism Timesteps
-			if (this.currMB >= helper.getMetabolism()) {
+			if (this.currMB >= this.getMetabolism()) {
 				this.removeSugar(helper.getSugarConsumingRatio());
 				if (this.currWealth < 0) {
 					this.currWealth = 0;
@@ -300,10 +300,10 @@ public class SCBug extends Bug {
 	 * @return true if Bug b is in the VisionRadius of this Bug, false else
 	 */
 	private boolean isInSight(SCBug b) {
-		boolean x = (b._x > (this._x - helper.getVisionRadius()))
-				&& (b._x < (this._x + helper.getVisionRadius()));
-		boolean y = (b._y > (this._y - helper.getVisionRadius()))
-				&& (b._y < (this._y + helper.getVisionRadius()));
+		boolean x = (b._x > (this._x - this.getVisionRadius()))
+				&& (b._x < (this._x + this.getVisionRadius()));
+		boolean y = (b._y > (this._y - this.getVisionRadius()))
+				&& (b._y < (this._y + this.getVisionRadius()));
 		return x && y;
 	}
 
@@ -323,7 +323,7 @@ public class SCBug extends Bug {
 		if (this.getGrid() instanceof SCGrid) {
 			SCGrid grid = (SCGrid) this.getGrid();
 			// down + top
-			for (int i = (this._x - helper.getVisionRadius()); i <= (this._x + helper
+			for (int i = (this._x - this.getVisionRadius()); i <= (this._x + this
 					.getVisionRadius()); i++) {
 				if ((i != this._x) && (i < grid.getXSize())) {
 					int arr[] = new int[2];
@@ -333,7 +333,7 @@ public class SCBug extends Bug {
 				}
 			}
 			// left + right
-			for (int i = (this._y - helper.getVisionRadius()); i <= (this._y + helper
+			for (int i = (this._y - this.getVisionRadius()); i <= (this._y + this
 					.getVisionRadius()); i++) {
 				if ((i != this._y) && (i < grid.getYSize())) {
 					int arr[] = new int[2];
@@ -345,6 +345,33 @@ public class SCBug extends Bug {
 		}
 
 		return vec;
+	}
+
+	/**
+	 * Returns the Vision Radius; Richer->bigger Vision Radius
+	 * 
+	 * @return the Vision Radius
+	 */
+	public int getVisionRadiusReproduce() {
+		return magicFormula(helper.getVisionRadiusReproduce());
+	}
+
+	/**
+	 * Returns the Vision Radius; Richer->bigger Vision Radius
+	 * 
+	 * @return the Vision Radius
+	 */
+	public int getVisionRadius() {
+		return magicFormula(helper.getVisionRadius());
+	}
+
+	/**
+	 * Returns the Metabolism; Richer->less sugar consume
+	 * 
+	 * @return the Metabolism
+	 */
+	public int getMetabolism() {
+		return magicFormula(helper.getMetabolism());
 	}
 
 	/**
@@ -479,7 +506,7 @@ public class SCBug extends Bug {
 			if (helper.getExtendedVonNeumannNeighborhood()) {
 				Vector<int[]> coords = new Vector<int[]>();
 				coords = getExtendedVonNeumannCoordinatesAround();
-				if (!coords.isEmpty()) {
+				if ((coords != null) && !coords.isEmpty()) {
 					for (int i = 0; i < coords.size(); i++) {
 						int xCoord = coords.get(i)[0];
 						int yCoord = coords.get(i)[1];
@@ -495,9 +522,9 @@ public class SCBug extends Bug {
 					}
 				}
 			} else {
-				for (int i = (this._x - helper.getVisionRadius()); i < (this._x + helper
+				for (int i = (this._x - this.getVisionRadius()); i < (this._x + this
 						.getVisionRadius()); i++) {
-					for (int j = (this._y - helper.getVisionRadius()); j < (this._y + helper
+					for (int j = (this._y - this.getVisionRadius()); j < (this._y + this
 							.getVisionRadius()); j++) {
 						if ((i < grid.getXSize()) && (j < grid.getYSize())) {
 							if (grid.getBug(i, j, 1) == null) {
@@ -551,9 +578,9 @@ public class SCBug extends Bug {
 					}
 				}
 			} else {
-				for (int i = (this._x - helper.getVisionRadius()); i < (this._x + helper
+				for (int i = (this._x - this.getVisionRadius()); i < (this._x + this
 						.getVisionRadius()); i++) {
-					for (int j = (this._y - helper.getVisionRadius()); j < (this._y + helper
+					for (int j = (this._y - this.getVisionRadius()); j < (this._y + this
 							.getVisionRadius()); j++) {
 						if ((i < grid.getXSize()) && (j < grid.getYSize())) {
 							if (grid.getBug(i, j, 0) instanceof SCSugarBug) {
@@ -602,9 +629,9 @@ public class SCBug extends Bug {
 					}
 				}
 			} else {
-				for (int i = (this._x - helper.getVisionRadius()); i < (this._x + helper
+				for (int i = (this._x - this.getVisionRadius()); i < (this._x + this
 						.getVisionRadius()); i++) {
-					for (int j = (this._y - helper.getVisionRadius()); j < (this._y + helper
+					for (int j = (this._y - this.getVisionRadius()); j < (this._y + this
 							.getVisionRadius()); j++) {
 						if ((i < grid.getXSize()) && (j < grid.getYSize())) {
 							if (grid.getBug(i, j, 1) instanceof SCBug) {
@@ -790,9 +817,9 @@ public class SCBug extends Bug {
 					}
 				}
 			} else {
-				for (int i = (this._x - helper.getVisionRadius()); i < (this._x + helper
+				for (int i = (this._x - this.getVisionRadius()); i < (this._x + this
 						.getVisionRadius()); i++) {
-					for (int j = (this._y - helper.getVisionRadius()); j < (this._y + helper
+					for (int j = (this._y - this.getVisionRadius()); j < (this._y + this
 							.getVisionRadius()); j++) {
 						if ((i < grid.getXSize()) && (j < grid.getYSize())) {
 							if ((grid.getBug(i, j, 1) == null)) {
@@ -880,6 +907,18 @@ public class SCBug extends Bug {
 	}
 
 	/**
+	 * Returns a Value calculated by a magic Formula
+	 * 
+	 * @param value
+	 * @return a Value calculated by a magic Formula
+	 */
+	private int magicFormula(int value) {
+		double factor = 1.0;
+		factor = (this.getInitialSugar() + this.getCurrWealth()) / 1000;
+		return (int) (value + (factor * value));
+	}
+
+	/**
 	 * Sets the initial Values
 	 */
 	private void initialize() {
@@ -953,24 +992,24 @@ public class SCBug extends Bug {
 		SCBug freePlaceBug = null;
 		boolean rdy = false;
 		// TODO
-		/*if (helper.getExtendedVonNeumannNeighborhood()) {
-			Vector<int[]> coords = new Vector<int[]>();
-			coords = getExtendedVonNeumannCoordinatesAround();
-			if ((coords == null) || !coords.isEmpty()) {
-				for (int i = 0; (i < coords.size()) && !rdy; i++) {
-					// System.out.println("\n" + coords.size() + "\nx: " +
-					// coords.get(i)[0] + ", y: " + coords.get(i)[1] + "\n");
-					if (!((freePlaceBug = moveNewBug(coords.get(i)[0], coords
-							.get(i)[1])) == null)) {
-						rdy = true;
-					}
-				}
-			}
-		} else {*/
-			for (int i = (this._x - helper.getVisionRadiusReproduce()); (i < (this._x + helper
+		// if (helper.getExtendedVonNeumannNeighborhood()) {
+		// 	Vector<int[]> coords = new Vector<int[]>();
+		// 	coords = getExtendedVonNeumannCoordinatesAround();
+		// 	if ((coords == null) || !coords.isEmpty()) {
+		// 		for (int i = 0; (i < coords.size()) && !rdy; i++) {
+		 			// System.out.println("\n" + coords.size() + "\nx: " +
+		 			// coords.get(i)[0] + ", y: " + coords.get(i)[1] + "\n");
+		// 			if (!((freePlaceBug = moveNewBug(coords.get(i)[0], coords
+		// 					.get(i)[1])) == null)) {
+		// 				rdy = true;
+		// 			}
+		// 		}
+		// 	}
+		// } else {
+			for (int i = (this._x - this.getVisionRadiusReproduce()); (i < (this._x + this
 					.getVisionRadiusReproduce()))
 					&& !rdy; i++) {
-				for (int j = (this._y - helper.getVisionRadiusReproduce()); (j < (this._y + helper
+				for (int j = (this._y - this.getVisionRadiusReproduce()); (j < (this._y + this
 						.getVisionRadiusReproduce()))
 						&& !rdy; j++) {
 					if (!((freePlaceBug = moveNewBug(i, j)) == null)) {
