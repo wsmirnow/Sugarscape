@@ -40,7 +40,7 @@ public class SCHelper {
 	/**
 	 * Extended Von Neumann Neighborhood or every neighboor
 	 */
-	private boolean extendedVonNeumannNeighborhood = false;
+	private boolean extendedVonNeumannNeighborhood = true;
 
 	/**
 	 * Flag for active Search for a Partner
