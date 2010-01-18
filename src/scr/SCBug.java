@@ -40,6 +40,10 @@ public class SCBug extends Bug {
 	private static final SCHelper helper = new SCHelper();
 	private static int deathCount = 0;
 	private static int deathAge = 0;
+	private static int d_poor = 0;
+	private static int d_AgePoor = 0;
+	private static int d_rich = 0;
+	private static int d_AgeRich = 0;
 
 	/************************************************/
 	// Private Variables
@@ -90,7 +94,7 @@ public class SCBug extends Bug {
 	// Vision Radius
 	private int visionRadius;
 
-	// Visio Radius Reproduce
+	// Vision Radius Reproduce
 	private int visionRadiusReproduce;
 
 	/************************************************/
@@ -337,7 +341,7 @@ public class SCBug extends Bug {
 	/************************************************/
 	// Getter-Functions
 	/************************************************/
-
+	
 	/**
 	 * Returns a Vector with the Coordinates of the Von-Neumann-Neighborhood
 	 * around this Bug
@@ -519,6 +523,42 @@ public class SCBug extends Bug {
 	 */
 	public int getAgeOfDeath() {
 		return deathAge;
+	}
+	
+	/**
+	 * Returns number of poor dead Agents
+	 * 
+	 * @return d_poor
+	 */
+	public int getD_Poor(){
+		return d_poor;
+	}
+	
+	/**
+	 * Returns Age of death from poor agents
+	 * 
+	 * @return d_AgePoor
+	 */
+	public int getD_AgePoor(){
+		return d_AgePoor;
+	}
+	
+	/**
+	 * Returns number of rich dead Agents
+	 * 
+	 * @return d_rich
+	 */
+	public int getD_Rich(){
+		return d_rich;
+	}
+	
+	/**
+	 * Returns Age of death from rich agents
+	 * 
+	 * @return d_AgeRich
+	 */
+	public int getD_AgeRich(){
+		return d_AgeRich;
 	}
 
 	/**
@@ -1046,7 +1086,7 @@ public class SCBug extends Bug {
 	 */
 	public void setMetabolismByFactor(double Factor) {
 		int metabolismTmp = (int)((double)this.metabolism * Factor);
-		if (metabolismTmp > 0 && this.metabolism < metabolismTmp)
+		if (metabolismTmp > 0 /**&& this.metabolism < metabolismTmp*/)
 			this.metabolism = metabolismTmp;
 		
 	}
@@ -1057,7 +1097,7 @@ public class SCBug extends Bug {
 	 */
 	public void setVisionRadiusByFactor(double Factor) {
 		int visionRadiusTmp = (int)((double)this.visionRadius * Factor);
-		if (visionRadiusTmp > 0 && this.visionRadius < visionRadiusTmp)
+		if (visionRadiusTmp > 0 /**&& this.visionRadius < visionRadiusTmp*/)
 			this.visionRadius = visionRadiusTmp;
 	}
 	
@@ -1067,7 +1107,7 @@ public class SCBug extends Bug {
 	 */
 	public void setVisionRadiusReproduceByFactor(double Factor) {
 		int visionRadiusReproduceTmp = (int)((double)this.visionRadiusReproduce * Factor);
-		if (visionRadiusReproduceTmp > 0 && this.visionRadiusReproduce < visionRadiusReproduceTmp)
+		if (visionRadiusReproduceTmp > 0 /**&& this.visionRadiusReproduce < visionRadiusReproduceTmp*/)
 			this.visionRadiusReproduce = visionRadiusReproduceTmp;
 	}
 
@@ -1094,6 +1134,14 @@ public class SCBug extends Bug {
 		// Count
 		deathCount++;
 		deathAge += this.getCurrAge();
+		if((this.getMetabolism() + this.getVisionRadius()) >= 
+			(helper.getMetabolism() + helper.getVisionRadius() + 4)){
+			d_rich++;
+			d_AgeRich += this.getCurrAge();
+		} else {
+			d_poor++;
+			d_AgePoor += this.getCurrAge();
+		}
 		// Leave the Field
 		this.leave();
 	}

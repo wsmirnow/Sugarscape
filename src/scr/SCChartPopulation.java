@@ -40,6 +40,8 @@ public class SCChartPopulation extends Chart {
 	 * The SCGrid
 	 */
 	public SCGrid scGrid;
+	static int time = 0; //counts the timesteps
+	static int count = 0;	//sum of all counted bugs
 
 	/**
 	 * Default Constructor
@@ -61,22 +63,26 @@ public class SCChartPopulation extends Chart {
 		int bugCount = 0;
 		int bugMaleCount = 0;
 		int bugFemaleCount = 0;
+		int average = 0;
 
 		for (int i = 0; i < scGrid.getChildCount(); i++) {
 			Bug child = (Bug) scGrid.get_ChildAt(i);
 			if (child != null && child instanceof SCBug) {
 				bugCount++;
+				count++;
 				if (((SCBug) child).getSex())
 					bugMaleCount++;
 				else
 					bugFemaleCount++;
-
 			}
 		}
+		time++;
+		average = count/time;
 
 		int time = getTop().getTime();
 		lineTo("Agenten", Chart.TYPE_LINE, time, bugCount);
 		lineTo("Agenten M", Chart.TYPE_LINE, time, bugMaleCount);
 		lineTo("Agenten W", Chart.TYPE_LINE, time, bugFemaleCount);
+		lineTo("Durchschnitt", Chart.TYPE_LINE, time, average);
 	}
 }

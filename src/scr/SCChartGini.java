@@ -44,6 +44,8 @@ public class SCChartGini extends Chart {
 	 * Grid
 	 */
 	SCGrid grid;
+	static double time = 0.0;
+	static double sumGini = 0.0;
 
 	/**
 	 * Chart
@@ -68,6 +70,7 @@ public class SCChartGini extends Chart {
 		double real = 0.0; // tatsaechliche verteilung
 		double optimal = 0.0; // Gleichverteilung
 		double gini = 0.0;
+		double average = 0;
 		int popWealth = 0;
 
 		for (int x = 0; x < grid._xsize; x++)
@@ -77,7 +80,7 @@ public class SCChartGini extends Chart {
 					vec.add((double) ((SCBug) bug).getCurrWealth());
 				}
 			}
-
+		
 		Collections.sort(vec);
 
 		for (double d : vec) {
@@ -88,9 +91,15 @@ public class SCChartGini extends Chart {
 		optimal = 0.5 * vec.size() * popWealth; // Gleichverteilung
 
 		gini = (optimal - real) / optimal;
+		
+		time++;
+		sumGini += gini;
+		average = sumGini / time;
 
 		lineTo("Ginikoeffizient", Chart.TYPE_LINE, grid.getTop().getTime(),
 				gini);
+		lineTo("Durchschnitt", Chart.TYPE_LINE, grid.getTop().getTime(),
+				average);
 
 	}
 

@@ -60,7 +60,7 @@ public class SCHelper {
 	/**
 	 * Expansion Ratio in between [0, 1]
 	 */
-	private double expansionRatio = 0.2; // a
+	private double expansionRatio = 0.1; // a
 
 	/**
 	 * Metabolism (Time Steps / sugarConsumingRatio Sugar)
@@ -70,7 +70,7 @@ public class SCHelper {
 	/**
 	 * Money for the rich!
 	 */
-	private boolean advantagesForTheRich = true;
+	private boolean advantagesForTheRich = false;
 
 	/**
 	 * Displays since what amount of Sugar the Bug (who is searching for a
@@ -162,12 +162,12 @@ public class SCHelper {
 	/**
 	 * Min. max. Age
 	 */
-	private int maxAgeMin = 65;
+	private int maxAgeMin = 64;
 
 	/**
 	 * Max. max. Age
 	 */
-	private int maxAgeMax = 80;
+	private int maxAgeMax = 74;
 
 	/************************************************/
 	// Functions
