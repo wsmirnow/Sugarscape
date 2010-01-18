@@ -40,6 +40,10 @@ public class SCBug extends Bug {
 	private static final SCHelper helper = new SCHelper();
 	private static int deathCount = 0;
 	private static int deathAge = 0;
+	private static int d_poor = 0;
+	private static int d_AgePoor = 0;
+	private static int d_rich = 0;
+	private static int d_AgeRich = 0;
 
 	/************************************************/
 	// Private Variables
@@ -83,6 +87,15 @@ public class SCBug extends Bug {
 
 	// Max. Fertility Age
 	private int fertilityAgeMax;
+
+	// Metabolism
+	private int metabolism;
+
+	// Vision Radius
+	private int visionRadius;
+
+	// Vision Radius Reproduce
+	private int visionRadiusReproduce;
 
 	/************************************************/
 	// Constructors
@@ -146,6 +159,10 @@ public class SCBug extends Bug {
 			} else {
 				this.currGetSugarStep++;
 			}
+			
+			SCGrid grid = (SCGrid)getGrid();
+			if (grid != null)
+				grid.addAvarageWealth(getCurrWealth());
 
 			// Reproduce if fertile
 			if (this.isFertile() && this.hasEnoughSugar()) {
@@ -153,6 +170,20 @@ public class SCBug extends Bug {
 				if ((descendant != null) && (this.descendants != null)) {
 					this.descendants.add(descendant);
 					numberOfDescendants++;
+					
+					// enrich rich Bugs
+					if (helper.advantagesForTheRich()) {
+						SCGrid myGrid = (SCGrid)getGrid();
+						if (myGrid != null) {
+							int avarageWealth = myGrid.getAvarageWealth();
+							avarageWealth = avarageWealth > 0 ? avarageWealth : getCurrWealth();
+							double factor = ((double)getCurrWealth() * 2) / (double)avarageWealth;
+							// if factor > 1 => increase matabolism, vision radius and vision radius reproduce
+							descendant.setMetabolismByFactor(factor);
+							descendant.setVisionRadiusByFactor(factor);
+							descendant.setVisionRadiusReproduceByFactor(factor);
+						}
+					}
 				}
 			}
 
@@ -310,7 +341,7 @@ public class SCBug extends Bug {
 	/************************************************/
 	// Getter-Functions
 	/************************************************/
-
+	
 	/**
 	 * Returns a Vector with the Coordinates of the Von-Neumann-Neighborhood
 	 * around this Bug
@@ -353,10 +384,7 @@ public class SCBug extends Bug {
 	 * @return the Vision Radius
 	 */
 	public int getVisionRadiusReproduce() {
-		if (helper.advantagesForTheRich()) {
-			return magicFormula(helper.getVisionRadiusReproduce());
-		}
-		return helper.getVisionRadiusReproduce();
+		return this.visionRadiusReproduce;
 	}
 
 	/**
@@ -365,10 +393,7 @@ public class SCBug extends Bug {
 	 * @return the Vision Radius
 	 */
 	public int getVisionRadius() {
-		if (helper.advantagesForTheRich()) {
-			return magicFormula(helper.getVisionRadius());
-		}
-		return helper.getVisionRadius();
+		return this.visionRadius;
 	}
 
 	/**
@@ -377,10 +402,7 @@ public class SCBug extends Bug {
 	 * @return the Metabolism
 	 */
 	public int getMetabolism() {
-		if (helper.advantagesForTheRich()) {
-			return magicFormula(helper.getMetabolism());
-		}
-		return helper.getMetabolism();
+		return this.metabolism;
 	}
 
 	/**
@@ -501,6 +523,42 @@ public class SCBug extends Bug {
 	 */
 	public int getAgeOfDeath() {
 		return deathAge;
+	}
+	
+	/**
+	 * Returns number of poor dead Agents
+	 * 
+	 * @return d_poor
+	 */
+	public int getD_Poor(){
+		return d_poor;
+	}
+	
+	/**
+	 * Returns Age of death from poor agents
+	 * 
+	 * @return d_AgePoor
+	 */
+	public int getD_AgePoor(){
+		return d_AgePoor;
+	}
+	
+	/**
+	 * Returns number of rich dead Agents
+	 * 
+	 * @return d_rich
+	 */
+	public int getD_Rich(){
+		return d_rich;
+	}
+	
+	/**
+	 * Returns Age of death from rich agents
+	 * 
+	 * @return d_AgeRich
+	 */
+	public int getD_AgeRich(){
+		return d_AgeRich;
 	}
 
 	/**
@@ -891,11 +949,15 @@ public class SCBug extends Bug {
 		}
 		this.parents.add(parent1);
 		this.parents.add(parent2);
-		this.initialSugar = this.currWealth;
+		this.visionRadiusReproduce = this.initialSugar = this.currWealth;
 		this.sex = sex;
 		this.fertilityAgeMin = getRandomFertilityAgeMin();
 		this.fertilityAgeMax = getRandomFertilityAgeMax();
 		this.maxAge = getRandomMaxAge();
+		// Set dependent Values
+		this.visionRadius = helper.getVisionRadius();
+		this.visionRadiusReproduce = helper.getVisionRadiusReproduce();
+		this.metabolism = helper.getMetabolism();
 	}
 
 	/************************************************/
@@ -913,17 +975,6 @@ public class SCBug extends Bug {
 		int dx = b1._x - b2._x;
 		int dy = b1._y - b2._y;
 		return Math.sqrt(dx * dx + dy * dy);
-	}
-
-	/**
-	 * Returns a Value calculated by a magic Formula
-	 * 
-	 * @param value
-	 * @return a Value calculated by a magic Formula
-	 */
-	private int magicFormula(int value) {
-		double factor = (this.getInitialSugar() + this.getCurrWealth()) / 1000;
-		return (int) (value + (factor * value));
 	}
 
 	/**
@@ -1028,6 +1079,37 @@ public class SCBug extends Bug {
 		// }
 		return freePlaceBug;
 	}
+	
+	/**
+	 * increase Metabolism if Factor > 1
+	 * @param Factor
+	 */
+	public void setMetabolismByFactor(double Factor) {
+		int metabolismTmp = (int)((double)this.metabolism * Factor);
+		if (metabolismTmp > 0 /**&& this.metabolism < metabolismTmp*/)
+			this.metabolism = metabolismTmp;
+		
+	}
+	
+	/**
+	 * increase Vision Radius if factor > 1
+	 * @param Factor
+	 */
+	public void setVisionRadiusByFactor(double Factor) {
+		int visionRadiusTmp = (int)((double)this.visionRadius * Factor);
+		if (visionRadiusTmp > 0 /**&& this.visionRadius < visionRadiusTmp*/)
+			this.visionRadius = visionRadiusTmp;
+	}
+	
+	/**
+	 * increase Vision Radius Reproduce if Factor > 1
+	 * @param Factor
+	 */
+	public void setVisionRadiusReproduceByFactor(double Factor) {
+		int visionRadiusReproduceTmp = (int)((double)this.visionRadiusReproduce * Factor);
+		if (visionRadiusReproduceTmp > 0 /**&& this.visionRadiusReproduce < visionRadiusReproduceTmp*/)
+			this.visionRadiusReproduce = visionRadiusReproduceTmp;
+	}
 
 	/**
 	 * Die-Function (Pass on the Sugar etc.)
@@ -1052,6 +1134,14 @@ public class SCBug extends Bug {
 		// Count
 		deathCount++;
 		deathAge += this.getCurrAge();
+		if((this.getMetabolism() + this.getVisionRadius()) >= 
+			(helper.getMetabolism() + helper.getVisionRadius() + 4)){
+			d_rich++;
+			d_AgeRich += this.getCurrAge();
+		} else {
+			d_poor++;
+			d_AgePoor += this.getCurrAge();
+		}
 		// Leave the Field
 		this.leave();
 	}
