@@ -14,7 +14,7 @@ The SugarScape
 	Umwelt
 	------
 		- Umwelt liefert Ressource (Zucker) und sorgt dafuer, dass diese nachwaechst
-		- Ressource is verteilt auf Raumparzellen (x, y)
+		- Ressource ist verteilt auf Raumparzellen (x, y)
 		-> mehr Infos siehe Plan <-
 	
 	Agenten
@@ -25,7 +25,7 @@ The SugarScape
 		- haben Blickfeld == max. Abstand zu einem Gitterplatz, aus dem
 		  noch Informationen empfangen werden koennen
 		- haben begrenzte Lebensspanne
-			- wenn der Agent stirbt, wird er durch Agenten mit Alter 0 ersetzt
+			(- wenn der Agent stirbt, wird er durch Agenten mit Alter 0 ersetzt)
 		Bewegungsregeln
 		---------------
 			- Blicke in 4 Richtungen des Gitters, so weit das Blickfeld reicht
@@ -50,7 +50,7 @@ The SugarScape
 			  	- Kind wird geboren
 			  	- Initiale Zuckermenge des Kindes: Haelfte der Zuckermenge jeweils vom
 			  	  Vater und der Mutter, die diese selbst zur Geburt bekommen haben
-			- Wiederholung fuer alle Nachbarn
+			(- Wiederholung fuer alle Nachbarn)
 		Vererbungsregel
 		---------------
 			- Wenn Agent stirbt

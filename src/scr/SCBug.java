@@ -159,8 +159,8 @@ public class SCBug extends Bug {
 			} else {
 				this.currGetSugarStep++;
 			}
-			
-			SCGrid grid = (SCGrid)getGrid();
+
+			SCGrid grid = (SCGrid) getGrid();
 			if (grid != null)
 				grid.addAvarageWealth(getCurrWealth());
 
@@ -170,10 +170,10 @@ public class SCBug extends Bug {
 				if ((descendant != null) && (this.descendants != null)) {
 					this.descendants.add(descendant);
 					numberOfDescendants++;
-					
+
 					// enrich rich Bugs
 					if (helper.advantagesForTheRich()) {
-						SCGrid myGrid = (SCGrid)getGrid();
+						SCGrid myGrid = (SCGrid) getGrid();
 						if (myGrid != null) {
 							int avarageWealth = myGrid.getAvarageWealth();
 							avarageWealth = avarageWealth > 0 ? avarageWealth : getCurrWealth();
@@ -1050,7 +1050,6 @@ public class SCBug extends Bug {
 	private SCBug reproduce() {
 		SCBug freePlaceBug = null;
 		boolean rdy = false;
-		// TODO
 		// if (helper.getExtendedVonNeumannNeighborhood()) {
 		// Vector<int[]> coords = new Vector<int[]>();
 		// coords = getExtendedVonNeumannCoordinatesAround();
@@ -1082,6 +1081,7 @@ public class SCBug extends Bug {
 	
 	/**
 	 * increase Metabolism if Factor > 1
+	 * 
 	 * @param Factor
 	 */
 	public void setMetabolismByFactor(double Factor) {
@@ -1093,6 +1093,7 @@ public class SCBug extends Bug {
 	
 	/**
 	 * increase Vision Radius if factor > 1
+	 * 
 	 * @param Factor
 	 */
 	public void setVisionRadiusByFactor(double Factor) {
@@ -1103,6 +1104,7 @@ public class SCBug extends Bug {
 	
 	/**
 	 * increase Vision Radius Reproduce if Factor > 1
+	 * 
 	 * @param Factor
 	 */
 	public void setVisionRadiusReproduceByFactor(double Factor) {
