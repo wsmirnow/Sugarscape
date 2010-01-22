@@ -79,6 +79,21 @@ public class SCHelper {
 	private int searchActiveForPartnerSugarMiningLimit = 10;
 
 	/**
+	 * Flag if random Age of 1st Generation
+	 */
+	private boolean setAgeOf1stGenerationRandomly = true;
+
+	/**
+	 * Lower Limit of the Age of the 1st Generation
+	 */
+	private int randomAgeOf1stGenerationLowerLimit = 0;
+
+	/**
+	 * Upper Limit of the Age of the 1st Generation
+	 */
+	private int randomAgeOf1stGenerationUpperLimit = 30;
+
+	/**
 	 * Error Representation
 	 */
 	private static final int ERROR = Integer.MAX_VALUE;
@@ -294,6 +309,33 @@ public class SCHelper {
 	 */
 	public int getGetSugarStep() {
 		return getSugarStep;
+	}
+
+	/**
+	 * Getter
+	 * 
+	 * @return var
+	 */
+	public boolean setAgeOf1stGenerationRandomly() {
+		return setAgeOf1stGenerationRandomly;
+	}
+
+	/**
+	 * Getter
+	 * 
+	 * @return var
+	 */
+	public int getRandomAgeOf1stGenerationLowerLimit() {
+		return randomAgeOf1stGenerationLowerLimit;
+	}
+
+	/**
+	 * Getter
+	 * 
+	 * @return var
+	 */
+	public int getRandomAgeOf1stGenerationUpperLimit() {
+		return randomAgeOf1stGenerationUpperLimit;
 	}
 
 	/**

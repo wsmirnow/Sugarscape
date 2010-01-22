@@ -97,6 +97,9 @@ public class SCBug extends Bug {
 	// Vision Radius Reproduce
 	private int visionRadiusReproduce;
 
+	// Flag if 1st Generation
+	static boolean init = true;
+
 	/************************************************/
 	// Constructors
 	/************************************************/
@@ -105,7 +108,11 @@ public class SCBug extends Bug {
 	 * Default Constructor (only for the 1st Generation)
 	 */
 	public SCBug() {
-		setValues(0, 0, getRandomSex(), 1, null, null);
+		if (helper.setAgeOf1stGenerationRandomly()) {
+			setValues(0, 0, getRandomSex(), 1, null, null);
+		} else {
+			setValues(0, 0, getRandomSex(), 1, null, null);
+		}
 	}
 
 	/**
@@ -137,6 +144,27 @@ public class SCBug extends Bug {
 	 * Action-Function
 	 */
 	public void action() {
+		if (init) {
+			if (this.getGrid() instanceof SCGrid) {
+				SCGrid grid = (SCGrid) this.getGrid();
+				for (int x = 0; x < grid._xsize; x++) {
+					for (int y = 0; y < grid._ysize; y++) {
+						if (grid.getBug(x, y, 1) instanceof SCBug) {
+							SCBug bug = (SCBug) grid.getBug(x, y, 1);
+							if (bug.getGeneration() == 1) {
+								bug.currAge = helper
+										.getRandomIntWithinLimits(
+												helper
+														.getRandomAgeOf1stGenerationLowerLimit(),
+												helper
+														.getRandomAgeOf1stGenerationUpperLimit());
+							}
+						}
+					}
+				}
+			}
+			init = false;
+		}
 		// Too old to live?
 		if ((this.currAge > this.maxAge) || (this.currWealth <= 0)) {
 			// This Bug has to die, it is too old or has no Sugar!
