@@ -38,12 +38,6 @@ import eawag.grid.Depiction;
 public class SCBug extends Bug {
 
 	private static final SCHelper helper = new SCHelper();
-	private static int deathCount = 0;
-	private static int deathAge = 0;
-	private static int d_poor = 0;
-	private static int d_AgePoor = 0;
-	private static int d_rich = 0;
-	private static int d_AgeRich = 0;
 
 	/************************************************/
 	// Private Variables
@@ -537,60 +531,6 @@ public class SCBug extends Bug {
 	 */
 	public int getMaxAge() {
 		return this.maxAge;
-	}
-
-	/**
-	 * Returns the number of died Agents
-	 * 
-	 * @return number of died Agents
-	 */
-	public int getDeadAgents() {
-		return deathCount;
-	}
-
-	/**
-	 * Returns the Age of Death
-	 * 
-	 * @return the Age of Death
-	 */
-	public int getAgeOfDeath() {
-		return deathAge;
-	}
-
-	/**
-	 * Returns number of poor dead Agents
-	 * 
-	 * @return d_poor
-	 */
-	public int getD_Poor() {
-		return d_poor;
-	}
-
-	/**
-	 * Returns Age of death from poor agents
-	 * 
-	 * @return d_AgePoor
-	 */
-	public int getD_AgePoor() {
-		return d_AgePoor;
-	}
-
-	/**
-	 * Returns number of rich dead Agents
-	 * 
-	 * @return d_rich
-	 */
-	public int getD_Rich() {
-		return d_rich;
-	}
-
-	/**
-	 * Returns Age of death from rich agents
-	 * 
-	 * @return d_AgeRich
-	 */
-	public int getD_AgeRich() {
-		return d_AgeRich;
 	}
 
 	/**
@@ -1171,18 +1111,22 @@ public class SCBug extends Bug {
 				}
 			}
 		}
-		// Count
-		deathCount++;
-		deathAge += this.getCurrAge();
-		if ((this.getMetabolism() + this.getVisionRadius()) >= (helper
-				.getMetabolism()
-				+ helper.getVisionRadius() + 4)) {
-			d_rich++;
-			d_AgeRich += this.getCurrAge();
-		} else {
-			d_poor++;
-			d_AgePoor += this.getCurrAge();
+		// Deathcount
+		SCGrid grid;
+		if ((grid = (SCGrid)getGrid()) != null) {
+			grid.incDeathAgents();
+			grid.incAgeOfDeath(this.getCurrAge());
+			
+			if (this.getMetabolism() > helper.getMetabolism()) {
+				grid.incD_Rich();
+				grid.incD_AgeRich(this.getCurrAge());
+			} else {
+				grid.incD_Poor();
+				grid.incD_AgePoor(this.getCurrAge());
+			}
+			grid = null;
 		}
+		
 		// Leave the Field
 		this.leave();
 	}

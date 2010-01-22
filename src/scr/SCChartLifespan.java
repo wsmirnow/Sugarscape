@@ -57,27 +57,14 @@ public class SCChartLifespan extends Chart {
 	public void action() {
 		
 		int lifespan = 0;
-//		int poor = 0;
-//		int rich = 0;
-		for (int x = 0; x < grid.xsize; x++)
-			for (int y = 0; y < grid.ysize; y++) {
-				Bug bug = grid.getBug(x, y, 1);
-				if (bug != null && bug instanceof SCBug) {
-					lifespan = ((SCBug) bug).getDeadAgents() == 0 ? 0
-							: ((SCBug) bug).getAgeOfDeath()
-									/ ((SCBug) bug).getDeadAgents();
-//					poor = ((SCBug) bug).getD_Poor() == 0 ? 0
-//							: ((SCBug) bug).getD_AgePoor()
-//							/ ((SCBug) bug).getD_Poor();
-//					rich = ((SCBug) bug).getD_Rich() == 0 ? 0
-//							: ((SCBug) bug).getD_AgeRich()
-//							/ ((SCBug) bug).getD_Rich();
-					}
-				}
-			
+		int poor = 0;
+		int rich = 0;
+		
+		lifespan = grid.getDeadAgents() == 0 ? 0 : grid.getAgeOfDeath() / grid.getDeadAgents();
+//		poor = grid.getD_Poor() == 0 ? 0 : grid.getD_AgePoor() / grid.getD_Poor();
+//		rich = grid.getD_Rich() == 0 ? 0 : grid.getD_AgeRich() / grid.getD_Rich();			
 
-		lineTo("Lebenserwartung", Chart.TYPE_LINE, grid.getTop().getTime(),
-			lifespan);
+		lineTo("Lebenserwartung", Chart.TYPE_LINE, grid.getTop().getTime(), lifespan);
 //		lineTo("Arm", Chart.TYPE_LINE, grid.getTop().getTime(),
 //				poor);
 //		lineTo("Reich", Chart.TYPE_LINE, grid.getTop().getTime(),

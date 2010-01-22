@@ -48,6 +48,13 @@ public class SCGrid extends Grid {
 	private int _avarageWealth = 0;
 	private int bugCount = 0;
 	private int _bugCount = 0;
+	
+	private int deathCount = 0;
+	private int deathAge = 0;
+	private int d_poor = 0;
+	private int d_AgePoor = 0;
+	private int d_rich = 0;
+	private int d_AgeRich = 0;
 
 	/************************************************/
 	// Other Functions
@@ -58,6 +65,12 @@ public class SCGrid extends Grid {
 		avarageWealth = _avarageWealth;
 		bugCount = _bugCount;
 		_avarageWealth = _bugCount = 0;
+		
+		d_poor = 0;
+		d_AgePoor = 0;
+		d_rich = 0;
+		d_AgeRich = 0;
+		
 		super.condition();
 	}
 
@@ -111,6 +124,84 @@ public class SCGrid extends Grid {
 	 */
 	public int getAvarageWealth() {
 		return (int) (bugCount > 0 ? avarageWealth / bugCount : 0);
+	}
+	
+	/**
+	 * Returns the number of died Agents
+	 * 
+	 * @return number of died Agents
+	 */
+	public int getDeadAgents() {
+		return deathCount;
+	}
+
+	/**
+	 * Returns the Age of Death
+	 * 
+	 * @return the Age of Death
+	 */
+	public int getAgeOfDeath() {
+		return deathAge;
+	}
+
+	/**
+	 * Returns number of poor dead Agents
+	 * 
+	 * @return d_poor
+	 */
+	public int getD_Poor() {
+		return d_poor;
+	}
+
+	/**
+	 * Returns Age of death from poor agents
+	 * 
+	 * @return d_AgePoor
+	 */
+	public int getD_AgePoor() {
+		return d_AgePoor;
+	}
+
+	/**
+	 * Returns number of rich dead Agents
+	 * 
+	 * @return d_rich
+	 */
+	public int getD_Rich() {
+		return d_rich;
+	}
+
+	/**
+	 * Returns Age of death from rich agents
+	 * 
+	 * @return d_AgeRich
+	 */
+	public int getD_AgeRich() {
+		return d_AgeRich;
+	}
+	
+	public void incDeathAgents() {
+		this.deathCount++;
+	}
+
+	public void incAgeOfDeath(int deathAge) {
+		this.deathAge += deathAge;
+	}
+
+	public void incD_Poor() {
+		d_poor++;
+	}
+
+	public void incD_Rich() {
+		d_rich++;
+	}
+
+	public void incD_AgePoor(int dAgePoor) {
+		d_AgePoor += dAgePoor;
+	}
+
+	public void incD_AgeRich(int dAgeRich) {
+		d_AgeRich += dAgeRich;
 	}
 
 	/************************************************/

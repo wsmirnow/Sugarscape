@@ -177,12 +177,12 @@ public class SCHelper {
 	/**
 	 * Min. max. Age
 	 */
-	private int maxAgeMin = 64;
+	private int maxAgeMin = 60;
 
 	/**
 	 * Max. max. Age
 	 */
-	private int maxAgeMax = 74;
+	private int maxAgeMax = 75;
 
 	/************************************************/
 	// Functions
