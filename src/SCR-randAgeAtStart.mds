@@ -2,7 +2,7 @@
   encoding = "cvid"
   content = "video.quicktime"
   quality = 0.5
-  gensym = 6597
+  gensym = 6552
   stepPlay = 40
   refreshSeek = 40
   fin = 10
@@ -3418,18 +3418,6 @@ SCGrid
         ()
         ()
         ()
-        SCBug6524
-        SCBug6523
-        SCBug6522
-        SCBug6521
-        SCBug6520
-        SCBug6519
-        SCBug6518
-        SCBug6517
-        SCBug6516
-        SCBug6515
-        SCBug6514
-        SCBug6513
         ()
         ()
         ()
@@ -3442,45 +3430,6 @@ SCGrid
         ()
         ()
         ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ())
-      (eawag.grid.Bug[]
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        ()
-        SCBug6512
-        SCBug6511
-        SCBug6510
-        SCBug6509
-        SCBug6508
-        SCBug6507
-        SCBug6506
-        SCBug6505
-        SCBug6504
-        SCBug6503
-        SCBug6502
-        SCBug6501
         ()
         ()
         ()
@@ -3520,18 +3469,18 @@ SCGrid
         ()
         ()
         ()
-        SCBug6500
-        SCBug6499
-        SCBug6498
-        SCBug6497
-        SCBug6496
-        SCBug6495
-        SCBug6494
-        SCBug6493
-        SCBug6492
-        SCBug6491
-        SCBug6490
-        SCBug6489
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
         ()
         ()
         ()
@@ -3574,15 +3523,15 @@ SCGrid
         SCBug6488
         SCBug6487
         SCBug6486
-        SCBug6596
-        SCBug6595
-        SCBug6594
-        SCBug6593
-        SCBug6592
-        SCBug6591
+        SCBug6485
+        SCBug6484
+        SCBug6483
+        SCBug6482
+        SCBug6481
+        SCBug6480
         SCBug6479
         SCBug6478
-        SCBug6477
+        ()
         ()
         ()
         ()
@@ -3625,15 +3574,15 @@ SCGrid
         SCBug6476
         SCBug6475
         SCBug6474
-        SCBug6590
-        SCBug6589
-        SCBug6588
-        SCBug6587
-        SCBug6586
-        SCBug6585
+        SCBug6473
+        SCBug6472
+        SCBug6471
+        SCBug6470
+        SCBug6469
+        SCBug6468
         SCBug6467
         SCBug6466
-        SCBug6465
+        ()
         ()
         ()
         ()
@@ -3676,15 +3625,15 @@ SCGrid
         SCBug6464
         SCBug6463
         SCBug6462
-        SCBug6584
-        SCBug6583
-        SCBug6582
-        SCBug6581
-        SCBug6580
-        SCBug6579
+        SCBug6461
+        SCBug6460
+        SCBug6459
+        SCBug6458
+        SCBug6457
+        SCBug6456
         SCBug6455
         SCBug6454
-        SCBug6453
+        ()
         ()
         ()
         ()
@@ -3726,16 +3675,16 @@ SCGrid
         ()
         SCBug6452
         SCBug6451
-        SCBug6450
-        SCBug6578
-        SCBug6577
-        SCBug6576
-        SCBug6575
-        SCBug6574
-        SCBug6573
+        SCBug6551
+        SCBug6550
+        SCBug6549
+        SCBug6548
+        SCBug6547
+        SCBug6546
+        SCBug6545
         SCBug6443
         SCBug6442
-        SCBug6441
+        ()
         ()
         ()
         ()
@@ -3777,16 +3726,16 @@ SCGrid
         ()
         SCBug6440
         SCBug6439
-        SCBug6438
-        SCBug6572
-        SCBug6571
-        SCBug6570
-        SCBug6569
-        SCBug6568
-        SCBug6567
+        SCBug6544
+        SCBug6543
+        SCBug6542
+        SCBug6541
+        SCBug6540
+        SCBug6539
+        SCBug6538
         SCBug6431
         SCBug6430
-        SCBug6429
+        ()
         ()
         ()
         ()
@@ -3828,16 +3777,16 @@ SCGrid
         ()
         SCBug6428
         SCBug6427
-        SCBug6426
-        SCBug6566
-        SCBug6565
-        SCBug6564
-        SCBug6563
-        SCBug6562
-        SCBug6561
+        SCBug6537
+        SCBug6536
+        SCBug6535
+        SCBug6534
+        SCBug6533
+        SCBug6532
+        SCBug6531
         SCBug6419
         SCBug6418
-        SCBug6417
+        ()
         ()
         ()
         ()
@@ -3879,16 +3828,16 @@ SCGrid
         ()
         SCBug6416
         SCBug6415
-        SCBug6414
-        SCBug6560
-        SCBug6559
-        SCBug6558
-        SCBug6557
-        SCBug6556
-        SCBug6555
+        SCBug6530
+        SCBug6529
+        SCBug6528
+        SCBug6527
+        SCBug6526
+        SCBug6525
+        SCBug6524
         SCBug6407
         SCBug6406
-        SCBug6405
+        ()
         ()
         ()
         ()
@@ -3930,16 +3879,16 @@ SCGrid
         ()
         SCBug6404
         SCBug6403
-        SCBug6402
-        SCBug6554
-        SCBug6553
-        SCBug6552
-        SCBug6551
-        SCBug6550
-        SCBug6549
+        SCBug6523
+        SCBug6522
+        SCBug6521
+        SCBug6520
+        SCBug6519
+        SCBug6518
+        SCBug6517
         SCBug6395
         SCBug6394
-        SCBug6393
+        ()
         ()
         ()
         ()
@@ -3981,16 +3930,16 @@ SCGrid
         ()
         SCBug6392
         SCBug6391
-        SCBug6390
-        SCBug6548
-        SCBug6547
-        SCBug6546
-        SCBug6545
-        SCBug6544
-        SCBug6543
+        SCBug6516
+        SCBug6515
+        SCBug6514
+        SCBug6513
+        SCBug6512
+        SCBug6511
+        SCBug6510
         SCBug6383
         SCBug6382
-        SCBug6381
+        ()
         ()
         ()
         ()
@@ -4032,16 +3981,16 @@ SCGrid
         ()
         SCBug6380
         SCBug6379
-        SCBug6378
-        SCBug6542
-        SCBug6541
-        SCBug6540
-        SCBug6539
-        SCBug6538
-        SCBug6537
+        SCBug6509
+        SCBug6508
+        SCBug6507
+        SCBug6506
+        SCBug6505
+        SCBug6504
+        SCBug6503
         SCBug6371
         SCBug6370
-        SCBug6369
+        ()
         ()
         ()
         ()
@@ -4083,16 +4032,16 @@ SCGrid
         ()
         SCBug6368
         SCBug6367
-        SCBug6366
-        SCBug6536
-        SCBug6535
-        SCBug6534
-        SCBug6533
-        SCBug6532
-        SCBug6531
+        SCBug6502
+        SCBug6501
+        SCBug6500
+        SCBug6499
+        SCBug6498
+        SCBug6497
+        SCBug6496
         SCBug6359
         SCBug6358
-        SCBug6357
+        ()
         ()
         ()
         ()
@@ -4134,16 +4083,16 @@ SCGrid
         ()
         SCBug6356
         SCBug6355
-        SCBug6354
-        SCBug6530
-        SCBug6529
-        SCBug6528
-        SCBug6527
-        SCBug6526
-        SCBug6525
+        SCBug6495
+        SCBug6494
+        SCBug6493
+        SCBug6492
+        SCBug6491
+        SCBug6490
+        SCBug6489
         SCBug6347
         SCBug6346
-        SCBug6345
+        ()
         ()
         ()
         ()
@@ -4194,7 +4143,7 @@ SCGrid
         SCBug6336
         SCBug6335
         SCBug6334
-        SCBug6333
+        ()
         ()
         ()
         ()
@@ -4245,7 +4194,7 @@ SCGrid
         SCBug6324
         SCBug6323
         SCBug6322
-        SCBug6321
+        ()
         ()
         ()
         ()
@@ -4296,7 +4245,58 @@ SCGrid
         SCBug6312
         SCBug6311
         SCBug6310
-        SCBug6309
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ())
+      (eawag.grid.Bug[]
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
         ()
         ()
         ()
@@ -42641,1050 +42641,6 @@ SCGrid
     r = 5)
     _BEGIN_
     _END_
-  SCBug6524
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 19
-    x = 16
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 52
-    fertilityAgeMin = 15
-    sex = false
-    currWealth = 87
-    maxAge = 66
-    currAge = 0
-    initialSugar = 87
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6523
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 20
-    x = 16
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 46
-    fertilityAgeMin = 13
-    sex = false
-    currWealth = 63
-    maxAge = 65
-    currAge = 0
-    initialSugar = 63
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6522
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 21
-    x = 16
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 43
-    fertilityAgeMin = 15
-    sex = false
-    currWealth = 77
-    maxAge = 69
-    currAge = 0
-    initialSugar = 77
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6521
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 22
-    x = 16
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 56
-    fertilityAgeMin = 12
-    sex = false
-    currWealth = 87
-    maxAge = 64
-    currAge = 0
-    initialSugar = 87
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6520
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 23
-    x = 16
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 49
-    fertilityAgeMin = 14
-    sex = false
-    currWealth = 54
-    maxAge = 66
-    currAge = 0
-    initialSugar = 54
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6519
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 24
-    x = 16
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 50
-    fertilityAgeMin = 12
-    sex = false
-    currWealth = 56
-    maxAge = 73
-    currAge = 0
-    initialSugar = 56
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6518
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 25
-    x = 16
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 42
-    fertilityAgeMin = 13
-    sex = false
-    currWealth = 69
-    maxAge = 65
-    currAge = 0
-    initialSugar = 69
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6517
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 26
-    x = 16
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 40
-    fertilityAgeMin = 15
-    sex = false
-    currWealth = 55
-    maxAge = 71
-    currAge = 0
-    initialSugar = 55
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6516
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 27
-    x = 16
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 58
-    fertilityAgeMin = 12
-    sex = false
-    currWealth = 73
-    maxAge = 68
-    currAge = 0
-    initialSugar = 73
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6515
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 28
-    x = 16
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 43
-    fertilityAgeMin = 14
-    sex = false
-    currWealth = 59
-    maxAge = 64
-    currAge = 0
-    initialSugar = 59
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6514
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 29
-    x = 16
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 57
-    fertilityAgeMin = 12
-    sex = false
-    currWealth = 60
-    maxAge = 72
-    currAge = 0
-    initialSugar = 60
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6513
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 30
-    x = 16
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 52
-    fertilityAgeMin = 15
-    sex = false
-    currWealth = 75
-    maxAge = 70
-    currAge = 0
-    initialSugar = 75
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6512
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 19
-    x = 17
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 50
-    fertilityAgeMin = 12
-    sex = false
-    currWealth = 65
-    maxAge = 67
-    currAge = 0
-    initialSugar = 65
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6511
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 20
-    x = 17
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 60
-    fertilityAgeMin = 15
-    sex = false
-    currWealth = 53
-    maxAge = 70
-    currAge = 0
-    initialSugar = 53
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6510
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 21
-    x = 17
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 56
-    fertilityAgeMin = 14
-    sex = false
-    currWealth = 97
-    maxAge = 69
-    currAge = 0
-    initialSugar = 97
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6509
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 22
-    x = 17
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 40
-    fertilityAgeMin = 14
-    sex = false
-    currWealth = 50
-    maxAge = 74
-    currAge = 0
-    initialSugar = 50
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6508
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 23
-    x = 17
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 60
-    fertilityAgeMin = 12
-    sex = false
-    currWealth = 57
-    maxAge = 70
-    currAge = 0
-    initialSugar = 57
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6507
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 24
-    x = 17
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 49
-    fertilityAgeMin = 12
-    sex = false
-    currWealth = 62
-    maxAge = 68
-    currAge = 0
-    initialSugar = 62
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6506
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 25
-    x = 17
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 43
-    fertilityAgeMin = 14
-    sex = false
-    currWealth = 50
-    maxAge = 74
-    currAge = 0
-    initialSugar = 50
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6505
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 26
-    x = 17
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 50
-    fertilityAgeMin = 15
-    sex = false
-    currWealth = 72
-    maxAge = 64
-    currAge = 0
-    initialSugar = 72
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6504
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 27
-    x = 17
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 59
-    fertilityAgeMin = 15
-    sex = false
-    currWealth = 52
-    maxAge = 65
-    currAge = 0
-    initialSugar = 52
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6503
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 28
-    x = 17
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 51
-    fertilityAgeMin = 12
-    sex = false
-    currWealth = 76
-    maxAge = 74
-    currAge = 0
-    initialSugar = 76
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6502
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 29
-    x = 17
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 51
-    fertilityAgeMin = 14
-    sex = false
-    currWealth = 66
-    maxAge = 67
-    currAge = 0
-    initialSugar = 66
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6501
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 30
-    x = 17
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 50
-    fertilityAgeMin = 13
-    sex = false
-    currWealth = 65
-    maxAge = 65
-    currAge = 0
-    initialSugar = 65
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6500
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 19
-    x = 18
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 50
-    fertilityAgeMin = 12
-    sex = false
-    currWealth = 65
-    maxAge = 72
-    currAge = 0
-    initialSugar = 65
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6499
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 20
-    x = 18
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 59
-    fertilityAgeMin = 14
-    sex = false
-    currWealth = 62
-    maxAge = 69
-    currAge = 0
-    initialSugar = 62
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6498
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 21
-    x = 18
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 48
-    fertilityAgeMin = 14
-    sex = false
-    currWealth = 84
-    maxAge = 68
-    currAge = 0
-    initialSugar = 84
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6497
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 22
-    x = 18
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 51
-    fertilityAgeMin = 12
-    sex = false
-    currWealth = 82
-    maxAge = 65
-    currAge = 0
-    initialSugar = 82
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6496
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 23
-    x = 18
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 47
-    fertilityAgeMin = 13
-    sex = false
-    currWealth = 97
-    maxAge = 74
-    currAge = 0
-    initialSugar = 97
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6495
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 24
-    x = 18
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 54
-    fertilityAgeMin = 14
-    sex = false
-    currWealth = 51
-    maxAge = 70
-    currAge = 0
-    initialSugar = 51
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6494
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 25
-    x = 18
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 40
-    fertilityAgeMin = 12
-    sex = false
-    currWealth = 56
-    maxAge = 71
-    currAge = 0
-    initialSugar = 56
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6493
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 26
-    x = 18
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 55
-    fertilityAgeMin = 13
-    sex = false
-    currWealth = 79
-    maxAge = 68
-    currAge = 0
-    initialSugar = 79
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6492
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 27
-    x = 18
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 42
-    fertilityAgeMin = 12
-    sex = false
-    currWealth = 86
-    maxAge = 67
-    currAge = 0
-    initialSugar = 86
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6491
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 28
-    x = 18
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 46
-    fertilityAgeMin = 14
-    sex = false
-    currWealth = 80
-    maxAge = 64
-    currAge = 0
-    initialSugar = 80
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6490
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 29
-    x = 18
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 41
-    fertilityAgeMin = 13
-    sex = false
-    currWealth = 57
-    maxAge = 65
-    currAge = 0
-    initialSugar = 57
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6489
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 30
-    x = 18
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 43
-    fertilityAgeMin = 12
-    sex = false
-    currWealth = 83
-    maxAge = 74
-    currAge = 0
-    initialSugar = 83
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
   SCBug6488
   (scr.SCBug
     active = true
@@ -43692,18 +42648,18 @@ SCGrid
     flyer = false
     z = 1
     y = 19
-    x = 19
+    x = 18
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 49
-    fertilityAgeMin = 12
+    fertilityAgeMax = 51
+    fertilityAgeMin = 15
     sex = false
-    currWealth = 84
-    maxAge = 70
-    currAge = 0
-    initialSugar = 84
+    currWealth = 96
+    maxAge = 67
+    currAge = 46
+    initialSugar = 96
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -43721,18 +42677,18 @@ SCGrid
     flyer = false
     z = 1
     y = 20
-    x = 19
+    x = 18
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 50
-    fertilityAgeMin = 12
+    fertilityAgeMax = 45
+    fertilityAgeMin = 13
     sex = false
-    currWealth = 85
-    maxAge = 67
-    currAge = 0
-    initialSugar = 85
+    currWealth = 98
+    maxAge = 65
+    currAge = 68
+    initialSugar = 98
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -43750,18 +42706,192 @@ SCGrid
     flyer = false
     z = 1
     y = 21
-    x = 19
+    x = 18
+    depict = DepictionBugFemale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 54
+    fertilityAgeMin = 14
+    sex = false
+    currWealth = 57
+    maxAge = 71
+    currAge = 58
+    initialSugar = 57
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6485
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 22
+    x = 18
+    depict = DepictionBugFemale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 45
+    fertilityAgeMin = 15
+    sex = false
+    currWealth = 92
+    maxAge = 74
+    currAge = 54
+    initialSugar = 92
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6484
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 23
+    x = 18
+    depict = DepictionBugFemale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 42
+    fertilityAgeMin = 15
+    sex = false
+    currWealth = 85
+    maxAge = 64
+    currAge = 25
+    initialSugar = 85
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6483
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 24
+    x = 18
+    depict = DepictionBugFemale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 53
+    fertilityAgeMin = 15
+    sex = false
+    currWealth = 67
+    maxAge = 65
+    currAge = 28
+    initialSugar = 67
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6482
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 25
+    x = 18
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
     fertilityAgeMax = 48
-    fertilityAgeMin = 14
+    fertilityAgeMin = 13
     sex = false
-    currWealth = 100
-    maxAge = 70
-    currAge = 0
-    initialSugar = 100
+    currWealth = 97
+    maxAge = 73
+    currAge = 64
+    initialSugar = 97
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6481
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 26
+    x = 18
+    depict = DepictionBugFemale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 56
+    fertilityAgeMin = 13
+    sex = false
+    currWealth = 67
+    maxAge = 71
+    currAge = 73
+    initialSugar = 67
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6480
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 27
+    x = 18
+    depict = DepictionBugFemale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 58
+    fertilityAgeMin = 12
+    sex = false
+    currWealth = 76
+    maxAge = 66
+    currAge = 13
+    initialSugar = 76
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -43779,18 +42909,18 @@ SCGrid
     flyer = false
     z = 1
     y = 28
-    x = 19
+    x = 18
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 59
-    fertilityAgeMin = 14
+    fertilityAgeMax = 57
+    fertilityAgeMin = 15
     sex = false
-    currWealth = 58
-    maxAge = 67
-    currAge = 0
-    initialSugar = 58
+    currWealth = 56
+    maxAge = 70
+    currAge = 62
+    initialSugar = 56
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -43808,47 +42938,18 @@ SCGrid
     flyer = false
     z = 1
     y = 29
-    x = 19
+    x = 18
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 58
-    fertilityAgeMin = 13
+    fertilityAgeMax = 56
+    fertilityAgeMin = 12
     sex = false
-    currWealth = 79
-    maxAge = 64
-    currAge = 0
-    initialSugar = 79
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6477
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 30
-    x = 19
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 50
-    fertilityAgeMin = 13
-    sex = false
-    currWealth = 81
-    maxAge = 64
-    currAge = 0
-    initialSugar = 81
+    currWealth = 59
+    maxAge = 68
+    currAge = 3
+    initialSugar = 59
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -43866,18 +42967,18 @@ SCGrid
     flyer = false
     z = 1
     y = 19
-    x = 20
+    x = 19
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 57
-    fertilityAgeMin = 15
+    fertilityAgeMax = 43
+    fertilityAgeMin = 12
     sex = false
-    currWealth = 54
-    maxAge = 64
-    currAge = 0
-    initialSugar = 54
+    currWealth = 71
+    maxAge = 65
+    currAge = 56
+    initialSugar = 71
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -43895,18 +42996,18 @@ SCGrid
     flyer = false
     z = 1
     y = 20
-    x = 20
+    x = 19
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 50
-    fertilityAgeMin = 12
+    fertilityAgeMax = 51
+    fertilityAgeMin = 14
     sex = false
-    currWealth = 75
-    maxAge = 69
-    currAge = 0
-    initialSugar = 75
+    currWealth = 96
+    maxAge = 66
+    currAge = 22
+    initialSugar = 96
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -43924,18 +43025,192 @@ SCGrid
     flyer = false
     z = 1
     y = 21
-    x = 20
+    x = 19
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 60
+    fertilityAgeMax = 51
+    fertilityAgeMin = 12
+    sex = false
+    currWealth = 71
+    maxAge = 72
+    currAge = 5
+    initialSugar = 71
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6473
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 22
+    x = 19
+    depict = DepictionBugFemale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 45
     fertilityAgeMin = 14
     sex = false
-    currWealth = 72
-    maxAge = 64
-    currAge = 0
-    initialSugar = 72
+    currWealth = 64
+    maxAge = 71
+    currAge = 31
+    initialSugar = 64
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6472
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 23
+    x = 19
+    depict = DepictionBugFemale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 44
+    fertilityAgeMin = 12
+    sex = false
+    currWealth = 64
+    maxAge = 72
+    currAge = 14
+    initialSugar = 64
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6471
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 24
+    x = 19
+    depict = DepictionBugFemale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 45
+    fertilityAgeMin = 13
+    sex = false
+    currWealth = 89
+    maxAge = 71
+    currAge = 20
+    initialSugar = 89
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6470
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 25
+    x = 19
+    depict = DepictionBugFemale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 43
+    fertilityAgeMin = 15
+    sex = false
+    currWealth = 71
+    maxAge = 72
+    currAge = 66
+    initialSugar = 71
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6469
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 26
+    x = 19
+    depict = DepictionBugFemale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 43
+    fertilityAgeMin = 15
+    sex = false
+    currWealth = 57
+    maxAge = 70
+    currAge = 41
+    initialSugar = 57
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6468
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 27
+    x = 19
+    depict = DepictionBugFemale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 53
+    fertilityAgeMin = 15
+    sex = false
+    currWealth = 80
+    maxAge = 74
+    currAge = 20
+    initialSugar = 80
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -43953,18 +43228,18 @@ SCGrid
     flyer = false
     z = 1
     y = 28
-    x = 20
+    x = 19
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 49
-    fertilityAgeMin = 13
+    fertilityAgeMax = 40
+    fertilityAgeMin = 12
     sex = false
-    currWealth = 78
+    currWealth = 70
     maxAge = 72
-    currAge = 0
-    initialSugar = 78
+    currAge = 64
+    initialSugar = 70
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -43982,47 +43257,18 @@ SCGrid
     flyer = false
     z = 1
     y = 29
-    x = 20
+    x = 19
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 43
-    fertilityAgeMin = 15
+    fertilityAgeMax = 50
+    fertilityAgeMin = 13
     sex = false
-    currWealth = 77
-    maxAge = 73
-    currAge = 0
-    initialSugar = 77
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6465
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 30
-    x = 20
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 43
-    fertilityAgeMin = 15
-    sex = false
-    currWealth = 90
-    maxAge = 64
-    currAge = 0
-    initialSugar = 90
+    currWealth = 69
+    maxAge = 70
+    currAge = 58
+    initialSugar = 69
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -44040,18 +43286,18 @@ SCGrid
     flyer = false
     z = 1
     y = 19
-    x = 21
+    x = 20
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 46
-    fertilityAgeMin = 12
+    fertilityAgeMax = 54
+    fertilityAgeMin = 15
     sex = false
-    currWealth = 66
-    maxAge = 66
-    currAge = 0
-    initialSugar = 66
+    currWealth = 78
+    maxAge = 64
+    currAge = 29
+    initialSugar = 78
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -44069,18 +43315,18 @@ SCGrid
     flyer = false
     z = 1
     y = 20
-    x = 21
+    x = 20
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 56
-    fertilityAgeMin = 14
+    fertilityAgeMax = 41
+    fertilityAgeMin = 13
     sex = false
-    currWealth = 78
-    maxAge = 74
-    currAge = 0
-    initialSugar = 78
+    currWealth = 79
+    maxAge = 67
+    currAge = 32
+    initialSugar = 79
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -44098,18 +43344,192 @@ SCGrid
     flyer = false
     z = 1
     y = 21
-    x = 21
+    x = 20
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 42
+    fertilityAgeMax = 59
+    fertilityAgeMin = 12
+    sex = false
+    currWealth = 76
+    maxAge = 67
+    currAge = 56
+    initialSugar = 76
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6461
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 22
+    x = 20
+    depict = DepictionBugFemale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 45
+    fertilityAgeMin = 13
+    sex = false
+    currWealth = 97
+    maxAge = 67
+    currAge = 31
+    initialSugar = 97
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6460
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 23
+    x = 20
+    depict = DepictionBugFemale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 41
+    fertilityAgeMin = 13
+    sex = false
+    currWealth = 69
+    maxAge = 67
+    currAge = 29
+    initialSugar = 69
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6459
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 24
+    x = 20
+    depict = DepictionBugFemale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 53
+    fertilityAgeMin = 13
+    sex = false
+    currWealth = 69
+    maxAge = 64
+    currAge = 27
+    initialSugar = 69
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6458
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 25
+    x = 20
+    depict = DepictionBugFemale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 46
+    fertilityAgeMin = 13
+    sex = false
+    currWealth = 79
+    maxAge = 68
+    currAge = 61
+    initialSugar = 79
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6457
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 26
+    x = 20
+    depict = DepictionBugFemale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 50
+    fertilityAgeMin = 13
+    sex = false
+    currWealth = 51
+    maxAge = 72
+    currAge = 3
+    initialSugar = 51
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6456
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 27
+    x = 20
+    depict = DepictionBugFemale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 52
     fertilityAgeMin = 14
     sex = false
-    currWealth = 63
-    maxAge = 66
-    currAge = 0
-    initialSugar = 63
+    currWealth = 81
+    maxAge = 68
+    currAge = 17
+    initialSugar = 81
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -44127,18 +43547,18 @@ SCGrid
     flyer = false
     z = 1
     y = 28
-    x = 21
+    x = 20
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
     fertilityAgeMax = 47
-    fertilityAgeMin = 15
+    fertilityAgeMin = 14
     sex = false
-    currWealth = 65
+    currWealth = 60
     maxAge = 65
-    currAge = 0
-    initialSugar = 65
+    currAge = 6
+    initialSugar = 60
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -44156,47 +43576,18 @@ SCGrid
     flyer = false
     z = 1
     y = 29
-    x = 21
+    x = 20
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 43
-    fertilityAgeMin = 12
-    sex = false
-    currWealth = 63
-    maxAge = 72
-    currAge = 0
-    initialSugar = 63
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6453
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 30
-    x = 21
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 50
+    fertilityAgeMax = 45
     fertilityAgeMin = 15
     sex = false
-    currWealth = 90
-    maxAge = 68
-    currAge = 0
-    initialSugar = 90
+    currWealth = 59
+    maxAge = 67
+    currAge = 37
+    initialSugar = 59
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -44214,18 +43605,18 @@ SCGrid
     flyer = false
     z = 1
     y = 19
-    x = 22
+    x = 21
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 57
-    fertilityAgeMin = 14
+    fertilityAgeMax = 52
+    fertilityAgeMin = 12
     sex = false
-    currWealth = 92
-    maxAge = 67
-    currAge = 0
-    initialSugar = 92
+    currWealth = 96
+    maxAge = 64
+    currAge = 51
+    initialSugar = 96
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -44243,47 +43634,18 @@ SCGrid
     flyer = false
     z = 1
     y = 20
-    x = 22
+    x = 21
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 50
-    fertilityAgeMin = 12
+    fertilityAgeMax = 47
+    fertilityAgeMin = 14
     sex = false
-    currWealth = 90
-    maxAge = 65
-    currAge = 0
-    initialSugar = 90
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6450
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 21
-    x = 22
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 56
-    fertilityAgeMin = 13
-    sex = false
-    currWealth = 77
-    maxAge = 73
-    currAge = 0
-    initialSugar = 77
+    currWealth = 75
+    maxAge = 70
+    currAge = 68
+    initialSugar = 75
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -44301,18 +43663,18 @@ SCGrid
     flyer = false
     z = 1
     y = 28
-    x = 22
+    x = 21
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 46
-    fertilityAgeMin = 15
+    fertilityAgeMax = 42
+    fertilityAgeMin = 14
     sex = false
-    currWealth = 62
-    maxAge = 72
-    currAge = 0
-    initialSugar = 62
+    currWealth = 82
+    maxAge = 68
+    currAge = 26
+    initialSugar = 82
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -44330,47 +43692,18 @@ SCGrid
     flyer = false
     z = 1
     y = 29
-    x = 22
+    x = 21
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 55
-    fertilityAgeMin = 13
+    fertilityAgeMax = 47
+    fertilityAgeMin = 15
     sex = false
-    currWealth = 56
-    maxAge = 65
-    currAge = 0
-    initialSugar = 56
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6441
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 30
-    x = 22
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 53
-    fertilityAgeMin = 13
-    sex = false
-    currWealth = 65
-    maxAge = 67
-    currAge = 0
-    initialSugar = 65
+    currWealth = 76
+    maxAge = 68
+    currAge = 52
+    initialSugar = 76
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -44388,18 +43721,18 @@ SCGrid
     flyer = false
     z = 1
     y = 19
-    x = 23
+    x = 22
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 50
-    fertilityAgeMin = 14
+    fertilityAgeMax = 59
+    fertilityAgeMin = 13
     sex = false
-    currWealth = 99
+    currWealth = 89
     maxAge = 66
-    currAge = 0
-    initialSugar = 99
+    currAge = 24
+    initialSugar = 89
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -44417,46 +43750,17 @@ SCGrid
     flyer = false
     z = 1
     y = 20
-    x = 23
+    x = 22
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 48
-    fertilityAgeMin = 15
-    sex = false
-    currWealth = 61
-    maxAge = 64
-    currAge = 0
-    initialSugar = 61
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6438
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 21
-    x = 23
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 55
-    fertilityAgeMin = 12
+    fertilityAgeMax = 44
+    fertilityAgeMin = 14
     sex = false
     currWealth = 96
     maxAge = 71
-    currAge = 0
+    currAge = 38
     initialSugar = 96
     generation = 1
     numberOfDescendants = 0
@@ -44475,18 +43779,18 @@ SCGrid
     flyer = false
     z = 1
     y = 28
-    x = 23
+    x = 22
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 50
-    fertilityAgeMin = 13
+    fertilityAgeMax = 51
+    fertilityAgeMin = 15
     sex = false
-    currWealth = 50
-    maxAge = 72
-    currAge = 0
-    initialSugar = 50
+    currWealth = 78
+    maxAge = 74
+    currAge = 22
+    initialSugar = 78
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -44504,47 +43808,18 @@ SCGrid
     flyer = false
     z = 1
     y = 29
-    x = 23
+    x = 22
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 49
-    fertilityAgeMin = 15
-    sex = false
-    currWealth = 83
-    maxAge = 67
-    currAge = 0
-    initialSugar = 83
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6429
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 30
-    x = 23
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 50
+    fertilityAgeMax = 46
     fertilityAgeMin = 14
     sex = false
-    currWealth = 89
-    maxAge = 74
-    currAge = 0
-    initialSugar = 89
+    currWealth = 80
+    maxAge = 67
+    currAge = 56
+    initialSugar = 80
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -44562,18 +43837,18 @@ SCGrid
     flyer = false
     z = 1
     y = 19
-    x = 24
+    x = 23
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 53
-    fertilityAgeMin = 15
+    fertilityAgeMax = 52
+    fertilityAgeMin = 12
     sex = false
-    currWealth = 70
-    maxAge = 71
-    currAge = 0
-    initialSugar = 70
+    currWealth = 93
+    maxAge = 70
+    currAge = 56
+    initialSugar = 93
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -44591,47 +43866,18 @@ SCGrid
     flyer = false
     z = 1
     y = 20
-    x = 24
+    x = 23
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 42
-    fertilityAgeMin = 13
+    fertilityAgeMax = 53
+    fertilityAgeMin = 12
     sex = false
-    currWealth = 77
-    maxAge = 65
-    currAge = 0
-    initialSugar = 77
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6426
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 21
-    x = 24
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 54
-    fertilityAgeMin = 14
-    sex = false
-    currWealth = 59
-    maxAge = 72
-    currAge = 0
-    initialSugar = 59
+    currWealth = 72
+    maxAge = 69
+    currAge = 50
+    initialSugar = 72
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -44649,18 +43895,18 @@ SCGrid
     flyer = false
     z = 1
     y = 28
-    x = 24
+    x = 23
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 44
-    fertilityAgeMin = 13
+    fertilityAgeMax = 43
+    fertilityAgeMin = 12
     sex = false
-    currWealth = 97
-    maxAge = 70
-    currAge = 0
-    initialSugar = 97
+    currWealth = 90
+    maxAge = 68
+    currAge = 65
+    initialSugar = 90
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -44678,47 +43924,18 @@ SCGrid
     flyer = false
     z = 1
     y = 29
-    x = 24
+    x = 23
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 47
-    fertilityAgeMin = 14
+    fertilityAgeMax = 52
+    fertilityAgeMin = 12
     sex = false
-    currWealth = 87
-    maxAge = 71
-    currAge = 0
-    initialSugar = 87
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6417
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 30
-    x = 24
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 41
-    fertilityAgeMin = 13
-    sex = false
-    currWealth = 53
+    currWealth = 90
     maxAge = 64
-    currAge = 0
-    initialSugar = 53
+    currAge = 44
+    initialSugar = 90
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -44736,18 +43953,18 @@ SCGrid
     flyer = false
     z = 1
     y = 19
-    x = 25
+    x = 24
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 50
-    fertilityAgeMin = 12
+    fertilityAgeMax = 51
+    fertilityAgeMin = 14
     sex = false
-    currWealth = 82
-    maxAge = 69
-    currAge = 0
-    initialSugar = 82
+    currWealth = 74
+    maxAge = 67
+    currAge = 32
+    initialSugar = 74
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -44765,47 +43982,18 @@ SCGrid
     flyer = false
     z = 1
     y = 20
-    x = 25
+    x = 24
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 48
-    fertilityAgeMin = 13
+    fertilityAgeMax = 59
+    fertilityAgeMin = 12
     sex = false
-    currWealth = 97
-    maxAge = 71
-    currAge = 0
-    initialSugar = 97
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6414
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 21
-    x = 25
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 43
-    fertilityAgeMin = 13
-    sex = false
-    currWealth = 50
-    maxAge = 71
-    currAge = 0
-    initialSugar = 50
+    currWealth = 91
+    maxAge = 68
+    currAge = 58
+    initialSugar = 91
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -44823,18 +44011,18 @@ SCGrid
     flyer = false
     z = 1
     y = 28
-    x = 25
+    x = 24
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 58
-    fertilityAgeMin = 15
+    fertilityAgeMax = 48
+    fertilityAgeMin = 13
     sex = false
-    currWealth = 81
-    maxAge = 65
-    currAge = 0
-    initialSugar = 81
+    currWealth = 67
+    maxAge = 67
+    currAge = 10
+    initialSugar = 67
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -44852,47 +44040,18 @@ SCGrid
     flyer = false
     z = 1
     y = 29
-    x = 25
+    x = 24
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 42
-    fertilityAgeMin = 13
-    sex = false
-    currWealth = 82
-    maxAge = 67
-    currAge = 0
-    initialSugar = 82
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6405
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 30
-    x = 25
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 42
+    fertilityAgeMax = 51
     fertilityAgeMin = 14
     sex = false
-    currWealth = 94
-    maxAge = 66
-    currAge = 0
-    initialSugar = 94
+    currWealth = 68
+    maxAge = 70
+    currAge = 7
+    initialSugar = 68
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -44910,18 +44069,18 @@ SCGrid
     flyer = false
     z = 1
     y = 19
-    x = 26
+    x = 25
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 51
-    fertilityAgeMin = 15
+    fertilityAgeMax = 53
+    fertilityAgeMin = 13
     sex = false
-    currWealth = 64
-    maxAge = 72
-    currAge = 0
-    initialSugar = 64
+    currWealth = 65
+    maxAge = 70
+    currAge = 71
+    initialSugar = 65
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -44939,47 +44098,18 @@ SCGrid
     flyer = false
     z = 1
     y = 20
-    x = 26
+    x = 25
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 48
-    fertilityAgeMin = 13
+    fertilityAgeMax = 40
+    fertilityAgeMin = 14
     sex = false
-    currWealth = 64
-    maxAge = 69
-    currAge = 0
-    initialSugar = 64
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6402
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 21
-    x = 26
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 53
-    fertilityAgeMin = 15
-    sex = false
-    currWealth = 59
-    maxAge = 70
-    currAge = 0
-    initialSugar = 59
+    currWealth = 83
+    maxAge = 68
+    currAge = 16
+    initialSugar = 83
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -44997,18 +44127,18 @@ SCGrid
     flyer = false
     z = 1
     y = 28
-    x = 26
+    x = 25
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 57
-    fertilityAgeMin = 13
+    fertilityAgeMax = 60
+    fertilityAgeMin = 15
     sex = false
-    currWealth = 60
-    maxAge = 64
-    currAge = 0
-    initialSugar = 60
+    currWealth = 51
+    maxAge = 73
+    currAge = 65
+    initialSugar = 51
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -45026,47 +44156,18 @@ SCGrid
     flyer = false
     z = 1
     y = 29
-    x = 26
+    x = 25
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 54
-    fertilityAgeMin = 13
+    fertilityAgeMax = 56
+    fertilityAgeMin = 12
     sex = false
-    currWealth = 70
+    currWealth = 94
     maxAge = 67
-    currAge = 0
-    initialSugar = 70
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6393
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 30
-    x = 26
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 40
-    fertilityAgeMin = 14
-    sex = false
-    currWealth = 79
-    maxAge = 66
-    currAge = 0
-    initialSugar = 79
+    currAge = 30
+    initialSugar = 94
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -45084,18 +44185,18 @@ SCGrid
     flyer = false
     z = 1
     y = 19
-    x = 27
+    x = 26
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 60
-    fertilityAgeMin = 12
+    fertilityAgeMax = 47
+    fertilityAgeMin = 14
     sex = false
-    currWealth = 82
-    maxAge = 70
-    currAge = 0
-    initialSugar = 82
+    currWealth = 92
+    maxAge = 73
+    currAge = 32
+    initialSugar = 92
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -45113,47 +44214,18 @@ SCGrid
     flyer = false
     z = 1
     y = 20
-    x = 27
+    x = 26
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 54
-    fertilityAgeMin = 15
-    sex = false
-    currWealth = 83
-    maxAge = 65
-    currAge = 0
-    initialSugar = 83
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6390
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 21
-    x = 27
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 48
+    fertilityAgeMax = 47
     fertilityAgeMin = 14
     sex = false
-    currWealth = 98
-    maxAge = 70
-    currAge = 0
-    initialSugar = 98
+    currWealth = 92
+    maxAge = 68
+    currAge = 56
+    initialSugar = 92
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -45171,18 +44243,18 @@ SCGrid
     flyer = false
     z = 1
     y = 28
-    x = 27
+    x = 26
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 41
-    fertilityAgeMin = 12
+    fertilityAgeMax = 42
+    fertilityAgeMin = 13
     sex = false
-    currWealth = 75
-    maxAge = 64
-    currAge = 0
-    initialSugar = 75
+    currWealth = 87
+    maxAge = 70
+    currAge = 6
+    initialSugar = 87
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -45200,47 +44272,18 @@ SCGrid
     flyer = false
     z = 1
     y = 29
-    x = 27
+    x = 26
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 53
-    fertilityAgeMin = 14
+    fertilityAgeMax = 45
+    fertilityAgeMin = 13
     sex = false
-    currWealth = 88
-    maxAge = 67
-    currAge = 0
-    initialSugar = 88
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6381
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 30
-    x = 27
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 57
-    fertilityAgeMin = 14
-    sex = false
-    currWealth = 91
-    maxAge = 64
-    currAge = 0
-    initialSugar = 91
+    currWealth = 78
+    maxAge = 73
+    currAge = 61
+    initialSugar = 78
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -45258,18 +44301,18 @@ SCGrid
     flyer = false
     z = 1
     y = 19
-    x = 28
+    x = 27
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 59
-    fertilityAgeMin = 15
+    fertilityAgeMax = 57
+    fertilityAgeMin = 14
     sex = false
-    currWealth = 72
-    maxAge = 64
-    currAge = 0
-    initialSugar = 72
+    currWealth = 65
+    maxAge = 65
+    currAge = 32
+    initialSugar = 65
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -45287,47 +44330,18 @@ SCGrid
     flyer = false
     z = 1
     y = 20
-    x = 28
+    x = 27
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 49
-    fertilityAgeMin = 13
-    sex = false
-    currWealth = 92
-    maxAge = 67
-    currAge = 0
-    initialSugar = 92
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6378
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 21
-    x = 28
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 44
+    fertilityAgeMax = 41
     fertilityAgeMin = 15
     sex = false
-    currWealth = 80
-    maxAge = 64
-    currAge = 0
-    initialSugar = 80
+    currWealth = 60
+    maxAge = 69
+    currAge = 62
+    initialSugar = 60
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -45345,18 +44359,18 @@ SCGrid
     flyer = false
     z = 1
     y = 28
-    x = 28
+    x = 27
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 52
+    fertilityAgeMax = 45
     fertilityAgeMin = 12
     sex = false
-    currWealth = 97
-    maxAge = 68
-    currAge = 0
-    initialSugar = 97
+    currWealth = 56
+    maxAge = 74
+    currAge = 24
+    initialSugar = 56
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -45374,47 +44388,18 @@ SCGrid
     flyer = false
     z = 1
     y = 29
-    x = 28
+    x = 27
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 56
-    fertilityAgeMin = 15
+    fertilityAgeMax = 52
+    fertilityAgeMin = 12
     sex = false
-    currWealth = 96
-    maxAge = 72
-    currAge = 0
-    initialSugar = 96
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6369
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 30
-    x = 28
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 45
-    fertilityAgeMin = 13
-    sex = false
-    currWealth = 55
+    currWealth = 56
     maxAge = 64
-    currAge = 0
-    initialSugar = 55
+    currAge = 3
+    initialSugar = 56
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -45432,18 +44417,18 @@ SCGrid
     flyer = false
     z = 1
     y = 19
-    x = 29
+    x = 28
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 40
+    fertilityAgeMax = 50
     fertilityAgeMin = 13
     sex = false
-    currWealth = 58
-    maxAge = 69
-    currAge = 0
-    initialSugar = 58
+    currWealth = 84
+    maxAge = 71
+    currAge = 22
+    initialSugar = 84
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -45461,47 +44446,18 @@ SCGrid
     flyer = false
     z = 1
     y = 20
-    x = 29
+    x = 28
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 50
-    fertilityAgeMin = 14
+    fertilityAgeMax = 44
+    fertilityAgeMin = 15
     sex = false
-    currWealth = 57
-    maxAge = 69
-    currAge = 0
-    initialSugar = 57
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6366
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 21
-    x = 29
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 55
-    fertilityAgeMin = 12
-    sex = false
-    currWealth = 89
-    maxAge = 74
-    currAge = 0
-    initialSugar = 89
+    currWealth = 85
+    maxAge = 68
+    currAge = 57
+    initialSugar = 85
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -45519,18 +44475,18 @@ SCGrid
     flyer = false
     z = 1
     y = 28
-    x = 29
+    x = 28
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 42
-    fertilityAgeMin = 13
+    fertilityAgeMax = 46
+    fertilityAgeMin = 15
     sex = false
-    currWealth = 53
-    maxAge = 67
-    currAge = 0
-    initialSugar = 53
+    currWealth = 99
+    maxAge = 66
+    currAge = 44
+    initialSugar = 99
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -45548,47 +44504,18 @@ SCGrid
     flyer = false
     z = 1
     y = 29
-    x = 29
+    x = 28
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 49
-    fertilityAgeMin = 12
-    sex = false
-    currWealth = 93
-    maxAge = 68
-    currAge = 0
-    initialSugar = 93
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6357
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 30
-    x = 29
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 43
+    fertilityAgeMax = 48
     fertilityAgeMin = 15
     sex = false
-    currWealth = 81
-    maxAge = 74
-    currAge = 0
-    initialSugar = 81
+    currWealth = 73
+    maxAge = 66
+    currAge = 3
+    initialSugar = 73
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -45606,18 +44533,18 @@ SCGrid
     flyer = false
     z = 1
     y = 19
-    x = 30
+    x = 29
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 41
-    fertilityAgeMin = 13
+    fertilityAgeMax = 56
+    fertilityAgeMin = 15
     sex = false
-    currWealth = 76
-    maxAge = 64
-    currAge = 0
-    initialSugar = 76
+    currWealth = 93
+    maxAge = 72
+    currAge = 53
+    initialSugar = 93
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -45635,47 +44562,18 @@ SCGrid
     flyer = false
     z = 1
     y = 20
-    x = 30
+    x = 29
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 57
-    fertilityAgeMin = 12
+    fertilityAgeMax = 45
+    fertilityAgeMin = 13
     sex = false
-    currWealth = 89
-    maxAge = 70
-    currAge = 0
-    initialSugar = 89
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6354
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 21
-    x = 30
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 57
-    fertilityAgeMin = 12
-    sex = false
-    currWealth = 71
-    maxAge = 74
-    currAge = 0
-    initialSugar = 71
+    currWealth = 84
+    maxAge = 67
+    currAge = 65
+    initialSugar = 84
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -45693,18 +44591,18 @@ SCGrid
     flyer = false
     z = 1
     y = 28
-    x = 30
+    x = 29
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 54
-    fertilityAgeMin = 13
+    fertilityAgeMax = 40
+    fertilityAgeMin = 12
     sex = false
-    currWealth = 91
+    currWealth = 94
     maxAge = 74
-    currAge = 0
-    initialSugar = 91
+    currAge = 4
+    initialSugar = 94
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -45722,47 +44620,18 @@ SCGrid
     flyer = false
     z = 1
     y = 29
-    x = 30
+    x = 29
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 55
-    fertilityAgeMin = 14
+    fertilityAgeMax = 53
+    fertilityAgeMin = 13
     sex = false
-    currWealth = 76
-    maxAge = 65
-    currAge = 0
-    initialSugar = 76
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6345
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 30
-    x = 30
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 40
-    fertilityAgeMin = 15
-    sex = false
-    currWealth = 72
-    maxAge = 71
-    currAge = 0
-    initialSugar = 72
+    currWealth = 60
+    maxAge = 66
+    currAge = 50
+    initialSugar = 60
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -45780,18 +44649,18 @@ SCGrid
     flyer = false
     z = 1
     y = 19
-    x = 31
+    x = 30
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
     fertilityAgeMax = 50
-    fertilityAgeMin = 13
+    fertilityAgeMin = 15
     sex = false
-    currWealth = 87
-    maxAge = 66
-    currAge = 0
-    initialSugar = 87
+    currWealth = 60
+    maxAge = 68
+    currAge = 3
+    initialSugar = 60
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -45809,18 +44678,18 @@ SCGrid
     flyer = false
     z = 1
     y = 20
-    x = 31
+    x = 30
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
     fertilityAgeMax = 43
-    fertilityAgeMin = 14
+    fertilityAgeMin = 12
     sex = false
-    currWealth = 64
-    maxAge = 71
-    currAge = 0
-    initialSugar = 64
+    currWealth = 83
+    maxAge = 72
+    currAge = 7
+    initialSugar = 83
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -45838,18 +44707,18 @@ SCGrid
     flyer = false
     z = 1
     y = 21
-    x = 31
+    x = 30
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 53
-    fertilityAgeMin = 13
+    fertilityAgeMax = 42
+    fertilityAgeMin = 14
     sex = false
-    currWealth = 93
-    maxAge = 70
-    currAge = 0
-    initialSugar = 93
+    currWealth = 84
+    maxAge = 68
+    currAge = 27
+    initialSugar = 84
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -45867,18 +44736,18 @@ SCGrid
     flyer = false
     z = 1
     y = 22
-    x = 31
+    x = 30
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 48
-    fertilityAgeMin = 14
+    fertilityAgeMax = 55
+    fertilityAgeMin = 15
     sex = false
-    currWealth = 59
-    maxAge = 73
-    currAge = 0
-    initialSugar = 59
+    currWealth = 53
+    maxAge = 68
+    currAge = 68
+    initialSugar = 53
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -45896,18 +44765,18 @@ SCGrid
     flyer = false
     z = 1
     y = 23
-    x = 31
+    x = 30
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 60
+    fertilityAgeMax = 50
     fertilityAgeMin = 13
     sex = false
-    currWealth = 94
-    maxAge = 74
-    currAge = 0
-    initialSugar = 94
+    currWealth = 56
+    maxAge = 65
+    currAge = 62
+    initialSugar = 56
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -45925,18 +44794,18 @@ SCGrid
     flyer = false
     z = 1
     y = 24
-    x = 31
+    x = 30
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 50
-    fertilityAgeMin = 15
+    fertilityAgeMax = 56
+    fertilityAgeMin = 12
     sex = false
-    currWealth = 57
-    maxAge = 72
-    currAge = 0
-    initialSugar = 57
+    currWealth = 81
+    maxAge = 74
+    currAge = 6
+    initialSugar = 81
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -45954,18 +44823,18 @@ SCGrid
     flyer = false
     z = 1
     y = 25
-    x = 31
+    x = 30
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 59
-    fertilityAgeMin = 12
+    fertilityAgeMax = 51
+    fertilityAgeMin = 13
     sex = false
-    currWealth = 83
-    maxAge = 70
-    currAge = 0
-    initialSugar = 83
+    currWealth = 86
+    maxAge = 69
+    currAge = 19
+    initialSugar = 86
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -45983,18 +44852,18 @@ SCGrid
     flyer = false
     z = 1
     y = 26
-    x = 31
+    x = 30
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 45
+    fertilityAgeMax = 60
     fertilityAgeMin = 12
     sex = false
-    currWealth = 78
-    maxAge = 67
-    currAge = 0
-    initialSugar = 78
+    currWealth = 77
+    maxAge = 65
+    currAge = 66
+    initialSugar = 77
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -46012,18 +44881,18 @@ SCGrid
     flyer = false
     z = 1
     y = 27
-    x = 31
+    x = 30
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 42
-    fertilityAgeMin = 12
+    fertilityAgeMax = 44
+    fertilityAgeMin = 14
     sex = false
-    currWealth = 100
-    maxAge = 68
-    currAge = 0
-    initialSugar = 100
+    currWealth = 71
+    maxAge = 71
+    currAge = 58
+    initialSugar = 71
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -46041,18 +44910,18 @@ SCGrid
     flyer = false
     z = 1
     y = 28
-    x = 31
+    x = 30
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 50
-    fertilityAgeMin = 12
+    fertilityAgeMax = 45
+    fertilityAgeMin = 13
     sex = false
-    currWealth = 52
-    maxAge = 68
-    currAge = 0
-    initialSugar = 52
+    currWealth = 71
+    maxAge = 70
+    currAge = 66
+    initialSugar = 71
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -46070,47 +44939,18 @@ SCGrid
     flyer = false
     z = 1
     y = 29
-    x = 31
+    x = 30
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 58
-    fertilityAgeMin = 15
-    sex = false
-    currWealth = 95
-    maxAge = 64
-    currAge = 0
-    initialSugar = 95
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6333
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 30
-    x = 31
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 43
+    fertilityAgeMax = 42
     fertilityAgeMin = 12
     sex = false
-    currWealth = 81
-    maxAge = 64
-    currAge = 0
-    initialSugar = 81
+    currWealth = 80
+    maxAge = 67
+    currAge = 60
+    initialSugar = 80
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -46128,18 +44968,18 @@ SCGrid
     flyer = false
     z = 1
     y = 19
-    x = 32
+    x = 31
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 42
-    fertilityAgeMin = 14
+    fertilityAgeMax = 46
+    fertilityAgeMin = 13
     sex = false
-    currWealth = 66
-    maxAge = 68
-    currAge = 0
-    initialSugar = 66
+    currWealth = 60
+    maxAge = 67
+    currAge = 26
+    initialSugar = 60
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -46157,18 +44997,18 @@ SCGrid
     flyer = false
     z = 1
     y = 20
-    x = 32
+    x = 31
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 58
+    fertilityAgeMax = 43
     fertilityAgeMin = 12
     sex = false
-    currWealth = 52
-    maxAge = 69
-    currAge = 0
-    initialSugar = 52
+    currWealth = 68
+    maxAge = 67
+    currAge = 50
+    initialSugar = 68
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -46186,18 +45026,18 @@ SCGrid
     flyer = false
     z = 1
     y = 21
-    x = 32
+    x = 31
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 53
-    fertilityAgeMin = 15
+    fertilityAgeMax = 50
+    fertilityAgeMin = 13
     sex = false
-    currWealth = 94
-    maxAge = 74
-    currAge = 0
-    initialSugar = 94
+    currWealth = 60
+    maxAge = 64
+    currAge = 64
+    initialSugar = 60
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -46215,18 +45055,18 @@ SCGrid
     flyer = false
     z = 1
     y = 22
-    x = 32
+    x = 31
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 52
+    fertilityAgeMax = 51
     fertilityAgeMin = 14
     sex = false
-    currWealth = 85
+    currWealth = 50
     maxAge = 73
-    currAge = 0
-    initialSugar = 85
+    currAge = 31
+    initialSugar = 50
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -46244,18 +45084,18 @@ SCGrid
     flyer = false
     z = 1
     y = 23
-    x = 32
+    x = 31
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 41
+    fertilityAgeMax = 46
     fertilityAgeMin = 15
     sex = false
-    currWealth = 58
-    maxAge = 70
-    currAge = 0
-    initialSugar = 58
+    currWealth = 96
+    maxAge = 67
+    currAge = 2
+    initialSugar = 96
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -46273,18 +45113,18 @@ SCGrid
     flyer = false
     z = 1
     y = 24
-    x = 32
+    x = 31
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 52
-    fertilityAgeMin = 13
+    fertilityAgeMax = 42
+    fertilityAgeMin = 15
     sex = false
-    currWealth = 60
-    maxAge = 64
-    currAge = 0
-    initialSugar = 60
+    currWealth = 67
+    maxAge = 72
+    currAge = 24
+    initialSugar = 67
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -46302,18 +45142,18 @@ SCGrid
     flyer = false
     z = 1
     y = 25
-    x = 32
+    x = 31
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 54
+    fertilityAgeMax = 52
     fertilityAgeMin = 13
     sex = false
-    currWealth = 95
-    maxAge = 70
-    currAge = 0
-    initialSugar = 95
+    currWealth = 93
+    maxAge = 68
+    currAge = 46
+    initialSugar = 93
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -46331,17 +45171,17 @@ SCGrid
     flyer = false
     z = 1
     y = 26
-    x = 32
+    x = 31
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 57
-    fertilityAgeMin = 15
+    fertilityAgeMax = 51
+    fertilityAgeMin = 13
     sex = false
     currWealth = 55
-    maxAge = 64
-    currAge = 0
+    maxAge = 69
+    currAge = 65
     initialSugar = 55
     generation = 1
     numberOfDescendants = 0
@@ -46360,18 +45200,18 @@ SCGrid
     flyer = false
     z = 1
     y = 27
-    x = 32
+    x = 31
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 47
-    fertilityAgeMin = 14
+    fertilityAgeMax = 60
+    fertilityAgeMin = 15
     sex = false
-    currWealth = 83
-    maxAge = 72
-    currAge = 0
-    initialSugar = 83
+    currWealth = 53
+    maxAge = 65
+    currAge = 21
+    initialSugar = 53
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -46389,18 +45229,18 @@ SCGrid
     flyer = false
     z = 1
     y = 28
-    x = 32
+    x = 31
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 54
+    fertilityAgeMax = 51
     fertilityAgeMin = 14
     sex = false
-    currWealth = 73
-    maxAge = 66
-    currAge = 0
-    initialSugar = 73
+    currWealth = 99
+    maxAge = 65
+    currAge = 7
+    initialSugar = 99
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -46418,47 +45258,18 @@ SCGrid
     flyer = false
     z = 1
     y = 29
-    x = 32
+    x = 31
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 48
-    fertilityAgeMin = 12
+    fertilityAgeMax = 43
+    fertilityAgeMin = 14
     sex = false
-    currWealth = 54
-    maxAge = 70
-    currAge = 0
-    initialSugar = 54
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6321
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 30
-    x = 32
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 48
-    fertilityAgeMin = 12
-    sex = false
-    currWealth = 100
+    currWealth = 79
     maxAge = 67
-    currAge = 0
-    initialSugar = 100
+    currAge = 56
+    initialSugar = 79
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -46476,18 +45287,18 @@ SCGrid
     flyer = false
     z = 1
     y = 19
-    x = 33
+    x = 32
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 48
+    fertilityAgeMax = 52
     fertilityAgeMin = 15
     sex = false
-    currWealth = 72
+    currWealth = 93
     maxAge = 69
-    currAge = 0
-    initialSugar = 72
+    currAge = 41
+    initialSugar = 93
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -46505,18 +45316,18 @@ SCGrid
     flyer = false
     z = 1
     y = 20
-    x = 33
+    x = 32
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 60
+    fertilityAgeMax = 45
     fertilityAgeMin = 13
     sex = false
-    currWealth = 96
-    maxAge = 66
-    currAge = 0
-    initialSugar = 96
+    currWealth = 91
+    maxAge = 69
+    currAge = 54
+    initialSugar = 91
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -46534,18 +45345,18 @@ SCGrid
     flyer = false
     z = 1
     y = 21
-    x = 33
+    x = 32
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 49
-    fertilityAgeMin = 15
+    fertilityAgeMax = 59
+    fertilityAgeMin = 12
     sex = false
-    currWealth = 76
-    maxAge = 70
-    currAge = 0
-    initialSugar = 76
+    currWealth = 56
+    maxAge = 71
+    currAge = 72
+    initialSugar = 56
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -46563,18 +45374,18 @@ SCGrid
     flyer = false
     z = 1
     y = 22
-    x = 33
+    x = 32
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 44
-    fertilityAgeMin = 13
+    fertilityAgeMax = 58
+    fertilityAgeMin = 15
     sex = false
-    currWealth = 79
-    maxAge = 67
-    currAge = 0
-    initialSugar = 79
+    currWealth = 87
+    maxAge = 73
+    currAge = 59
+    initialSugar = 87
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -46592,18 +45403,18 @@ SCGrid
     flyer = false
     z = 1
     y = 23
-    x = 33
+    x = 32
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 53
-    fertilityAgeMin = 12
+    fertilityAgeMax = 41
+    fertilityAgeMin = 14
     sex = false
-    currWealth = 57
-    maxAge = 68
-    currAge = 0
-    initialSugar = 57
+    currWealth = 93
+    maxAge = 69
+    currAge = 4
+    initialSugar = 93
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -46621,18 +45432,18 @@ SCGrid
     flyer = false
     z = 1
     y = 24
-    x = 33
+    x = 32
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 58
-    fertilityAgeMin = 14
+    fertilityAgeMax = 53
+    fertilityAgeMin = 12
     sex = false
-    currWealth = 91
-    maxAge = 70
-    currAge = 0
-    initialSugar = 91
+    currWealth = 92
+    maxAge = 65
+    currAge = 12
+    initialSugar = 92
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -46650,18 +45461,18 @@ SCGrid
     flyer = false
     z = 1
     y = 25
-    x = 33
+    x = 32
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 50
-    fertilityAgeMin = 13
+    fertilityAgeMax = 48
+    fertilityAgeMin = 15
     sex = false
-    currWealth = 99
-    maxAge = 74
-    currAge = 0
-    initialSugar = 99
+    currWealth = 52
+    maxAge = 68
+    currAge = 22
+    initialSugar = 52
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -46679,7 +45490,7 @@ SCGrid
     flyer = false
     z = 1
     y = 26
-    x = 33
+    x = 32
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
@@ -46687,10 +45498,10 @@ SCGrid
     fertilityAgeMax = 56
     fertilityAgeMin = 15
     sex = false
-    currWealth = 70
-    maxAge = 70
-    currAge = 0
-    initialSugar = 70
+    currWealth = 86
+    maxAge = 73
+    currAge = 30
+    initialSugar = 86
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -46708,18 +45519,18 @@ SCGrid
     flyer = false
     z = 1
     y = 27
-    x = 33
+    x = 32
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 41
-    fertilityAgeMin = 13
+    fertilityAgeMax = 49
+    fertilityAgeMin = 12
     sex = false
-    currWealth = 59
-    maxAge = 72
-    currAge = 0
-    initialSugar = 59
+    currWealth = 87
+    maxAge = 67
+    currAge = 38
+    initialSugar = 87
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -46737,18 +45548,18 @@ SCGrid
     flyer = false
     z = 1
     y = 28
-    x = 33
+    x = 32
     depict = DepictionBugFemale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 51
-    fertilityAgeMin = 14
+    fertilityAgeMax = 52
+    fertilityAgeMin = 15
     sex = false
-    currWealth = 80
-    maxAge = 65
-    currAge = 0
-    initialSugar = 80
+    currWealth = 70
+    maxAge = 68
+    currAge = 67
+    initialSugar = 70
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -46766,1352 +45577,18 @@ SCGrid
     flyer = false
     z = 1
     y = 29
-    x = 33
+    x = 32
     depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 47
-    fertilityAgeMin = 15
-    sex = false
-    currWealth = 94
-    maxAge = 65
-    currAge = 0
-    initialSugar = 94
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6309
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 30
-    x = 33
-    depict = DepictionBugFemale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 54
-    fertilityAgeMin = 14
-    sex = false
-    currWealth = 53
-    maxAge = 64
-    currAge = 0
-    initialSugar = 53
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6596
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 22
-    x = 19
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 53
-    fertilityAgeMin = 12
-    sex = true
-    currWealth = 66
-    maxAge = 69
-    currAge = 0
-    initialSugar = 66
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6595
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 23
-    x = 19
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 47
-    fertilityAgeMin = 12
-    sex = true
-    currWealth = 58
-    maxAge = 68
-    currAge = 0
-    initialSugar = 58
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6594
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 24
-    x = 19
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 50
-    fertilityAgeMin = 15
-    sex = true
-    currWealth = 90
-    maxAge = 66
-    currAge = 0
-    initialSugar = 90
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6593
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 25
-    x = 19
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 47
-    fertilityAgeMin = 15
-    sex = true
-    currWealth = 66
-    maxAge = 74
-    currAge = 0
-    initialSugar = 66
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6592
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 26
-    x = 19
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 46
-    fertilityAgeMin = 14
-    sex = true
-    currWealth = 74
-    maxAge = 71
-    currAge = 0
-    initialSugar = 74
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6591
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 27
-    x = 19
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 44
-    fertilityAgeMin = 12
-    sex = true
-    currWealth = 73
-    maxAge = 65
-    currAge = 0
-    initialSugar = 73
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6590
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 22
-    x = 20
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 50
-    fertilityAgeMin = 12
-    sex = true
-    currWealth = 65
-    maxAge = 66
-    currAge = 0
-    initialSugar = 65
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6589
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 23
-    x = 20
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 57
-    fertilityAgeMin = 13
-    sex = true
-    currWealth = 95
-    maxAge = 65
-    currAge = 0
-    initialSugar = 95
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6588
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 24
-    x = 20
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 46
-    fertilityAgeMin = 15
-    sex = true
-    currWealth = 71
-    maxAge = 68
-    currAge = 0
-    initialSugar = 71
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6587
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 25
-    x = 20
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 47
-    fertilityAgeMin = 12
-    sex = true
-    currWealth = 93
-    maxAge = 68
-    currAge = 0
-    initialSugar = 93
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6586
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 26
-    x = 20
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 60
-    fertilityAgeMin = 12
-    sex = true
-    currWealth = 67
-    maxAge = 69
-    currAge = 0
-    initialSugar = 67
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6585
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 27
-    x = 20
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 53
-    fertilityAgeMin = 15
-    sex = true
-    currWealth = 77
-    maxAge = 69
-    currAge = 0
-    initialSugar = 77
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6584
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 22
-    x = 21
-    depict = DepictionBugMale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
     fertilityAgeMax = 48
-    fertilityAgeMin = 13
-    sex = true
-    currWealth = 71
-    maxAge = 74
-    currAge = 0
-    initialSugar = 71
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6583
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 23
-    x = 21
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 46
     fertilityAgeMin = 15
-    sex = true
-    currWealth = 91
-    maxAge = 69
-    currAge = 0
-    initialSugar = 91
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6582
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 24
-    x = 21
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 54
-    fertilityAgeMin = 14
-    sex = true
-    currWealth = 84
-    maxAge = 67
-    currAge = 0
-    initialSugar = 84
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6581
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 25
-    x = 21
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 60
-    fertilityAgeMin = 14
-    sex = true
-    currWealth = 88
-    maxAge = 67
-    currAge = 0
-    initialSugar = 88
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6580
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 26
-    x = 21
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 41
-    fertilityAgeMin = 13
-    sex = true
-    currWealth = 74
-    maxAge = 72
-    currAge = 0
-    initialSugar = 74
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6579
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 27
-    x = 21
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 52
-    fertilityAgeMin = 12
-    sex = true
-    currWealth = 92
-    maxAge = 69
-    currAge = 0
-    initialSugar = 92
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6578
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 22
-    x = 22
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 45
-    fertilityAgeMin = 15
-    sex = true
-    currWealth = 70
-    maxAge = 72
-    currAge = 0
-    initialSugar = 70
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6577
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 23
-    x = 22
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 52
-    fertilityAgeMin = 15
-    sex = true
-    currWealth = 64
-    maxAge = 68
-    currAge = 0
-    initialSugar = 64
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6576
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 24
-    x = 22
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 52
-    fertilityAgeMin = 14
-    sex = true
-    currWealth = 91
-    maxAge = 73
-    currAge = 0
-    initialSugar = 91
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6575
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 25
-    x = 22
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 59
-    fertilityAgeMin = 12
-    sex = true
-    currWealth = 54
-    maxAge = 72
-    currAge = 0
-    initialSugar = 54
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6574
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 26
-    x = 22
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 49
-    fertilityAgeMin = 15
-    sex = true
-    currWealth = 55
-    maxAge = 73
-    currAge = 0
-    initialSugar = 55
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6573
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 27
-    x = 22
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 44
-    fertilityAgeMin = 15
-    sex = true
-    currWealth = 100
-    maxAge = 73
-    currAge = 0
-    initialSugar = 100
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6572
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 22
-    x = 23
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 49
-    fertilityAgeMin = 13
-    sex = true
-    currWealth = 98
-    maxAge = 70
-    currAge = 0
-    initialSugar = 98
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6571
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 23
-    x = 23
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 52
-    fertilityAgeMin = 12
-    sex = true
-    currWealth = 88
-    maxAge = 74
-    currAge = 0
-    initialSugar = 88
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6570
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 24
-    x = 23
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 50
-    fertilityAgeMin = 15
-    sex = true
-    currWealth = 69
+    sex = false
+    currWealth = 59
     maxAge = 65
-    currAge = 0
-    initialSugar = 69
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6569
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 25
-    x = 23
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 52
-    fertilityAgeMin = 12
-    sex = true
-    currWealth = 62
-    maxAge = 74
-    currAge = 0
-    initialSugar = 62
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6568
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 26
-    x = 23
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 56
-    fertilityAgeMin = 15
-    sex = true
-    currWealth = 72
-    maxAge = 69
-    currAge = 0
-    initialSugar = 72
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6567
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 27
-    x = 23
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 49
-    fertilityAgeMin = 13
-    sex = true
-    currWealth = 93
-    maxAge = 72
-    currAge = 0
-    initialSugar = 93
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6566
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 22
-    x = 24
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 57
-    fertilityAgeMin = 14
-    sex = true
-    currWealth = 64
-    maxAge = 65
-    currAge = 0
-    initialSugar = 64
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6565
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 23
-    x = 24
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 40
-    fertilityAgeMin = 12
-    sex = true
-    currWealth = 72
-    maxAge = 64
-    currAge = 0
-    initialSugar = 72
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6564
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 24
-    x = 24
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 53
-    fertilityAgeMin = 14
-    sex = true
-    currWealth = 95
-    maxAge = 69
-    currAge = 0
-    initialSugar = 95
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6563
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 25
-    x = 24
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 55
-    fertilityAgeMin = 14
-    sex = true
-    currWealth = 55
-    maxAge = 72
-    currAge = 0
-    initialSugar = 55
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6562
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 26
-    x = 24
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 41
-    fertilityAgeMin = 15
-    sex = true
-    currWealth = 97
-    maxAge = 64
-    currAge = 0
-    initialSugar = 97
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6561
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 27
-    x = 24
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 41
-    fertilityAgeMin = 12
-    sex = true
-    currWealth = 93
-    maxAge = 70
-    currAge = 0
-    initialSugar = 93
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6560
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 22
-    x = 25
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 40
-    fertilityAgeMin = 12
-    sex = true
-    currWealth = 83
-    maxAge = 70
-    currAge = 0
-    initialSugar = 83
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6559
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 23
-    x = 25
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 49
-    fertilityAgeMin = 13
-    sex = true
-    currWealth = 70
-    maxAge = 68
-    currAge = 0
-    initialSugar = 70
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6558
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 24
-    x = 25
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 58
-    fertilityAgeMin = 12
-    sex = true
-    currWealth = 63
-    maxAge = 73
-    currAge = 0
-    initialSugar = 63
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6557
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 25
-    x = 25
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 42
-    fertilityAgeMin = 12
-    sex = true
-    currWealth = 99
-    maxAge = 74
-    currAge = 0
-    initialSugar = 99
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6556
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 26
-    x = 25
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 41
-    fertilityAgeMin = 12
-    sex = true
-    currWealth = 64
-    maxAge = 70
-    currAge = 0
-    initialSugar = 64
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6555
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 27
-    x = 25
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 50
-    fertilityAgeMin = 15
-    sex = true
-    currWealth = 56
-    maxAge = 67
-    currAge = 0
-    initialSugar = 56
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6554
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 22
-    x = 26
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 60
-    fertilityAgeMin = 14
-    sex = true
-    currWealth = 51
-    maxAge = 66
-    currAge = 0
-    initialSugar = 51
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6553
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 23
-    x = 26
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 56
-    fertilityAgeMin = 12
-    sex = true
-    currWealth = 62
-    maxAge = 64
-    currAge = 0
-    initialSugar = 62
-    generation = 1
-    numberOfDescendants = 0
-    parents = (java.util.Vector
-      ()
-      ())
-    descendants = (java.util.Vector)
-    currGetSugarStep = 0
-    currMB = 0)
-    _BEGIN_
-    _END_
-  SCBug6552
-  (scr.SCBug
-    active = true
-    randomize = false
-    flyer = false
-    z = 1
-    y = 24
-    x = 26
-    depict = DepictionBugMale
-    visionRadiusReproduce = 2
-    visionRadius = 4
-    metabolism = 4
-    fertilityAgeMax = 60
-    fertilityAgeMin = 13
-    sex = true
-    currWealth = 74
-    maxAge = 74
-    currAge = 0
-    initialSugar = 74
+    currAge = 1
+    initialSugar = 59
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -48128,19 +45605,19 @@ SCGrid
     randomize = false
     flyer = false
     z = 1
-    y = 25
-    x = 26
+    y = 21
+    x = 21
     depict = DepictionBugMale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 46
-    fertilityAgeMin = 13
+    fertilityAgeMax = 57
+    fertilityAgeMin = 12
     sex = true
-    currWealth = 82
-    maxAge = 73
-    currAge = 0
-    initialSugar = 82
+    currWealth = 86
+    maxAge = 69
+    currAge = 67
+    initialSugar = 86
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -48157,18 +45634,18 @@ SCGrid
     randomize = false
     flyer = false
     z = 1
-    y = 26
-    x = 26
+    y = 22
+    x = 21
     depict = DepictionBugMale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 43
+    fertilityAgeMax = 50
     fertilityAgeMin = 13
     sex = true
     currWealth = 50
-    maxAge = 67
-    currAge = 0
+    maxAge = 69
+    currAge = 12
     initialSugar = 50
     generation = 1
     numberOfDescendants = 0
@@ -48186,19 +45663,19 @@ SCGrid
     randomize = false
     flyer = false
     z = 1
-    y = 27
-    x = 26
+    y = 23
+    x = 21
     depict = DepictionBugMale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 51
-    fertilityAgeMin = 13
+    fertilityAgeMax = 54
+    fertilityAgeMin = 14
     sex = true
-    currWealth = 73
-    maxAge = 64
-    currAge = 0
-    initialSugar = 73
+    currWealth = 59
+    maxAge = 67
+    currAge = 58
+    initialSugar = 59
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -48215,19 +45692,19 @@ SCGrid
     randomize = false
     flyer = false
     z = 1
-    y = 22
-    x = 27
+    y = 24
+    x = 21
     depict = DepictionBugMale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 52
+    fertilityAgeMax = 47
     fertilityAgeMin = 15
     sex = true
-    currWealth = 77
-    maxAge = 66
-    currAge = 0
-    initialSugar = 77
+    currWealth = 86
+    maxAge = 69
+    currAge = 26
+    initialSugar = 86
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -48244,19 +45721,19 @@ SCGrid
     randomize = false
     flyer = false
     z = 1
-    y = 23
-    x = 27
+    y = 25
+    x = 21
     depict = DepictionBugMale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 48
-    fertilityAgeMin = 12
+    fertilityAgeMax = 41
+    fertilityAgeMin = 13
     sex = true
-    currWealth = 66
+    currWealth = 71
     maxAge = 70
-    currAge = 0
-    initialSugar = 66
+    currAge = 3
+    initialSugar = 71
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -48273,19 +45750,19 @@ SCGrid
     randomize = false
     flyer = false
     z = 1
-    y = 24
-    x = 27
+    y = 26
+    x = 21
     depict = DepictionBugMale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 53
-    fertilityAgeMin = 12
+    fertilityAgeMax = 49
+    fertilityAgeMin = 14
     sex = true
-    currWealth = 76
-    maxAge = 66
-    currAge = 0
-    initialSugar = 76
+    currWealth = 59
+    maxAge = 64
+    currAge = 57
+    initialSugar = 59
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -48302,19 +45779,19 @@ SCGrid
     randomize = false
     flyer = false
     z = 1
-    y = 25
-    x = 27
+    y = 27
+    x = 21
     depict = DepictionBugMale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 56
-    fertilityAgeMin = 12
+    fertilityAgeMax = 54
+    fertilityAgeMin = 15
     sex = true
-    currWealth = 70
-    maxAge = 64
-    currAge = 0
-    initialSugar = 70
+    currWealth = 87
+    maxAge = 69
+    currAge = 36
+    initialSugar = 87
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -48331,19 +45808,19 @@ SCGrid
     randomize = false
     flyer = false
     z = 1
-    y = 26
-    x = 27
+    y = 21
+    x = 22
     depict = DepictionBugMale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 45
+    fertilityAgeMax = 53
     fertilityAgeMin = 15
     sex = true
-    currWealth = 53
-    maxAge = 66
-    currAge = 0
-    initialSugar = 53
+    currWealth = 83
+    maxAge = 71
+    currAge = 53
+    initialSugar = 83
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -48360,19 +45837,19 @@ SCGrid
     randomize = false
     flyer = false
     z = 1
-    y = 27
-    x = 27
+    y = 22
+    x = 22
     depict = DepictionBugMale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 60
+    fertilityAgeMax = 52
     fertilityAgeMin = 12
     sex = true
-    currWealth = 51
-    maxAge = 73
-    currAge = 0
-    initialSugar = 51
+    currWealth = 55
+    maxAge = 71
+    currAge = 47
+    initialSugar = 55
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -48389,19 +45866,19 @@ SCGrid
     randomize = false
     flyer = false
     z = 1
-    y = 22
-    x = 28
+    y = 23
+    x = 22
     depict = DepictionBugMale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 51
-    fertilityAgeMin = 14
+    fertilityAgeMax = 50
+    fertilityAgeMin = 13
     sex = true
-    currWealth = 69
-    maxAge = 71
-    currAge = 0
-    initialSugar = 69
+    currWealth = 94
+    maxAge = 73
+    currAge = 23
+    initialSugar = 94
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -48418,19 +45895,19 @@ SCGrid
     randomize = false
     flyer = false
     z = 1
-    y = 23
-    x = 28
+    y = 24
+    x = 22
     depict = DepictionBugMale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 52
+    fertilityAgeMax = 46
     fertilityAgeMin = 12
     sex = true
-    currWealth = 91
-    maxAge = 71
-    currAge = 0
-    initialSugar = 91
+    currWealth = 95
+    maxAge = 67
+    currAge = 72
+    initialSugar = 95
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -48447,19 +45924,19 @@ SCGrid
     randomize = false
     flyer = false
     z = 1
-    y = 24
-    x = 28
+    y = 25
+    x = 22
     depict = DepictionBugMale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 46
-    fertilityAgeMin = 12
+    fertilityAgeMax = 55
+    fertilityAgeMin = 14
     sex = true
-    currWealth = 50
-    maxAge = 70
-    currAge = 0
-    initialSugar = 50
+    currWealth = 65
+    maxAge = 71
+    currAge = 8
+    initialSugar = 65
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -48476,19 +45953,19 @@ SCGrid
     randomize = false
     flyer = false
     z = 1
-    y = 25
-    x = 28
+    y = 26
+    x = 22
     depict = DepictionBugMale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 53
-    fertilityAgeMin = 13
+    fertilityAgeMax = 51
+    fertilityAgeMin = 15
     sex = true
-    currWealth = 83
-    maxAge = 68
-    currAge = 0
-    initialSugar = 83
+    currWealth = 67
+    maxAge = 64
+    currAge = 57
+    initialSugar = 67
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -48505,19 +45982,19 @@ SCGrid
     randomize = false
     flyer = false
     z = 1
-    y = 26
-    x = 28
+    y = 27
+    x = 22
     depict = DepictionBugMale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 49
-    fertilityAgeMin = 12
+    fertilityAgeMax = 52
+    fertilityAgeMin = 14
     sex = true
-    currWealth = 53
-    maxAge = 72
-    currAge = 0
-    initialSugar = 53
+    currWealth = 63
+    maxAge = 71
+    currAge = 1
+    initialSugar = 63
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -48534,19 +46011,19 @@ SCGrid
     randomize = false
     flyer = false
     z = 1
-    y = 27
-    x = 28
+    y = 21
+    x = 23
     depict = DepictionBugMale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 53
-    fertilityAgeMin = 14
+    fertilityAgeMax = 42
+    fertilityAgeMin = 13
     sex = true
-    currWealth = 90
-    maxAge = 74
-    currAge = 0
-    initialSugar = 90
+    currWealth = 82
+    maxAge = 70
+    currAge = 38
+    initialSugar = 82
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -48564,18 +46041,18 @@ SCGrid
     flyer = false
     z = 1
     y = 22
-    x = 29
+    x = 23
     depict = DepictionBugMale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 42
-    fertilityAgeMin = 15
+    fertilityAgeMax = 47
+    fertilityAgeMin = 14
     sex = true
-    currWealth = 75
-    maxAge = 72
-    currAge = 0
-    initialSugar = 75
+    currWealth = 99
+    maxAge = 74
+    currAge = 13
+    initialSugar = 99
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -48593,18 +46070,18 @@ SCGrid
     flyer = false
     z = 1
     y = 23
-    x = 29
+    x = 23
     depict = DepictionBugMale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 40
-    fertilityAgeMin = 14
+    fertilityAgeMax = 49
+    fertilityAgeMin = 15
     sex = true
-    currWealth = 71
-    maxAge = 66
-    currAge = 0
-    initialSugar = 71
+    currWealth = 54
+    maxAge = 65
+    currAge = 27
+    initialSugar = 54
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -48622,18 +46099,18 @@ SCGrid
     flyer = false
     z = 1
     y = 24
-    x = 29
+    x = 23
     depict = DepictionBugMale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 47
-    fertilityAgeMin = 15
+    fertilityAgeMax = 55
+    fertilityAgeMin = 12
     sex = true
-    currWealth = 57
+    currWealth = 100
     maxAge = 71
-    currAge = 0
-    initialSugar = 57
+    currAge = 19
+    initialSugar = 100
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -48651,18 +46128,18 @@ SCGrid
     flyer = false
     z = 1
     y = 25
-    x = 29
+    x = 23
     depict = DepictionBugMale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 48
-    fertilityAgeMin = 14
+    fertilityAgeMax = 51
+    fertilityAgeMin = 13
     sex = true
-    currWealth = 65
-    maxAge = 74
-    currAge = 0
-    initialSugar = 65
+    currWealth = 70
+    maxAge = 66
+    currAge = 58
+    initialSugar = 70
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -48680,18 +46157,18 @@ SCGrid
     flyer = false
     z = 1
     y = 26
-    x = 29
+    x = 23
     depict = DepictionBugMale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 50
+    fertilityAgeMax = 53
     fertilityAgeMin = 13
     sex = true
-    currWealth = 64
-    maxAge = 65
-    currAge = 0
-    initialSugar = 64
+    currWealth = 57
+    maxAge = 70
+    currAge = 69
+    initialSugar = 57
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -48709,18 +46186,18 @@ SCGrid
     flyer = false
     z = 1
     y = 27
-    x = 29
+    x = 23
     depict = DepictionBugMale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 49
-    fertilityAgeMin = 15
+    fertilityAgeMax = 42
+    fertilityAgeMin = 12
     sex = true
-    currWealth = 53
-    maxAge = 65
-    currAge = 0
-    initialSugar = 53
+    currWealth = 59
+    maxAge = 74
+    currAge = 70
+    initialSugar = 59
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -48737,19 +46214,19 @@ SCGrid
     randomize = false
     flyer = false
     z = 1
-    y = 22
-    x = 30
+    y = 21
+    x = 24
     depict = DepictionBugMale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 53
-    fertilityAgeMin = 15
+    fertilityAgeMax = 57
+    fertilityAgeMin = 13
     sex = true
-    currWealth = 62
-    maxAge = 66
-    currAge = 0
-    initialSugar = 62
+    currWealth = 56
+    maxAge = 69
+    currAge = 56
+    initialSugar = 56
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -48766,19 +46243,19 @@ SCGrid
     randomize = false
     flyer = false
     z = 1
-    y = 23
-    x = 30
+    y = 22
+    x = 24
     depict = DepictionBugMale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 56
-    fertilityAgeMin = 12
+    fertilityAgeMax = 55
+    fertilityAgeMin = 13
     sex = true
-    currWealth = 65
-    maxAge = 67
-    currAge = 0
-    initialSugar = 65
+    currWealth = 64
+    maxAge = 71
+    currAge = 44
+    initialSugar = 64
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -48795,19 +46272,19 @@ SCGrid
     randomize = false
     flyer = false
     z = 1
-    y = 24
-    x = 30
+    y = 23
+    x = 24
     depict = DepictionBugMale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 42
-    fertilityAgeMin = 14
+    fertilityAgeMax = 58
+    fertilityAgeMin = 13
     sex = true
-    currWealth = 100
-    maxAge = 66
-    currAge = 0
-    initialSugar = 100
+    currWealth = 97
+    maxAge = 71
+    currAge = 6
+    initialSugar = 97
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -48824,19 +46301,19 @@ SCGrid
     randomize = false
     flyer = false
     z = 1
-    y = 25
-    x = 30
+    y = 24
+    x = 24
     depict = DepictionBugMale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
     fertilityAgeMax = 49
-    fertilityAgeMin = 12
+    fertilityAgeMin = 15
     sex = true
-    currWealth = 75
-    maxAge = 69
-    currAge = 0
-    initialSugar = 75
+    currWealth = 51
+    maxAge = 68
+    currAge = 37
+    initialSugar = 51
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -48853,19 +46330,19 @@ SCGrid
     randomize = false
     flyer = false
     z = 1
-    y = 26
-    x = 30
+    y = 25
+    x = 24
     depict = DepictionBugMale
     visionRadiusReproduce = 2
     visionRadius = 4
     metabolism = 4
-    fertilityAgeMax = 40
-    fertilityAgeMin = 12
+    fertilityAgeMax = 43
+    fertilityAgeMin = 15
     sex = true
-    currWealth = 56
-    maxAge = 71
+    currWealth = 69
+    maxAge = 74
     currAge = 0
-    initialSugar = 56
+    initialSugar = 69
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector
@@ -48882,8 +46359,298 @@ SCGrid
     randomize = false
     flyer = false
     z = 1
+    y = 26
+    x = 24
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 47
+    fertilityAgeMin = 15
+    sex = true
+    currWealth = 61
+    maxAge = 66
+    currAge = 58
+    initialSugar = 61
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6524
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
     y = 27
-    x = 30
+    x = 24
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 60
+    fertilityAgeMin = 13
+    sex = true
+    currWealth = 95
+    maxAge = 73
+    currAge = 2
+    initialSugar = 95
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6523
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 21
+    x = 25
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 44
+    fertilityAgeMin = 15
+    sex = true
+    currWealth = 95
+    maxAge = 69
+    currAge = 51
+    initialSugar = 95
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6522
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 22
+    x = 25
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 50
+    fertilityAgeMin = 12
+    sex = true
+    currWealth = 69
+    maxAge = 74
+    currAge = 14
+    initialSugar = 69
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6521
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 23
+    x = 25
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 40
+    fertilityAgeMin = 14
+    sex = true
+    currWealth = 67
+    maxAge = 66
+    currAge = 69
+    initialSugar = 67
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6520
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 24
+    x = 25
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 59
+    fertilityAgeMin = 14
+    sex = true
+    currWealth = 65
+    maxAge = 69
+    currAge = 34
+    initialSugar = 65
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6519
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 25
+    x = 25
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 48
+    fertilityAgeMin = 14
+    sex = true
+    currWealth = 55
+    maxAge = 65
+    currAge = 35
+    initialSugar = 55
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6518
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 26
+    x = 25
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 56
+    fertilityAgeMin = 12
+    sex = true
+    currWealth = 50
+    maxAge = 73
+    currAge = 68
+    initialSugar = 50
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6517
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 27
+    x = 25
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 49
+    fertilityAgeMin = 14
+    sex = true
+    currWealth = 60
+    maxAge = 67
+    currAge = 57
+    initialSugar = 60
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6516
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 21
+    x = 26
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 42
+    fertilityAgeMin = 15
+    sex = true
+    currWealth = 90
+    maxAge = 71
+    currAge = 41
+    initialSugar = 90
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6515
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 22
+    x = 26
     depict = DepictionBugMale
     visionRadiusReproduce = 2
     visionRadius = 4
@@ -48891,10 +46658,764 @@ SCGrid
     fertilityAgeMax = 49
     fertilityAgeMin = 15
     sex = true
-    currWealth = 66
+    currWealth = 58
+    maxAge = 68
+    currAge = 55
+    initialSugar = 58
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6514
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 23
+    x = 26
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 50
+    fertilityAgeMin = 12
+    sex = true
+    currWealth = 61
+    maxAge = 73
+    currAge = 18
+    initialSugar = 61
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6513
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 24
+    x = 26
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 49
+    fertilityAgeMin = 13
+    sex = true
+    currWealth = 82
+    maxAge = 73
+    currAge = 46
+    initialSugar = 82
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6512
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 25
+    x = 26
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 48
+    fertilityAgeMin = 13
+    sex = true
+    currWealth = 89
     maxAge = 67
-    currAge = 0
-    initialSugar = 66
+    currAge = 74
+    initialSugar = 89
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6511
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 26
+    x = 26
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 52
+    fertilityAgeMin = 15
+    sex = true
+    currWealth = 63
+    maxAge = 74
+    currAge = 68
+    initialSugar = 63
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6510
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 27
+    x = 26
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 50
+    fertilityAgeMin = 13
+    sex = true
+    currWealth = 85
+    maxAge = 67
+    currAge = 14
+    initialSugar = 85
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6509
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 21
+    x = 27
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 47
+    fertilityAgeMin = 13
+    sex = true
+    currWealth = 73
+    maxAge = 67
+    currAge = 1
+    initialSugar = 73
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6508
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 22
+    x = 27
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 48
+    fertilityAgeMin = 13
+    sex = true
+    currWealth = 81
+    maxAge = 74
+    currAge = 14
+    initialSugar = 81
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6507
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 23
+    x = 27
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 40
+    fertilityAgeMin = 15
+    sex = true
+    currWealth = 57
+    maxAge = 68
+    currAge = 20
+    initialSugar = 57
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6506
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 24
+    x = 27
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 57
+    fertilityAgeMin = 14
+    sex = true
+    currWealth = 65
+    maxAge = 73
+    currAge = 24
+    initialSugar = 65
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6505
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 25
+    x = 27
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 42
+    fertilityAgeMin = 12
+    sex = true
+    currWealth = 68
+    maxAge = 65
+    currAge = 34
+    initialSugar = 68
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6504
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 26
+    x = 27
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 58
+    fertilityAgeMin = 14
+    sex = true
+    currWealth = 55
+    maxAge = 65
+    currAge = 52
+    initialSugar = 55
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6503
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 27
+    x = 27
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 58
+    fertilityAgeMin = 12
+    sex = true
+    currWealth = 100
+    maxAge = 68
+    currAge = 42
+    initialSugar = 100
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6502
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 21
+    x = 28
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 43
+    fertilityAgeMin = 12
+    sex = true
+    currWealth = 61
+    maxAge = 68
+    currAge = 26
+    initialSugar = 61
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6501
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 22
+    x = 28
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 48
+    fertilityAgeMin = 14
+    sex = true
+    currWealth = 74
+    maxAge = 74
+    currAge = 66
+    initialSugar = 74
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6500
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 23
+    x = 28
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 53
+    fertilityAgeMin = 15
+    sex = true
+    currWealth = 83
+    maxAge = 66
+    currAge = 24
+    initialSugar = 83
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6499
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 24
+    x = 28
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 49
+    fertilityAgeMin = 13
+    sex = true
+    currWealth = 87
+    maxAge = 73
+    currAge = 23
+    initialSugar = 87
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6498
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 25
+    x = 28
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 55
+    fertilityAgeMin = 12
+    sex = true
+    currWealth = 65
+    maxAge = 71
+    currAge = 63
+    initialSugar = 65
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6497
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 26
+    x = 28
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 48
+    fertilityAgeMin = 15
+    sex = true
+    currWealth = 77
+    maxAge = 68
+    currAge = 39
+    initialSugar = 77
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6496
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 27
+    x = 28
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 54
+    fertilityAgeMin = 13
+    sex = true
+    currWealth = 80
+    maxAge = 70
+    currAge = 62
+    initialSugar = 80
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6495
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 21
+    x = 29
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 58
+    fertilityAgeMin = 12
+    sex = true
+    currWealth = 72
+    maxAge = 69
+    currAge = 40
+    initialSugar = 72
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6494
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 22
+    x = 29
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 56
+    fertilityAgeMin = 12
+    sex = true
+    currWealth = 94
+    maxAge = 73
+    currAge = 16
+    initialSugar = 94
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6493
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 23
+    x = 29
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 41
+    fertilityAgeMin = 13
+    sex = true
+    currWealth = 98
+    maxAge = 72
+    currAge = 67
+    initialSugar = 98
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6492
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 24
+    x = 29
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 53
+    fertilityAgeMin = 13
+    sex = true
+    currWealth = 99
+    maxAge = 66
+    currAge = 73
+    initialSugar = 99
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6491
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 25
+    x = 29
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 58
+    fertilityAgeMin = 13
+    sex = true
+    currWealth = 100
+    maxAge = 74
+    currAge = 15
+    initialSugar = 100
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6490
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 26
+    x = 29
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 55
+    fertilityAgeMin = 13
+    sex = true
+    currWealth = 50
+    maxAge = 67
+    currAge = 2
+    initialSugar = 50
+    generation = 1
+    numberOfDescendants = 0
+    parents = (java.util.Vector
+      ()
+      ())
+    descendants = (java.util.Vector)
+    currGetSugarStep = 0
+    currMB = 0)
+    _BEGIN_
+    _END_
+  SCBug6489
+  (scr.SCBug
+    active = true
+    randomize = false
+    flyer = false
+    z = 1
+    y = 27
+    x = 29
+    depict = DepictionBugMale
+    visionRadiusReproduce = 2
+    visionRadius = 4
+    metabolism = 4
+    fertilityAgeMax = 49
+    fertilityAgeMin = 14
+    sex = true
+    currWealth = 85
+    maxAge = 73
+    currAge = 23
+    initialSugar = 85
     generation = 1
     numberOfDescendants = 0
     parents = (java.util.Vector

@@ -21,11 +21,9 @@ public class SCChartBodycount extends Chart{
 	}
 
 	/**
-	 * Condition
+	 * Action Method
 	 */
-	public void condition() {
-
-		super.condition();
+	public void action() {
 
 		boolean rdy = false;
 		int poor = 0;

@@ -57,11 +57,9 @@ public class SCChartGini extends Chart {
 	}
 
 	/**
-	 * Condition Method
+	 * Action Method
 	 */
-	public void condition() {
-
-		super.condition();
+	public void action() {
 
 		if (grid == null)
 			return;

@@ -53,10 +53,10 @@ public class SCChartPopulation extends Chart {
 	}
 
 	/**
-	 * Condition
+	 * Action Method
 	 */
-	public void condition() {
-		super.condition();
+	public void action() {
+		
 		if (scGrid == null)
 			return;
 
@@ -65,15 +65,17 @@ public class SCChartPopulation extends Chart {
 		int bugFemaleCount = 0;
 		int average = 0;
 
-		for (int i = 0; i < scGrid.getChildCount(); i++) {
-			Bug child = (Bug) scGrid.get_ChildAt(i);
-			if (child != null && child instanceof SCBug) {
-				bugCount++;
-				count++;
-				if (((SCBug) child).getSex())
-					bugMaleCount++;
-				else
-					bugFemaleCount++;
+		
+		for (int x = 0; x < scGrid.xsize; x++)
+			for (int y = 0; y < scGrid.ysize; y++) {
+				Bug child = (Bug) scGrid.getBug(x, y, 1);
+				if (child != null && child instanceof SCBug) {
+					bugCount++;
+					count++;
+					if (((SCBug) child).getSex())
+						bugMaleCount++;
+					else
+						bugFemaleCount++;
 			}
 		}
 		time++;

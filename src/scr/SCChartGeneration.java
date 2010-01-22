@@ -56,11 +56,10 @@ public class SCChartGeneration extends Chart {
 	}
 
 	/**
-	 * Condition
+	 * Action Method
 	 */
-	public void condition() {
+	public void action() {
 
-		super.condition();
 		if (scGrid == null)
 			return;
 
@@ -73,20 +72,22 @@ public class SCChartGeneration extends Chart {
 		// max(Bugs / Generation)
 		int maxAgentsPGen = 0;
 
-		for (int i = 0; i < scGrid.getChildCount(); i++) {
-			Bug child = (Bug) scGrid.getChildAt(i);
-			if (child != null && child instanceof SCBug) {
-				bugCount += 1;
-				int gen = ((SCBug) child).getGeneration();
-				int agents = 1;
-				if (generationMap.containsKey(gen))
-					agents = generationMap.get(gen) + 1;
-				generationMap.put(gen, agents);
-				minGeneration = Math.min(minGeneration, gen);
-				maxGeneration = Math.max(maxGeneration, gen);
-				maxAgentsPGen = Math.max(maxAgentsPGen, agents);
+		for (int x = 0; x < scGrid.xsize; x++)
+			for (int y = 0; y < scGrid.ysize; y++) {
+				Bug child = (Bug) scGrid.getBug(x, y, 1);
+				if (child != null && child instanceof SCBug) {
+					bugCount += 1;
+					int gen = ((SCBug) child).getGeneration();
+					int agents = 1;
+					if (generationMap.containsKey(gen))
+						agents = generationMap.get(gen) + 1;
+					generationMap.put(gen, agents);
+					minGeneration = Math.min(minGeneration, gen);
+					maxGeneration = Math.max(maxGeneration, gen);
+					maxAgentsPGen = Math.max(maxAgentsPGen, agents);
+				}
 			}
-		}
+				
 
 		if (bugCount == 0) {
 			// no more Bugs at Grid
@@ -98,7 +99,7 @@ public class SCChartGeneration extends Chart {
 
 		// set vertical Data
 		int interval = (maxAgentsPGen > 10 ? maxAgentsPGen / 10 : 10);
-		for (int i = 0; i < maxAgentsPGen + interval; i += interval) {
+		for (int i = 0; i <= maxAgentsPGen + interval; i += interval) {
 			addVGuide((double) i, String.valueOf(i));
 		}
 

@@ -43,6 +43,11 @@ public class SCChartPopulationAge extends Chart {
 	 * Grid
 	 */
 	public SCGrid grid;
+	
+	/**
+	 * Map for the data (bugAge -> bugCount)
+	 */
+	HashMap<Integer, Integer> bugAgeMap;
 
 	/**
 	 * Constructor
@@ -51,19 +56,20 @@ public class SCChartPopulationAge extends Chart {
 		setVTitle("Anzahl Agenten");
 		setHTitle("Altersspanne");
 		setComment("Ordnet Agenten deren Altersspanne (5er Schritte) zu.");
+		
+		bugAgeMap = new HashMap<Integer, Integer>();
 	}
 
 	/**
-	 * Condition
+	 * Action Method
 	 */
-	public void condition() {
-
-		super.condition();
+	public void action() {
 
 		if (grid == null || helper == null)
 			return;
-
-		HashMap<Integer, Integer> bugAgeMap = new HashMap<Integer, Integer>();
+		
+		// clear all data of the last step
+		bugAgeMap.clear();
 
 		for (int x = 0; x < grid.xsize; x++)
 			for (int y = 0; y < grid.ysize; y++) {
