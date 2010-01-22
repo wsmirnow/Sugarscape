@@ -44,8 +44,8 @@ public class SCChartGini extends Chart {
 	 * Grid
 	 */
 	SCGrid grid;
-	static double time = 0.0;
-	static double sumGini = 0.0;
+	double time = 0.0;
+	double sumGini = 0.0;
 
 	/**
 	 * Chart

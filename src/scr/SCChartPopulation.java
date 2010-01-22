@@ -40,8 +40,8 @@ public class SCChartPopulation extends Chart {
 	 * The SCGrid
 	 */
 	public SCGrid scGrid;
-	static int time = 0; //counts the timesteps
-	static int count = 0;	//sum of all counted bugs
+	int time = 0; //counts the timesteps
+	int count = 0;	//sum of all counted bugs
 
 	/**
 	 * Default Constructor
@@ -83,6 +83,6 @@ public class SCChartPopulation extends Chart {
 		lineTo("Agenten", Chart.TYPE_LINE, time, bugCount);
 		lineTo("Agenten M", Chart.TYPE_LINE, time, bugMaleCount);
 		lineTo("Agenten W", Chart.TYPE_LINE, time, bugFemaleCount);
-		lineTo("Durchschnitt", Chart.TYPE_LINE, time, average);
+		//lineTo("Durchschnitt", Chart.TYPE_LINE, time, average);
 	}
 }
