@@ -27,7 +27,6 @@
 package scr;
 
 import eawag.chart.Chart;
-import eawag.grid.Bug;
 
 /**
  * Chart Diagram for average Age of Bugs
@@ -52,9 +51,11 @@ public class SCChartLifespan extends Chart {
 	}
 
 	/**
-	 * Action Method
+	 * Condition Method
 	 */
-	public void action() {
+	public void condition() {
+		
+		super.condition();
 		
 		int lifespan = 0;
 		int poor = 0;

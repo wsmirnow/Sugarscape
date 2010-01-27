@@ -1,7 +1,6 @@
 package scr;
 
 import eawag.chart.Chart;
-import eawag.grid.Bug;
 
 public class SCChartBodycount extends Chart{
 	
@@ -21,9 +20,11 @@ public class SCChartBodycount extends Chart{
 	}
 
 	/**
-	 * Action Method
+	 * Condition Method
 	 */
-	public void action() {
+	public void condition() {
+		
+		super.condition();
 
 		int poor = 0;
 		int rich = 0;

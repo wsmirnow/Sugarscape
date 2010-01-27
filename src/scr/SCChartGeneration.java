@@ -56,10 +56,12 @@ public class SCChartGeneration extends Chart {
 	}
 
 	/**
-	 * Action Method
+	 * Condition Method
 	 */
-	public void action() {
-
+	public void condition() {
+		
+		super.condition();
+		
 		if (scGrid == null)
 			return;
 

@@ -45,12 +45,12 @@ public class SCHelper {
 	/**
 	 * Flag for active Search for a Partner
 	 */
-	private boolean searchActiveForPartner = false;
+	private boolean searchActiveForPartner = true;
 
 	/**
 	 * Money for the rich!
 	 */
-	private boolean advantagesForTheRich = false;
+	private boolean advantagesForTheRich = true;
 
 	/**
 	 * Flag if random Age of 1st Generation

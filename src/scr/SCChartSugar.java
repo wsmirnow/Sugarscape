@@ -51,9 +51,11 @@ public class SCChartSugar extends Chart {
 	}
 
 	/**
-	 * Action Method
+	 * Condition Method
 	 */
-	public void action() {
+	public void condition() {
+		
+		super.condition();
 
 		int sugar = 0;
 		for (int x = 0; x < grid.xsize; x++)

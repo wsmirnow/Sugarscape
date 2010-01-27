@@ -54,9 +54,11 @@ public class SCChartWealth extends Chart {
 	}
 
 	/**
-	 * Action Method
+	 * Condition Method
 	 */
-	public void action() {
+	public void condition() {
+		
+		super.condition();
 
 		int wealth = 0; // Durchschnitt
 		int minWealth = Integer.MAX_VALUE;

@@ -61,9 +61,11 @@ public class SCChartPopulationAge extends Chart {
 	}
 
 	/**
-	 * Action Method
+	 * Condition Method
 	 */
-	public void action() {
+	public void condition() {
+		
+		super.condition();
 
 		if (grid == null || helper == null)
 			return;
