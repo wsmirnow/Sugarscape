@@ -1,6 +1,7 @@
 package scr;
 
 import eawag.chart.Chart;
+import eawag.grid.Bug;
 
 public class SCChartBodycount extends Chart{
 	

@@ -45,7 +45,7 @@ public class SCHelper {
 	/**
 	 * Flag for active Search for a Partner
 	 */
-	private boolean searchActiveForPartner = true;
+	private boolean searchActiveForPartner = false;
 
 	/**
 	 * Money for the rich!
@@ -55,7 +55,7 @@ public class SCHelper {
 	/**
 	 * Flag if random Age of 1st Generation
 	 */
-	private boolean setAgeOf1stGenerationRandomly = false;
+	private boolean setAgeOf1stGenerationRandomly = true;
 
 	/**
 	 * Field of Vision Radius of extended Moore Neighbourhood at Reproduce
@@ -70,7 +70,7 @@ public class SCHelper {
 	/**
 	 * Expansion Ratio in between [0, 1]
 	 */
-	private double expansionRatio = 0.5; // a
+	private double expansionRatio = 0.7; // a
 
 	/**
 	 * Metabolism (Time Steps / sugarConsumingRatio Sugar)

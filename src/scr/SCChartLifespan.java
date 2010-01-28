@@ -27,6 +27,7 @@
 package scr;
 
 import eawag.chart.Chart;
+import eawag.grid.Bug;
 
 /**
  * Chart Diagram for average Age of Bugs

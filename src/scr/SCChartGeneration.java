@@ -61,7 +61,7 @@ public class SCChartGeneration extends Chart {
 	public void condition() {
 		
 		super.condition();
-		
+
 		if (scGrid == null)
 			return;
 
